@@ -41,7 +41,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 69);
+            this.label1.Location = new System.Drawing.Point(87, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(76, 100);
+            this.label2.Location = new System.Drawing.Point(87, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
@@ -58,24 +58,24 @@
             // 
             // UsernameTB
             // 
-            this.UsernameTB.Location = new System.Drawing.Point(135, 69);
+            this.UsernameTB.Location = new System.Drawing.Point(147, 116);
             this.UsernameTB.Name = "UsernameTB";
-            this.UsernameTB.Size = new System.Drawing.Size(100, 20);
-            this.UsernameTB.TabIndex = 2;
+            this.UsernameTB.Size = new System.Drawing.Size(145, 20);
+            this.UsernameTB.TabIndex = 1;
             // 
             // PasswordTB
             // 
-            this.PasswordTB.Location = new System.Drawing.Point(136, 100);
+            this.PasswordTB.Location = new System.Drawing.Point(148, 147);
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '*';
-            this.PasswordTB.Size = new System.Drawing.Size(100, 20);
+            this.PasswordTB.Size = new System.Drawing.Size(144, 20);
             this.PasswordTB.TabIndex = 3;
             // 
             // LoginBtn
             // 
-            this.LoginBtn.Location = new System.Drawing.Point(147, 140);
+            this.LoginBtn.Location = new System.Drawing.Point(148, 184);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(75, 23);
+            this.LoginBtn.Size = new System.Drawing.Size(89, 36);
             this.LoginBtn.TabIndex = 4;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = true;
@@ -84,7 +84,7 @@
             // SignUpLb
             // 
             this.SignUpLb.AutoSize = true;
-            this.SignUpLb.Location = new System.Drawing.Point(76, 207);
+            this.SignUpLb.Location = new System.Drawing.Point(96, 256);
             this.SignUpLb.Name = "SignUpLb";
             this.SignUpLb.Size = new System.Drawing.Size(133, 13);
             this.SignUpLb.TabIndex = 5;
@@ -94,7 +94,7 @@
             // Signup
             // 
             this.Signup.AutoSize = true;
-            this.Signup.Location = new System.Drawing.Point(215, 207);
+            this.Signup.Location = new System.Drawing.Point(235, 256);
             this.Signup.Name = "Signup";
             this.Signup.Size = new System.Drawing.Size(45, 13);
             this.Signup.TabIndex = 6;
@@ -105,17 +105,19 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(144, 31);
+            this.label3.Font = new System.Drawing.Font("Juice ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(95, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(187, 72);
             this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
+            this.label3.Text = "BiteWise";
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(613, 316);
+            this.ClientSize = new System.Drawing.Size(376, 308);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Signup);
             this.Controls.Add(this.SignUpLb);
@@ -124,6 +126,9 @@
             this.Controls.Add(this.UsernameTB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

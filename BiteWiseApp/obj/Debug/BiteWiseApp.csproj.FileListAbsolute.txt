@@ -8,3 +8,14 @@ C:\Users\Sannteen\source\repos\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.Generate
 C:\Users\Sannteen\source\repos\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
 C:\Users\Sannteen\source\repos\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\Sannteen\source\repos\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe.config
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.AssemblyReference.cache
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Login.resources
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.MainMenu.resources
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Properties.Resources.resources
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb

@@ -48,8 +48,8 @@
             // userToolStripMenuItem
             // 
             this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
-            this.userToolStripMenuItem.Text = "User";
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.userToolStripMenuItem.Text = "Settings";
             // 
             // dashboardToolStripMenuItem
             // 
