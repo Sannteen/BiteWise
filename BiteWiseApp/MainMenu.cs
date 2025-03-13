@@ -16,5 +16,12 @@ namespace BiteWiseApp
         {
             InitializeComponent();
         }
+
+        private void recipesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Recipes R1 = new Recipes();
+            R1.Show();
+
+        }
     }
 }

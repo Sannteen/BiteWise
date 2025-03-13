@@ -1,0 +1,10 @@
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\bin\Debug\Recipes.exe.config
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\bin\Debug\Recipes.exe
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\bin\Debug\Recipes.pdb
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.csproj.AssemblyReference.cache
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.Recipes.resources
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.Properties.Resources.resources
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.csproj.GenerateResource.cache
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.csproj.CoreCompileInputs.cache
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.exe
+C:\Users\hotiy\Source\Repos\BiteWise\Recipes\obj\Debug\Recipes.pdb
