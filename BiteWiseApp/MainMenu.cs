@@ -23,5 +23,12 @@ namespace BiteWiseApp
             R1.Show();
 
         }
+        private void userPreferencesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserPreferences U1 = new UserPreferences();
+            U1.Show();
+
+        }
+
     }
 }

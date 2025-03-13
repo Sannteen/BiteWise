@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userPreferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,15 +50,9 @@
             this.userToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1200, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1200, 33);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // userToolStripMenuItem
-            // 
-            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(92, 29);
-            this.userToolStripMenuItem.Text = "Settings";
             // 
             // dashboardToolStripMenuItem
             // 
@@ -80,9 +75,23 @@
             // 
             // goalsToolStripMenuItem
             // 
+            this.goalsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
             this.goalsToolStripMenuItem.Size = new System.Drawing.Size(72, 29);
             this.goalsToolStripMenuItem.Text = "Goals";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(273, 34);
+            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            // 
+            // userToolStripMenuItem
+            // 
+            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(92, 29);
+            this.userToolStripMenuItem.Text = "Settings";
             // 
             // MainMenu
             // 
@@ -109,5 +118,6 @@
         private System.Windows.Forms.ToolStripMenuItem recipesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userPreferencesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goalsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

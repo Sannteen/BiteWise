@@ -1,6 +1,6 @@
 ﻿namespace BiteWiseApp
 {
-    partial class Form1
+    partial class UserPreferences
     {
         /// <summary>
         /// Required designer variable.
@@ -28,127 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.SetNewCalorieGoalBox = new System.Windows.Forms.TextBox();
+            this.ChangeUserPasswordButton = new System.Windows.Forms.Button();
+            this.UpdateFoodPrefencesLabel = new System.Windows.Forms.Label();
+            this.UpdateFoodAllergiesLabel = new System.Windows.Forms.Label();
+            this.UpdateDietTypeLabel = new System.Windows.Forms.Label();
+            this.SetNewCalorieGoalLabel = new System.Windows.Forms.Label();
+            this.UpdateFoodPreferencesBox = new System.Windows.Forms.ComboBox();
+            this.UpdateFoodAllergiesBox = new System.Windows.Forms.ComboBox();
+            this.UpdateDietTypeBox = new System.Windows.Forms.ComboBox();
+            this.UserPreferencesPgLogo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox4
+            // SetNewCalorieGoalBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(75, 259);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(128, 26);
-            this.textBox4.TabIndex = 3;
+            this.SetNewCalorieGoalBox.Location = new System.Drawing.Point(75, 259);
+            this.SetNewCalorieGoalBox.Name = "SetNewCalorieGoalBox";
+            this.SetNewCalorieGoalBox.Size = new System.Drawing.Size(210, 26);
+            this.SetNewCalorieGoalBox.TabIndex = 3;
             // 
-            // button1
+            // ChangeUserPasswordButton
             // 
-            this.button1.Location = new System.Drawing.Point(75, 332);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(228, 50);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Change User Password";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ChangeUserPasswordButton.Location = new System.Drawing.Point(75, 332);
+            this.ChangeUserPasswordButton.Name = "ChangeUserPasswordButton";
+            this.ChangeUserPasswordButton.Size = new System.Drawing.Size(228, 50);
+            this.ChangeUserPasswordButton.TabIndex = 4;
+            this.ChangeUserPasswordButton.Text = "Change User Password";
+            this.ChangeUserPasswordButton.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // UpdateFoodPrefencesLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Update Food Preferences";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.UpdateFoodPrefencesLabel.AutoSize = true;
+            this.UpdateFoodPrefencesLabel.Location = new System.Drawing.Point(73, 74);
+            this.UpdateFoodPrefencesLabel.Name = "UpdateFoodPrefencesLabel";
+            this.UpdateFoodPrefencesLabel.Size = new System.Drawing.Size(193, 20);
+            this.UpdateFoodPrefencesLabel.TabIndex = 5;
+            this.UpdateFoodPrefencesLabel.Text = "Update Food Preferences";
+            this.UpdateFoodPrefencesLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // UpdateFoodAllergiesLabel
             // 
-            this.label2.AllowDrop = true;
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(433, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 20);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Update Food Allergies";
+            this.UpdateFoodAllergiesLabel.AllowDrop = true;
+            this.UpdateFoodAllergiesLabel.AutoSize = true;
+            this.UpdateFoodAllergiesLabel.Location = new System.Drawing.Point(433, 74);
+            this.UpdateFoodAllergiesLabel.Name = "UpdateFoodAllergiesLabel";
+            this.UpdateFoodAllergiesLabel.Size = new System.Drawing.Size(167, 20);
+            this.UpdateFoodAllergiesLabel.TabIndex = 6;
+            this.UpdateFoodAllergiesLabel.Text = "Update Food Allergies";
             // 
-            // label3
+            // UpdateDietTypeLabel
             // 
-            this.label3.AllowDrop = true;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 152);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Update Diet Type";
+            this.UpdateDietTypeLabel.AllowDrop = true;
+            this.UpdateDietTypeLabel.AutoSize = true;
+            this.UpdateDietTypeLabel.Location = new System.Drawing.Point(71, 152);
+            this.UpdateDietTypeLabel.Name = "UpdateDietTypeLabel";
+            this.UpdateDietTypeLabel.Size = new System.Drawing.Size(133, 20);
+            this.UpdateDietTypeLabel.TabIndex = 7;
+            this.UpdateDietTypeLabel.Text = "Update Diet Type";
             // 
-            // label4
+            // SetNewCalorieGoalLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 238);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(196, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Set new Daily Calorie Goal";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.SetNewCalorieGoalLabel.AutoSize = true;
+            this.SetNewCalorieGoalLabel.Location = new System.Drawing.Point(75, 238);
+            this.SetNewCalorieGoalLabel.Name = "SetNewCalorieGoalLabel";
+            this.SetNewCalorieGoalLabel.Size = new System.Drawing.Size(196, 20);
+            this.SetNewCalorieGoalLabel.TabIndex = 8;
+            this.SetNewCalorieGoalLabel.Text = "Set new Daily Calorie Goal";
+            this.SetNewCalorieGoalLabel.Click += new System.EventHandler(this.label4_Click);
             // 
-            // comboBox1
+            // UpdateFoodPreferencesBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(75, 95);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(210, 28);
-            this.comboBox1.TabIndex = 9;
+            this.UpdateFoodPreferencesBox.FormattingEnabled = true;
+            this.UpdateFoodPreferencesBox.Location = new System.Drawing.Point(75, 95);
+            this.UpdateFoodPreferencesBox.Name = "UpdateFoodPreferencesBox";
+            this.UpdateFoodPreferencesBox.Size = new System.Drawing.Size(210, 28);
+            this.UpdateFoodPreferencesBox.TabIndex = 9;
             // 
-            // comboBox2
+            // UpdateFoodAllergiesBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(437, 95);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(226, 28);
-            this.comboBox2.TabIndex = 10;
+            this.UpdateFoodAllergiesBox.FormattingEnabled = true;
+            this.UpdateFoodAllergiesBox.Location = new System.Drawing.Point(437, 95);
+            this.UpdateFoodAllergiesBox.Name = "UpdateFoodAllergiesBox";
+            this.UpdateFoodAllergiesBox.Size = new System.Drawing.Size(226, 28);
+            this.UpdateFoodAllergiesBox.TabIndex = 10;
             // 
-            // comboBox3
+            // UpdateDietTypeBox
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(75, 185);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(209, 28);
-            this.comboBox3.TabIndex = 11;
+            this.UpdateDietTypeBox.FormattingEnabled = true;
+            this.UpdateDietTypeBox.Location = new System.Drawing.Point(75, 185);
+            this.UpdateDietTypeBox.Name = "UpdateDietTypeBox";
+            this.UpdateDietTypeBox.Size = new System.Drawing.Size(209, 28);
+            this.UpdateDietTypeBox.TabIndex = 11;
             // 
-            // label5
+            // UserPreferencesPgLogo
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Juice ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(418, 294);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(279, 109);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "BiteWise";
+            this.UserPreferencesPgLogo.AutoSize = true;
+            this.UserPreferencesPgLogo.Font = new System.Drawing.Font("Juice ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserPreferencesPgLogo.ForeColor = System.Drawing.Color.Red;
+            this.UserPreferencesPgLogo.Location = new System.Drawing.Point(418, 294);
+            this.UserPreferencesPgLogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.UserPreferencesPgLogo.Name = "UserPreferencesPgLogo";
+            this.UserPreferencesPgLogo.Size = new System.Drawing.Size(279, 109);
+            this.UserPreferencesPgLogo.TabIndex = 12;
+            this.UserPreferencesPgLogo.Text = "BiteWise";
             // 
-            // Form1
+            // UserPreferences
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Name = "Form1";
+            this.Controls.Add(this.UserPreferencesPgLogo);
+            this.Controls.Add(this.UpdateDietTypeBox);
+            this.Controls.Add(this.UpdateFoodAllergiesBox);
+            this.Controls.Add(this.UpdateFoodPreferencesBox);
+            this.Controls.Add(this.SetNewCalorieGoalLabel);
+            this.Controls.Add(this.UpdateDietTypeLabel);
+            this.Controls.Add(this.UpdateFoodAllergiesLabel);
+            this.Controls.Add(this.UpdateFoodPrefencesLabel);
+            this.Controls.Add(this.ChangeUserPasswordButton);
+            this.Controls.Add(this.SetNewCalorieGoalBox);
+            this.Name = "UserPreferences";
             this.Text = "User Preferences";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,15 +156,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox SetNewCalorieGoalBox;
+        private System.Windows.Forms.Button ChangeUserPasswordButton;
+        private System.Windows.Forms.Label UpdateFoodPrefencesLabel;
+        private System.Windows.Forms.Label UpdateFoodAllergiesLabel;
+        private System.Windows.Forms.Label UpdateDietTypeLabel;
+        private System.Windows.Forms.Label SetNewCalorieGoalLabel;
+        private System.Windows.Forms.ComboBox UpdateFoodPreferencesBox;
+        private System.Windows.Forms.ComboBox UpdateFoodAllergiesBox;
+        private System.Windows.Forms.ComboBox UpdateDietTypeBox;
+        private System.Windows.Forms.Label UserPreferencesPgLogo;
     }
 }
