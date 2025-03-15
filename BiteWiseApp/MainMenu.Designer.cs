@@ -29,17 +29,16 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userPreferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
@@ -49,50 +48,50 @@
             this.userToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1200, 35);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // userToolStripMenuItem
-            // 
-            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
-            this.userToolStripMenuItem.Size = new System.Drawing.Size(92, 29);
-            this.userToolStripMenuItem.Text = "Settings";
             // 
             // dashboardToolStripMenuItem
             // 
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(116, 29);
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(76, 22);
             this.dashboardToolStripMenuItem.Text = "Dashboard";
             // 
             // recipesToolStripMenuItem
             // 
             this.recipesToolStripMenuItem.Name = "recipesToolStripMenuItem";
-            this.recipesToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
+            this.recipesToolStripMenuItem.Size = new System.Drawing.Size(59, 22);
             this.recipesToolStripMenuItem.Text = "Recipes";
             this.recipesToolStripMenuItem.Click += new System.EventHandler(this.recipesToolStripMenuItem_Click);
             // 
             // userPreferencesToolStripMenuItem
             // 
             this.userPreferencesToolStripMenuItem.Name = "userPreferencesToolStripMenuItem";
-            this.userPreferencesToolStripMenuItem.Size = new System.Drawing.Size(158, 29);
+            this.userPreferencesToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.userPreferencesToolStripMenuItem.Text = "User Preferences";
             // 
             // goalsToolStripMenuItem
             // 
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
-            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(72, 29);
+            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
             this.goalsToolStripMenuItem.Text = "Goals";
+            // 
+            // userToolStripMenuItem
+            // 
+            this.userToolStripMenuItem.Name = "userToolStripMenuItem";
+            this.userToolStripMenuItem.Size = new System.Drawing.Size(61, 22);
+            this.userToolStripMenuItem.Text = "Settings";
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             this.menuStrip1.ResumeLayout(false);

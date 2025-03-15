@@ -2,16 +2,24 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BiteWiseApp.Classes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
 
 namespace BiteWiseApp
 {
     public partial class Login : Form
     {
+
+        UserLogin Ul = new UserLogin();
+
+
         public Login()
         {
             InitializeComponent();
@@ -44,18 +52,36 @@ namespace BiteWiseApp
                 MessageBox.Show("Please enter your Password", "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 PasswordTB.Focus();
             }
-
             else
-
             {
-
-
                 try
                 {
 
-                    MainMenu MM = new MainMenu();
-                    MM.Show();
-                    MessageBox.Show("Login Successfully", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    String email = UsernameTB.Text.Trim();
+                    String Password = PasswordTB.Text.Trim();
+
+                    string accountStatus = Ul.ValidateUser(email, Password);
+
+                    if (accountStatus == "0")
+                    {
+
+                        MainMenu MM = new MainMenu();
+                        this.Hide();
+                        MM.Show();
+
+                        MessageBox.Show("Login successful! Welcome "+UsernameTB.Text.Trim(),"Login",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        
+                    }
+                    else if (accountStatus == "1" )
+                    {
+                        MessageBox.Show("Your account is locked. Please contact support.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid credentials. Please try again.");
+                    }
+
+
                 }
 
 

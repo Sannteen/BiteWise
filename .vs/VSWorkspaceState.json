@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BiteWiseApp",
+    "\\Recipes"
   ],
-  "SelectedNode": "\\BiteWiseApp.sln",
+  "SelectedNode": "\\BiteWiseApp\\BiteWiseApp.sln",
   "PreviewInSolutionExplorer": false
 }
