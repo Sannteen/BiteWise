@@ -31,8 +31,5 @@ C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.Co
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Recipes.resources
-C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Form1.resources
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Goals.resources
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Goals.resources
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Recipes.resources
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Form1.resources
+C:\Users\hotiy\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.UserPreferences.resources
