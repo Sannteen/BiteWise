@@ -108,6 +108,9 @@
     <EmbeddedResource Include="Recipes.resx">
       <DependentUpon>Recipes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserPreference.resx">
       <DependentUpon>UserPreference.cs</DependentUpon>
     </EmbeddedResource>
