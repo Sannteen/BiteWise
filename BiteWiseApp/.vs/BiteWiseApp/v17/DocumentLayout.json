@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\",
+  "WorkspaceRootPath": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\click\\documents\\github\\bitewise\\bitewiseapp\\exerciselogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:exerciselogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userpreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\click\\documents\\github\\bitewise\\bitewiseapp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\click\\documents\\github\\bitewise\\bitewiseapp\\foodlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:foodlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +34,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserPreference.cs",
-              "DocumentMoniker": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserPreference.cs",
-              "RelativeDocumentMoniker": "UserPreference.cs",
-              "ToolTip": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserPreference.cs*",
-              "RelativeToolTip": "UserPreference.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ExerciseLogging.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\ExerciseLogging.cs",
+              "RelativeDocumentMoniker": "ExerciseLogging.cs",
+              "ToolTip": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\ExerciseLogging.cs [Design]",
+              "RelativeToolTip": "ExerciseLogging.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:36:00.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T20:16:31.69Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserPreference.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserPreference.cs",
-              "RelativeDocumentMoniker": "UserPreference.cs",
-              "ToolTip": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserPreference.cs [Design]*",
-              "RelativeToolTip": "UserPreference.cs [Design]*",
+              "DocumentIndex": 2,
+              "Title": "FoodLogging.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\FoodLogging.cs",
+              "RelativeDocumentMoniker": "FoodLogging.cs",
+              "ToolTip": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\FoodLogging.cs [Design]",
+              "RelativeToolTip": "FoodLogging.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T19:34:03.292Z",
+              "WhenOpened": "2025-03-18T20:01:31.981Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\CLICK\\Documents\\GitHub\\BiteWise\\BiteWiseApp\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:52:36.98Z",
               "EditorCaption": " [Design]"
             }
           ]

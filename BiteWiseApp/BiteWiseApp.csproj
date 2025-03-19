@@ -49,6 +49,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\UserLogin.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExerciseLogging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExerciseLogging.Designer.cs">
+      <DependentUpon>ExerciseLogging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodLogging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodLogging.Designer.cs">
+      <DependentUpon>FoodLogging.cs</DependentUpon>
+    </Compile>
     <Compile Include="Goals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +105,15 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExerciseLogging.resx">
+      <DependentUpon>ExerciseLogging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodLogging.resx">
+      <DependentUpon>FoodLogging.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Goals.resx">
       <DependentUpon>Goals.cs</DependentUpon>
     </EmbeddedResource>
