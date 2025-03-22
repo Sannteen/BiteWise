@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace BiteWiseApp
 {
     public partial class MainMenu : Form
@@ -22,6 +23,27 @@ namespace BiteWiseApp
             Recipes R1 = new Recipes();
             R1.Show();
 
+        }
+
+        private void userPreferencesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserProfileForm upf = new UserProfileForm();
+            upf.MdiParent = this;
+            upf.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+       {
+          ProgressTrackingForm ptf = new ProgressTrackingForm();
+          ptf.MdiParent = this;
+          ptf.Show();
+        }
+
+        private void summaryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SummaryForm sf = new SummaryForm();
+            sf.MdiParent = this;
+            sf.Show();
         }
     }
 }

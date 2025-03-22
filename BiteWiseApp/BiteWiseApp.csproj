@@ -52,6 +52,24 @@
   <ItemGroup>
     <Compile Include="Classes\UserLogin.cs" />
     <Compile Include="Classes\User_Registration.cs" />
+    <Compile Include="ProgressTrackingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressTrackingForm.Designer.cs">
+      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummaryForm.Designer.cs">
+      <DependentUpon>SummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Goals.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,15 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ProgressTrackingForm.resx">
+      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryForm.resx">
+      <DependentUpon>SummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile.resx">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Goals.resx">
       <DependentUpon>Goals.cs</DependentUpon>
     </EmbeddedResource>
