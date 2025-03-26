@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace BiteWiseApp
 {
-    public partial class Form1: Form
+    public partial class ProgressTrackingForm: Form
     {
-        public Form1()
+        public ProgressTrackingForm()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
+        private void ProgressTrackingForm_Load(object sender, EventArgs e)
         {
 
         }
