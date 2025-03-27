@@ -124,6 +124,7 @@ namespace BiteWiseApp
                 string Goal = GoalTB.Text.Trim();
                 int LockStatus = 0;
                 DateTime CreationDate = DateTime.Now;
+                int Login_Attempts = 0;
 
 
                 try
@@ -131,7 +132,7 @@ namespace BiteWiseApp
                 {
 
                     User_Registration UR = new User_Registration();
-                    UR.Registration(Name, Email, Password, Age, Gender, Height, Weight, ActivityLvl, Goal, LockStatus, CreationDate);
+                    UR.Registration(Name, Email, Password, Age, Gender, Height, Weight, ActivityLvl, Goal, LockStatus, CreationDate, Login_Attempts);
                     
                     this.Hide();
                     Login Log = new Login();

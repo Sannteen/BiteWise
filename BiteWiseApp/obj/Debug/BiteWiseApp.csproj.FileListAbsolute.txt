@@ -1,3 +1,6 @@
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe.config
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.AssemblyReference.cache
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ProgressTrackingForm.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SummaryForm.resources
@@ -10,8 +13,5 @@ C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Recipe
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SignUp.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe.config
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb

@@ -15,7 +15,7 @@ namespace BiteWiseApp.Classes
 
 
         public void Registration(string name, string email, string Password, int Age, string Gender, decimal Height, decimal Weight,
-            string ActivityLvl, string Goal, int LockStatus, DateTime CreationDate)
+            string ActivityLvl, string Goal, int LockStatus, DateTime CreationDate, int Login_Attempts)
         {
 
             string strconn = ("Data Source=23.95.235.16,1433;Network Library=DBMSSOCN;Initial Catalog=BiteWiseDB;User ID=vtdi_student;Password=P@ssword1;");
@@ -37,6 +37,7 @@ namespace BiteWiseApp.Classes
                     cmd.Parameters.Add("@Goal", SqlDbType.VarChar).Value = Goal.ToString();
                     cmd.Parameters.Add("@LockStatus", SqlDbType.SmallInt).Value = int.Parse(LockStatus.ToString());
                     cmd.Parameters.Add("@Creation_Date", SqlDbType.DateTime).Value = DateTime.Now;
+                    cmd.Parameters.Add("@Login_Attempts", SqlDbType.Int).Value = Login_Attempts;
 
                     try
                     {

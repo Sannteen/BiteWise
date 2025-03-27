@@ -20,8 +20,7 @@ namespace BiteWiseApp
 
         private void recipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Recipes R1 = new Recipes();
-            R1.Show();
+            
 
         }
 
@@ -44,6 +43,15 @@ namespace BiteWiseApp
             SummaryForm sf = new SummaryForm();
             sf.MdiParent = this;
             sf.Show();
+        }
+
+        private void getRecipesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Recipes R1 = new Recipes();
+            R1.MdiParent = this;
+            R1.Show();
+
         }
     }
 }
