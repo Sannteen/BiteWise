@@ -130,6 +130,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(674, 340);
             this.tableLayoutPanel1.TabIndex = 17;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // BdyMeasurementHistory
             // 
@@ -174,7 +175,6 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProgressTrackingForm";
             this.Text = "ProgressTrackingForm";
-            this.Load += new System.EventHandler(this.ProgressTrackingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.weightprogresschart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);

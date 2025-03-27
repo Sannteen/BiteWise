@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\UserLogin.cs" />
+    <Compile Include="Classes\User_Rgestration.cs" />
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,17 +68,29 @@
     <Compile Include="FoodLogging.Designer.cs">
       <DependentUpon>FoodLogging.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProgressTrackingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressTrackingForm.Designer.cs">
+      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummaryForm.Designer.cs">
+      <DependentUpon>SummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Goals.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Goals.Designer.cs">
       <DependentUpon>Goals.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserPreference.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserPreference.Designer.cs">
-      <DependentUpon>UserPreference.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -114,6 +127,15 @@
     <EmbeddedResource Include="FoodLogging.resx">
       <DependentUpon>FoodLogging.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProgressTrackingForm.resx">
+      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryForm.resx">
+      <DependentUpon>SummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile.resx">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Goals.resx">
       <DependentUpon>Goals.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserPreference.resx">
-      <DependentUpon>UserPreference.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

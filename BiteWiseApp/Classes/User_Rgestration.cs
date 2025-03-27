@@ -22,7 +22,7 @@ namespace BiteWiseApp.Classes
 
             using (SqlConnection Dbconn = new SqlConnection(strconn))
             {
-                using (SqlCommand cmd = new SqlCommand("SignUp",Dbconn))
+                using (SqlCommand cmd = new SqlCommand("SignUp", Dbconn))
                 {
 
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -44,7 +44,7 @@ namespace BiteWiseApp.Classes
                         Dbconn.Open();
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Registration completed Successfully", "Registration", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        
+
                     }
 
                     catch (Exception ex)
