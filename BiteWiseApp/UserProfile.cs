@@ -91,5 +91,10 @@ namespace BiteWiseApp
         {
 
         }
+
+        private void PicUploadbutton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

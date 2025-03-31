@@ -53,5 +53,20 @@ namespace BiteWiseApp
             R1.Show();
 
         }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void goalsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

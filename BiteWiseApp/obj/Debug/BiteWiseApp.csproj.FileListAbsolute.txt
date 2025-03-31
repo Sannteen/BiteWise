@@ -4,6 +4,7 @@ C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.AssemblyReference.cache
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Dashboard.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseLogging.resources
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseSearchLog.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.FoodLogging.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ProgressTrackingForm.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SummaryForm.resources

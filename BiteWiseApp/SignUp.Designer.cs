@@ -244,6 +244,7 @@
             this.PasswordTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordTB.Location = new System.Drawing.Point(665, 194);
             this.PasswordTB.Name = "PasswordTB";
+            this.PasswordTB.PasswordChar = '*';
             this.PasswordTB.Size = new System.Drawing.Size(148, 20);
             this.PasswordTB.TabIndex = 10;
             this.PasswordTB.TextChanged += new System.EventHandler(this.PasswordTB_TextChanged);

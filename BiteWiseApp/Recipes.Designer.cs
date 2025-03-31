@@ -40,34 +40,38 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(62, 61);
+            this.textBox1.Location = new System.Drawing.Point(41, 40);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(672, 26);
+            this.textBox1.Size = new System.Drawing.Size(449, 20);
             this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 32);
+            this.label1.Location = new System.Drawing.Point(42, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 20);
+            this.label1.Size = new System.Drawing.Size(131, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Search Jamaican Recipes";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(62, 165);
+            this.textBox2.Location = new System.Drawing.Point(41, 107);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(671, 149);
+            this.textBox2.Size = new System.Drawing.Size(449, 98);
             this.textBox2.TabIndex = 2;
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(63, 125);
+            this.Label2.Location = new System.Drawing.Point(42, 81);
+            this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(178, 20);
+            this.Label2.Size = new System.Drawing.Size(121, 13);
             this.Label2.TabIndex = 3;
             this.Label2.Text = "Your Recipe of the Day!";
             // 
@@ -76,33 +80,34 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Juice ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(455, 332);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(303, 216);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(279, 109);
+            this.label3.Size = new System.Drawing.Size(187, 72);
             this.label3.TabIndex = 8;
             this.label3.Text = "BiteWise";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(67, 359);
+            this.button1.Location = new System.Drawing.Point(45, 233);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(251, 67);
+            this.button1.Size = new System.Drawing.Size(167, 44);
             this.button1.TabIndex = 9;
             this.button1.Text = "Get New Recipe";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Recipes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Recipes";
             this.Text = "Recipes";
             this.ResumeLayout(false);

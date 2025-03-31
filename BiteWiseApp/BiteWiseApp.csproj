@@ -62,6 +62,12 @@
     <Compile Include="ExerciseLogging.Designer.cs">
       <DependentUpon>ExerciseLogging.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExerciseSearchLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExerciseSearchLog.Designer.cs">
+      <DependentUpon>ExerciseSearchLog.cs</DependentUpon>
+    </Compile>
     <Compile Include="FoodLogging.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ExerciseLogging.resx">
       <DependentUpon>ExerciseLogging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExerciseSearchLog.resx">
+      <DependentUpon>ExerciseSearchLog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoodLogging.resx">
       <DependentUpon>FoodLogging.cs</DependentUpon>
