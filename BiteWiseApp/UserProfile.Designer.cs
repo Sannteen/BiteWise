@@ -81,7 +81,7 @@
             this.profilepicture.BackColor = System.Drawing.SystemColors.ControlDark;
             this.profilepicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.profilepicture.Location = new System.Drawing.Point(19, 54);
-            this.profilepicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.profilepicture.Margin = new System.Windows.Forms.Padding(2);
             this.profilepicture.Name = "profilepicture";
             this.profilepicture.Size = new System.Drawing.Size(171, 149);
             this.profilepicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +92,7 @@
             // nametextBox
             // 
             this.nametextBox.Location = new System.Drawing.Point(17, 278);
-            this.nametextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Size = new System.Drawing.Size(139, 20);
             this.nametextBox.TabIndex = 6;
@@ -103,7 +103,7 @@
             this.NameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLabel.Location = new System.Drawing.Point(15, 259);
+            this.NameLabel.Location = new System.Drawing.Point(15, 262);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(40, 15);
@@ -126,7 +126,7 @@
             // EmailtextBox
             // 
             this.EmailtextBox.Location = new System.Drawing.Point(17, 325);
-            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(139, 20);
             this.EmailtextBox.TabIndex = 9;
@@ -147,7 +147,7 @@
             // PasswordtextBox
             // 
             this.PasswordtextBox.Location = new System.Drawing.Point(16, 372);
-            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
             this.PasswordtextBox.Size = new System.Drawing.Size(139, 20);
             this.PasswordtextBox.TabIndex = 11;
@@ -157,10 +157,10 @@
             // 
             this.savechangesbutn.BackColor = System.Drawing.Color.White;
             this.savechangesbutn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.savechangesbutn.Location = new System.Drawing.Point(45, 409);
-            this.savechangesbutn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.savechangesbutn.Location = new System.Drawing.Point(19, 409);
+            this.savechangesbutn.Margin = new System.Windows.Forms.Padding(2);
             this.savechangesbutn.Name = "savechangesbutn";
-            this.savechangesbutn.Size = new System.Drawing.Size(98, 21);
+            this.savechangesbutn.Size = new System.Drawing.Size(98, 33);
             this.savechangesbutn.TabIndex = 12;
             this.savechangesbutn.Text = "Save Changes";
             this.savechangesbutn.UseVisualStyleBackColor = false;
@@ -214,7 +214,7 @@
             // AgetxtBox
             // 
             this.AgetxtBox.Location = new System.Drawing.Point(371, 90);
-            this.AgetxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AgetxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.AgetxtBox.Name = "AgetxtBox";
             this.AgetxtBox.Size = new System.Drawing.Size(78, 20);
             this.AgetxtBox.TabIndex = 17;
@@ -223,7 +223,7 @@
             // HeighttxtBox1
             // 
             this.HeighttxtBox1.Location = new System.Drawing.Point(371, 121);
-            this.HeighttxtBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.HeighttxtBox1.Margin = new System.Windows.Forms.Padding(2);
             this.HeighttxtBox1.Name = "HeighttxtBox1";
             this.HeighttxtBox1.Size = new System.Drawing.Size(78, 20);
             this.HeighttxtBox1.TabIndex = 18;
@@ -232,7 +232,7 @@
             // WeighttxtBox
             // 
             this.WeighttxtBox.Location = new System.Drawing.Point(371, 154);
-            this.WeighttxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WeighttxtBox.Margin = new System.Windows.Forms.Padding(2);
             this.WeighttxtBox.Name = "WeighttxtBox";
             this.WeighttxtBox.Size = new System.Drawing.Size(78, 20);
             this.WeighttxtBox.TabIndex = 19;
@@ -263,7 +263,7 @@
             // Targetwgttxtbx
             // 
             this.Targetwgttxtbx.Location = new System.Drawing.Point(416, 215);
-            this.Targetwgttxtbx.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Targetwgttxtbx.Margin = new System.Windows.Forms.Padding(2);
             this.Targetwgttxtbx.Name = "Targetwgttxtbx";
             this.Targetwgttxtbx.Size = new System.Drawing.Size(86, 20);
             this.Targetwgttxtbx.TabIndex = 22;
@@ -283,7 +283,7 @@
             // DCaloricTgetTxtbx
             // 
             this.DCaloricTgetTxtbx.Location = new System.Drawing.Point(431, 246);
-            this.DCaloricTgetTxtbx.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DCaloricTgetTxtbx.Margin = new System.Windows.Forms.Padding(2);
             this.DCaloricTgetTxtbx.Name = "DCaloricTgetTxtbx";
             this.DCaloricTgetTxtbx.Size = new System.Drawing.Size(71, 20);
             this.DCaloricTgetTxtbx.TabIndex = 24;
@@ -379,7 +379,7 @@
             // SuntextBox
             // 
             this.SuntextBox.Location = new System.Drawing.Point(293, 325);
-            this.SuntextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SuntextBox.Margin = new System.Windows.Forms.Padding(2);
             this.SuntextBox.Name = "SuntextBox";
             this.SuntextBox.Size = new System.Drawing.Size(53, 20);
             this.SuntextBox.TabIndex = 33;
@@ -387,7 +387,7 @@
             // MontextBox
             // 
             this.MontextBox.Location = new System.Drawing.Point(359, 325);
-            this.MontextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MontextBox.Margin = new System.Windows.Forms.Padding(2);
             this.MontextBox.Name = "MontextBox";
             this.MontextBox.Size = new System.Drawing.Size(53, 20);
             this.MontextBox.TabIndex = 34;
@@ -395,7 +395,7 @@
             // TuestextBox
             // 
             this.TuestextBox.Location = new System.Drawing.Point(422, 325);
-            this.TuestextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TuestextBox.Margin = new System.Windows.Forms.Padding(2);
             this.TuestextBox.Name = "TuestextBox";
             this.TuestextBox.Size = new System.Drawing.Size(53, 20);
             this.TuestextBox.TabIndex = 35;
@@ -403,7 +403,7 @@
             // WedtextBox
             // 
             this.WedtextBox.Location = new System.Drawing.Point(484, 325);
-            this.WedtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WedtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.WedtextBox.Name = "WedtextBox";
             this.WedtextBox.Size = new System.Drawing.Size(53, 20);
             this.WedtextBox.TabIndex = 36;
@@ -411,7 +411,7 @@
             // ThurstextBox
             // 
             this.ThurstextBox.Location = new System.Drawing.Point(293, 375);
-            this.ThurstextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ThurstextBox.Margin = new System.Windows.Forms.Padding(2);
             this.ThurstextBox.Name = "ThurstextBox";
             this.ThurstextBox.Size = new System.Drawing.Size(53, 20);
             this.ThurstextBox.TabIndex = 37;
@@ -419,7 +419,7 @@
             // FritextBox
             // 
             this.FritextBox.Location = new System.Drawing.Point(359, 375);
-            this.FritextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FritextBox.Margin = new System.Windows.Forms.Padding(2);
             this.FritextBox.Name = "FritextBox";
             this.FritextBox.Size = new System.Drawing.Size(53, 20);
             this.FritextBox.TabIndex = 38;
@@ -427,7 +427,7 @@
             // SattextBox
             // 
             this.SattextBox.Location = new System.Drawing.Point(422, 375);
-            this.SattextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SattextBox.Margin = new System.Windows.Forms.Padding(2);
             this.SattextBox.Name = "SattextBox";
             this.SattextBox.Size = new System.Drawing.Size(53, 20);
             this.SattextBox.TabIndex = 39;
@@ -437,7 +437,7 @@
             this.PicUploadbutton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PicUploadbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PicUploadbutton.Location = new System.Drawing.Point(68, 216);
-            this.PicUploadbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PicUploadbutton.Margin = new System.Windows.Forms.Padding(2);
             this.PicUploadbutton.Name = "PicUploadbutton";
             this.PicUploadbutton.Size = new System.Drawing.Size(75, 22);
             this.PicUploadbutton.TabIndex = 42;
@@ -448,7 +448,7 @@
             // editbutton
             // 
             this.editbutton.Location = new System.Drawing.Point(158, 279);
-            this.editbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.editbutton.Margin = new System.Windows.Forms.Padding(2);
             this.editbutton.Name = "editbutton";
             this.editbutton.Size = new System.Drawing.Size(31, 16);
             this.editbutton.TabIndex = 44;
@@ -458,7 +458,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(158, 328);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(31, 16);
             this.button1.TabIndex = 45;
@@ -468,7 +468,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(158, 372);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(31, 16);
             this.button2.TabIndex = 46;
@@ -478,7 +478,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(458, 92);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(31, 16);
             this.button3.TabIndex = 47;
@@ -489,7 +489,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(458, 123);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(31, 16);
             this.button4.TabIndex = 48;
@@ -499,7 +499,7 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(458, 156);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(31, 16);
             this.button5.TabIndex = 49;
@@ -520,7 +520,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(505, 215);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(31, 16);
             this.button6.TabIndex = 51;
@@ -530,7 +530,7 @@
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(505, 248);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(31, 16);
             this.button7.TabIndex = 52;
@@ -541,7 +541,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 446);
+            this.ClientSize = new System.Drawing.Size(620, 453);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.Biometricdatalabel);
@@ -587,7 +587,7 @@
             this.Controls.Add(this.Passwordlabel);
             this.Controls.Add(this.EmailtextBox);
             this.Controls.Add(this.Emaillabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserProfileForm";
             this.Text = "User Profile";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,6 +40,9 @@
             this.ActivityStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exerciseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.UsernameTxt = new System.Windows.Forms.Label();
+            this.TimerLbl = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,8 +57,8 @@
             this.ActivityStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1133, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -100,14 +104,14 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem1.Text = "Progress Tracking";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // summaryToolStripMenuItem
             // 
             this.summaryToolStripMenuItem.Name = "summaryToolStripMenuItem";
-            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.summaryToolStripMenuItem.Text = "Summary";
             this.summaryToolStripMenuItem.Click += new System.EventHandler(this.summaryToolStripMenuItem_Click);
             // 
@@ -124,24 +128,59 @@
             // exerciseToolStripMenuItem
             // 
             this.exerciseToolStripMenuItem.Name = "exerciseToolStripMenuItem";
-            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.exerciseToolStripMenuItem.Text = "Exercise";
             // 
             // serachToolStripMenuItem
             // 
             this.serachToolStripMenuItem.Name = "serachToolStripMenuItem";
-            this.serachToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.serachToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.serachToolStripMenuItem.Text = "Serach";
+            // 
+            // UsernameTxt
+            // 
+            this.UsernameTxt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.UsernameTxt.AutoSize = true;
+            this.UsernameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameTxt.ForeColor = System.Drawing.Color.Black;
+            this.UsernameTxt.Location = new System.Drawing.Point(701, 0);
+            this.UsernameTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.UsernameTxt.Name = "UsernameTxt";
+            this.UsernameTxt.Size = new System.Drawing.Size(17, 24);
+            this.UsernameTxt.TabIndex = 3;
+            this.UsernameTxt.Text = "*";
+            // 
+            // TimerLbl
+            // 
+            this.TimerLbl.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.TimerLbl.AutoSize = true;
+            this.TimerLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimerLbl.ForeColor = System.Drawing.Color.Black;
+            this.TimerLbl.Location = new System.Drawing.Point(848, 0);
+            this.TimerLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TimerLbl.Name = "TimerLbl";
+            this.TimerLbl.Size = new System.Drawing.Size(17, 24);
+            this.TimerLbl.TabIndex = 3;
+            this.TimerLbl.Text = "*";
+            this.TimerLbl.Click += new System.EventHandler(this.TimerLbl_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1133, 570);
+            this.Controls.Add(this.TimerLbl);
+            this.Controls.Add(this.UsernameTxt);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Symbol", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             this.Load += new System.EventHandler(this.MainMenu_Load);
@@ -164,5 +203,8 @@
         private System.Windows.Forms.ToolStripMenuItem getRecipesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exerciseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem serachToolStripMenuItem;
+        public System.Windows.Forms.Label UsernameTxt;
+        public System.Windows.Forms.Label TimerLbl;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -7,19 +7,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using System.Configuration;
 
 namespace BiteWiseApp.Classes
 {
     class User_Registration
     {
 
+         MainMenu MM = new MainMenu();
+
+
 
         public void Registration(string name, string email, string Password, int Age, string Gender, decimal Height, decimal Weight,
             string ActivityLvl, string Goal, int LockStatus, DateTime CreationDate, int Login_Attempts)
         {
 
-            string strconn = ("Data Source=23.95.235.16,1433;Network Library=DBMSSOCN;Initial Catalog=BiteWiseDB;User ID=vtdi_student;Password=P@ssword1;");
+            //string strconn = ("Data Source=23.95.235.16,1433;Network Library=DBMSSOCN;Initial Catalog=BiteWiseDB;User ID=vtdi_student;Password=P@ssword1;");
 
+            string strconn = (ConfigurationManager.ConnectionStrings["BiteWiseDB_Connect"].ConnectionString);
             using (SqlConnection Dbconn = new SqlConnection(strconn))
             {
                 using (SqlCommand cmd = new SqlCommand("SignUp", Dbconn))
@@ -63,5 +68,60 @@ namespace BiteWiseApp.Classes
 
             }
         }
+
+
+
+        public void GetUserdetails(String Username) 
+        {
+
+            string strconn = (ConfigurationManager.ConnectionStrings["BiteWiseDB_Connect"].ConnectionString);
+
+            using (SqlConnection conn = new SqlConnection(strconn))
+            {
+                using (SqlCommand cmd = new SqlCommand("SearchbyUserName", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    conn.Open();
+                    cmd.Parameters.Add("@Username", SqlDbType.VarChar).Value = MM.UsernameTxt.Text;
+
+                    try
+                    {
+                        cmd.ExecuteNonQuery();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+
+
+                               
+
+                                //DataTable Dtable = new DataTable();
+                                //Dtable.Load(reader);
+                               // dataGridView1.DataSource = Dtable;
+                            }
+
+                            else
+                            {
+                                MessageBox.Show("No Matching Records Round", "Vendor Search", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                        }
+
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+
+        }
+
+
+
+
+
+
     }
 }

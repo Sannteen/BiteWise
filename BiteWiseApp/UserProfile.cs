@@ -17,6 +17,12 @@ namespace BiteWiseApp
             InitializeComponent();
         }
 
+        string ImageLocation;
+
+
+
+
+
         private void profilepictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -94,7 +100,26 @@ namespace BiteWiseApp
 
         private void PicUploadbutton_Click(object sender, EventArgs e)
         {
+             try
+            {
+                //Select & filter Image by file Extension.
+                OpenFileDialog Ofd = new OpenFileDialog();
+                Ofd.Filter = "JPG Files (*.jpg)|*.jpg|GIF Files (*.gif)|*gif |PNG Files (*.png)|*png |All Files (*.*)|*.*";
+                Ofd.Title = "Profile Picture";
 
+
+                if (Ofd.ShowDialog() == DialogResult.OK)
+                {
+                    ImageLocation = Ofd.FileName.ToString();
+                    profilepicture.ImageLocation = ImageLocation;
+                }
+
+            }
+
+            catch (Exception EX)
+            {
+                MessageBox.Show(EX.Message, "Profile Picture" , MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

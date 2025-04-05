@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.SearchBtn = new System.Windows.Forms.Button();
             this.SearchBox = new System.Windows.Forms.TextBox();
             this.Logo = new System.Windows.Forms.Label();
+            this.SearchBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,15 +42,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(776, 268);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // SearchBtn
-            // 
-            this.SearchBtn.Location = new System.Drawing.Point(510, 122);
-            this.SearchBtn.Name = "SearchBtn";
-            this.SearchBtn.Size = new System.Drawing.Size(75, 23);
-            this.SearchBtn.TabIndex = 1;
-            this.SearchBtn.Text = "Search";
-            this.SearchBtn.UseVisualStyleBackColor = true;
             // 
             // SearchBox
             // 
@@ -69,6 +60,20 @@
             this.Logo.Size = new System.Drawing.Size(187, 72);
             this.Logo.TabIndex = 9;
             this.Logo.Text = "BiteWise";
+            // 
+            // SearchBtn
+            // 
+            this.SearchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.SearchBtn.Image = global::BiteWiseApp.Properties.Resources.Search;
+            this.SearchBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.SearchBtn.Location = new System.Drawing.Point(503, 116);
+            this.SearchBtn.Name = "SearchBtn";
+            this.SearchBtn.Size = new System.Drawing.Size(103, 51);
+            this.SearchBtn.TabIndex = 1;
+            this.SearchBtn.Text = "Search";
+            this.SearchBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SearchBtn.UseVisualStyleBackColor = true;
             // 
             // ExerciseSearchLog
             // 

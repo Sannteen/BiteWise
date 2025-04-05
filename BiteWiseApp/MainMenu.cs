@@ -16,6 +16,8 @@ namespace BiteWiseApp
         public MainMenu()
         {
             InitializeComponent();
+            timer1.Start();
+           
         }
 
         private void recipesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -66,6 +68,18 @@ namespace BiteWiseApp
 
         private void userToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void TimerLbl_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime Time = DateTime.Now;
+            this.TimerLbl.Text = Time.ToString();
 
         }
     }

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace BiteWiseApp.Classes
 {
@@ -19,7 +20,7 @@ namespace BiteWiseApp.Classes
             string accountStatus = "Invalid"; // Default to invalid credentials
 
             // Update this connection string as per your database configuration
-            string connectionString = "Data Source=23.95.235.16,1433;Network Library=DBMSSOCN;Initial Catalog=BiteWiseDB;User ID=vtdi_student;Password=P@ssword1;";
+            string connectionString =  (ConfigurationManager.ConnectionStrings["BiteWiseDB_Connect"].ConnectionString);
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

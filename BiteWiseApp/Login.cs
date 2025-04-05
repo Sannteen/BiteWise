@@ -68,6 +68,9 @@ namespace BiteWiseApp
                         MainMenu MM = new MainMenu();
                         this.Hide();
                         MM.Show();
+                        MM.UsernameTxt.Text = email.ToString();
+
+
 
                         MessageBox.Show("Login successful! Welcome "+UsernameTB.Text.Trim(),"Login",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         
