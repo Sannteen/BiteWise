@@ -56,7 +56,7 @@
             this.Savebtn.Location = new System.Drawing.Point(376, 485);
             this.Savebtn.Name = "Savebtn";
             this.Savebtn.Size = new System.Drawing.Size(104, 44);
-            this.Savebtn.TabIndex = 0;
+            this.Savebtn.TabIndex = 9;
             this.Savebtn.Text = "Save";
             this.Savebtn.UseVisualStyleBackColor = true;
             this.Savebtn.Click += new System.EventHandler(this.Savebtn_Click);
@@ -95,7 +95,7 @@
             this.EmailTB.Location = new System.Drawing.Point(408, 197);
             this.EmailTB.Name = "EmailTB";
             this.EmailTB.Size = new System.Drawing.Size(148, 20);
-            this.EmailTB.TabIndex = 4;
+            this.EmailTB.TabIndex = 2;
             // 
             // AgeTB
             // 
@@ -103,7 +103,7 @@
             this.AgeTB.Location = new System.Drawing.Point(138, 263);
             this.AgeTB.Name = "AgeTB";
             this.AgeTB.Size = new System.Drawing.Size(148, 20);
-            this.AgeTB.TabIndex = 5;
+            this.AgeTB.TabIndex = 3;
             // 
             // AgeLbl
             // 
@@ -137,7 +137,7 @@
             this.GenderCB.Location = new System.Drawing.Point(408, 262);
             this.GenderCB.Name = "GenderCB";
             this.GenderCB.Size = new System.Drawing.Size(148, 21);
-            this.GenderCB.TabIndex = 8;
+            this.GenderCB.TabIndex = 4;
             // 
             // WeightTB
             // 
@@ -145,7 +145,7 @@
             this.WeightTB.Location = new System.Drawing.Point(138, 326);
             this.WeightTB.Name = "WeightTB";
             this.WeightTB.Size = new System.Drawing.Size(148, 20);
-            this.WeightTB.TabIndex = 1;
+            this.WeightTB.TabIndex = 6;
             // 
             // WeightLbl
             // 
@@ -173,7 +173,7 @@
             this.HeightTB.Location = new System.Drawing.Point(665, 262);
             this.HeightTB.Name = "HeightTB";
             this.HeightTB.Size = new System.Drawing.Size(148, 20);
-            this.HeightTB.TabIndex = 4;
+            this.HeightTB.TabIndex = 5;
             // 
             // label1
             // 
@@ -215,7 +215,7 @@
             this.GoalTB.Location = new System.Drawing.Point(408, 326);
             this.GoalTB.Name = "GoalTB";
             this.GoalTB.Size = new System.Drawing.Size(148, 20);
-            this.GoalTB.TabIndex = 5;
+            this.GoalTB.TabIndex = 7;
             // 
             // label2
             // 
@@ -226,7 +226,7 @@
             this.label2.Location = new System.Drawing.Point(281, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(323, 42);
-            this.label2.TabIndex = 9;
+            this.label2.TabIndex = 0;
             this.label2.Text = "User Registration";
             // 
             // PasswordLbl
@@ -246,7 +246,7 @@
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '*';
             this.PasswordTB.Size = new System.Drawing.Size(148, 20);
-            this.PasswordTB.TabIndex = 10;
+            this.PasswordTB.TabIndex = 3;
             this.PasswordTB.TextChanged += new System.EventHandler(this.PasswordTB_TextChanged);
             // 
             // SignUp

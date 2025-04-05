@@ -69,14 +69,14 @@
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '*';
             this.PasswordTB.Size = new System.Drawing.Size(144, 20);
-            this.PasswordTB.TabIndex = 3;
+            this.PasswordTB.TabIndex = 2;
             // 
             // LoginBtn
             // 
             this.LoginBtn.Location = new System.Drawing.Point(231, 219);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(110, 49);
-            this.LoginBtn.TabIndex = 4;
+            this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = true;
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
@@ -97,7 +97,7 @@
             this.Signup.Location = new System.Drawing.Point(318, 289);
             this.Signup.Name = "Signup";
             this.Signup.Size = new System.Drawing.Size(45, 13);
-            this.Signup.TabIndex = 6;
+            this.Signup.TabIndex = 4;
             this.Signup.TabStop = true;
             this.Signup.Text = "Sign Up";
             this.Signup.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Signup_LinkClicked);
@@ -110,7 +110,7 @@
             this.label3.Location = new System.Drawing.Point(178, 58);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(187, 72);
-            this.label3.TabIndex = 7;
+            this.label3.TabIndex = 0;
             this.label3.Text = "BiteWise";
             // 
             // Login
