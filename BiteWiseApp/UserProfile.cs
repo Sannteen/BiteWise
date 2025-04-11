@@ -56,7 +56,7 @@ namespace BiteWiseApp
                     ProfilePictureBox.ImageLocation = imageLocation;
 
                     //SaveImagePathToDatabase(imageLocation); 
-                   
+
                 }
             }
             catch (Exception ex)
