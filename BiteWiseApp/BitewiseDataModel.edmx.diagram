@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="741da883aee94165b99e6a59002fb46f" Name="Diagram1">
+      <Diagram DiagramId="202eb128f4f6435da2f0dde51de01000" Name="Diagram1">
         <EntityTypeShape EntityType="BiteWiseDBModel.DailySummary" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BiteWiseDBModel.Exercis" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
         <EntityTypeShape EntityType="BiteWiseDBModel.Food" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />

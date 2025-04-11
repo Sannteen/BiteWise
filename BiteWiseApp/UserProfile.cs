@@ -13,11 +13,11 @@ namespace BiteWiseApp
     public partial class UserProfileForm: Form
 
     {
-        private readonly BiteWiseDBEntities biteWiseDBEntities;
+        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
         public UserProfileForm()
         {
             InitializeComponent();
-            biteWiseDBEntities = new BiteWiseDBEntities();
+            biteWiseDBEntities = new BiteWiseDBEntities1();
         }
 
         private void SaveChangesButton_Click(object sender, EventArgs e)

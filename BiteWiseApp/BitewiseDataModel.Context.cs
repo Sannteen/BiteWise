@@ -15,10 +15,10 @@ namespace BiteWiseApp
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class BiteWiseDBEntities : DbContext
+    public partial class BiteWiseDBEntities1 : DbContext
     {
-        public BiteWiseDBEntities()
-            : base("name=BiteWiseDBEntities")
+        public BiteWiseDBEntities1()
+            : base("name=BiteWiseDBEntities1")
         {
         }
     

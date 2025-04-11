@@ -713,7 +713,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="BiteWiseDBEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="BiteWiseDBEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="DailySummaries" EntityType="Self.DailySummary" />
           <EntitySet Name="Exercises" EntityType="Self.Exercis" />
           <EntitySet Name="Foods" EntityType="Self.Food" />
@@ -890,7 +890,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="BiteWiseDBModelStoreContainer" CdmEntityContainer="BiteWiseDBEntities">
+        <EntityContainerMapping StorageEntityContainer="BiteWiseDBModelStoreContainer" CdmEntityContainer="BiteWiseDBEntities1">
           <EntitySetMapping Name="DailySummaries">
             <EntityTypeMapping TypeName="BiteWiseDBModel.DailySummary">
               <MappingFragment StoreEntitySet="DailySummary">

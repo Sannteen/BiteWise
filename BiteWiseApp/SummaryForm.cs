@@ -13,11 +13,11 @@ namespace BiteWiseApp
 {
     public partial class SummaryForm: Form
     {
-        private readonly BiteWiseDBEntities biteWiseDBEntities;
+        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
         public SummaryForm()
         {
             InitializeComponent();
-            biteWiseDBEntities = new BiteWiseDBEntities();
+            biteWiseDBEntities = new BiteWiseDBEntities1();
         }
 
         private void SummaryForm_Load(object sender, EventArgs e)
