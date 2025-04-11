@@ -13,9 +13,11 @@ namespace BiteWiseApp
     public partial class UserProfileForm: Form
 
     {
+        private readonly BiteWiseDBEntities biteWiseDBEntities;
         public UserProfileForm()
         {
             InitializeComponent();
+            biteWiseDBEntities = new BiteWiseDBEntities();
         }
 
         private void SaveChangesButton_Click(object sender, EventArgs e)
@@ -53,7 +55,8 @@ namespace BiteWiseApp
                     string imageLocation = dialog.FileName;
                     ProfilePictureBox.ImageLocation = imageLocation;
 
-                    //SaveImagePathToDatabase(imageLocation); // Save to DB
+                    //SaveImagePathToDatabase(imageLocation); 
+                   
                 }
             }
             catch (Exception ex)
@@ -61,9 +64,8 @@ namespace BiteWiseApp
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
 
-
         }
-                    
-                   
+
+
     }
 }

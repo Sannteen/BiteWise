@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.DailySumarylabel = new System.Windows.Forms.Label();
             this.DatePickfordailysumry = new System.Windows.Forms.DateTimePicker();
             this.DateLabel = new System.Windows.Forms.Label();
@@ -156,17 +156,17 @@
             // 
             // tltCaloriesconsumedchart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.tltCaloriesconsumedchart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.tltCaloriesconsumedchart1.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.tltCaloriesconsumedchart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.tltCaloriesconsumedchart1.Legends.Add(legend3);
             this.tltCaloriesconsumedchart1.Location = new System.Drawing.Point(3, 3);
             this.tltCaloriesconsumedchart1.Name = "tltCaloriesconsumedchart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.tltCaloriesconsumedchart1.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.tltCaloriesconsumedchart1.Series.Add(series5);
             this.tltCaloriesconsumedchart1.Size = new System.Drawing.Size(342, 272);
             this.tltCaloriesconsumedchart1.TabIndex = 26;
             this.tltCaloriesconsumedchart1.Text = "chart1";
@@ -186,42 +186,42 @@
             // 
             // TotalCalBurned
             // 
-            chartArea2.Name = "ChartArea1";
-            this.TotalCalBurned.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.TotalCalBurned.Legends.Add(legend2);
+            chartArea4.Name = "ChartArea1";
+            this.TotalCalBurned.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.TotalCalBurned.Legends.Add(legend4);
             this.TotalCalBurned.Location = new System.Drawing.Point(3, 3);
             this.TotalCalBurned.Name = "TotalCalBurned";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series2.Legend = "Legend1";
-            series2.Name = "Protein";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            series3.Legend = "Legend1";
-            series3.Name = "Fat";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series4.Legend = "Legend1";
-            series4.Name = "Carbs";
-            this.TotalCalBurned.Series.Add(series2);
-            this.TotalCalBurned.Series.Add(series3);
-            this.TotalCalBurned.Series.Add(series4);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series6.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series6.Legend = "Legend1";
+            series6.Name = "Protein";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series7.Color = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            series7.Legend = "Legend1";
+            series7.Name = "Fat";
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series8.Legend = "Legend1";
+            series8.Name = "Carbs";
+            this.TotalCalBurned.Series.Add(series6);
+            this.TotalCalBurned.Series.Add(series7);
+            this.TotalCalBurned.Series.Add(series8);
             this.TotalCalBurned.Size = new System.Drawing.Size(488, 229);
             this.TotalCalBurned.TabIndex = 7;
             this.TotalCalBurned.Text = "Body Measurement History ";
-            title1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            title1.Name = "Title1";
-            title1.Text = "Total Calories Burned";
-            this.TotalCalBurned.Titles.Add(title1);
+            title2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title2.Name = "Title1";
+            title2.Text = "Total Calories Burned";
+            this.TotalCalBurned.Titles.Add(title2);
             // 
             // SummaryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 703);
+            this.ClientSize = new System.Drawing.Size(961, 717);
             this.Controls.Add(this.WoutoutLogLabel);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);

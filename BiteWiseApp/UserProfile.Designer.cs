@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.PictureBox ProfilePictureBox;
             this.nametextBox = new System.Windows.Forms.TextBox();
             this.NameLabel = new System.Windows.Forms.Label();
             this.Emaillabel = new System.Windows.Forms.Label();
@@ -67,8 +66,7 @@
             this.HeightnumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.TargetWeightnumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.DailyCalTarnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            ProfilePictureBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(ProfilePictureBox)).BeginInit();
+            this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SunnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MonnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TuesnumericUpDown)).BeginInit();
@@ -81,18 +79,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.HeightnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TargetWeightnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DailyCalTarnumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ProfilePictureBox
-            // 
-            ProfilePictureBox.BackColor = System.Drawing.SystemColors.ControlDark;
-            ProfilePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            ProfilePictureBox.Location = new System.Drawing.Point(367, 117);
-            ProfilePictureBox.Name = "ProfilePictureBox";
-            ProfilePictureBox.Size = new System.Drawing.Size(265, 221);
-            ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            ProfilePictureBox.TabIndex = 5;
-            ProfilePictureBox.TabStop = false;
             // 
             // nametextBox
             // 
@@ -554,11 +542,20 @@
             this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(87, 26);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
             // 
+            // ProfilePictureBox
+            // 
+            this.ProfilePictureBox.Location = new System.Drawing.Point(373, 104);
+            this.ProfilePictureBox.Name = "ProfilePictureBox";
+            this.ProfilePictureBox.Size = new System.Drawing.Size(258, 231);
+            this.ProfilePictureBox.TabIndex = 67;
+            this.ProfilePictureBox.TabStop = false;
+            // 
             // UserProfileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1208, 710);
+            this.Controls.Add(this.ProfilePictureBox);
             this.Controls.Add(this.DailyCalTarnumericUpDown);
             this.Controls.Add(this.TargetWeightnumericUpDown);
             this.Controls.Add(this.HeightnumericUpDown);
@@ -575,7 +572,6 @@
             this.Controls.Add(this.PasswordcheckBox);
             this.Controls.Add(this.Biometricdatalabel);
             this.Controls.Add(this.UploadImageButton);
-            this.Controls.Add(ProfilePictureBox);
             this.Controls.Add(this.WklyWgtgoalslabel);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.nametextBox);
@@ -600,7 +596,6 @@
             this.Controls.Add(this.Emaillabel);
             this.Name = "UserProfileForm";
             this.Text = "User Profile";
-            ((System.ComponentModel.ISupportInitialize)(ProfilePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SunnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MonnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TuesnumericUpDown)).EndInit();
@@ -613,6 +608,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.HeightnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TargetWeightnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DailyCalTarnumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -657,6 +653,7 @@
         private System.Windows.Forms.NumericUpDown HeightnumericUpDown;
         private System.Windows.Forms.NumericUpDown TargetWeightnumericUpDown;
         private System.Windows.Forms.NumericUpDown DailyCalTarnumericUpDown;
+        private System.Windows.Forms.PictureBox ProfilePictureBox;
     }
 }
 
