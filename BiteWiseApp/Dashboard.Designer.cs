@@ -33,16 +33,26 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnLogWorkoutdb = new System.Windows.Forms.Button();
+            this.btnViewProgressbd = new System.Windows.Forms.Button();
+            this.btnLogFooddb = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.chWeightProgressdb = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.labeluser = new System.Windows.Forms.Label();
+            this.labelDailySummary = new System.Windows.Forms.Label();
+            this.cbUserdb = new System.Windows.Forms.ComboBox();
+            this.tbDailySummarydb = new System.Windows.Forms.TextBox();
+            this.tbUserMeassurementsdb = new System.Windows.Forms.TextBox();
+            this.labelUserMeassurements = new System.Windows.Forms.Label();
+            this.tbCurrentWeightdb = new System.Windows.Forms.TextBox();
+            this.tbTotalCalsConsumeddb = new System.Windows.Forms.TextBox();
+            this.tbTotalCalsBurneddb = new System.Windows.Forms.TextBox();
+            this.tbNetCalsdb = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.chWeightProgressdb)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -67,35 +77,35 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Dashboard";
             // 
-            // button1
+            // btnLogWorkoutdb
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(696, 68);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Log Workout";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLogWorkoutdb.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogWorkoutdb.Location = new System.Drawing.Point(696, 68);
+            this.btnLogWorkoutdb.Name = "btnLogWorkoutdb";
+            this.btnLogWorkoutdb.Size = new System.Drawing.Size(95, 23);
+            this.btnLogWorkoutdb.TabIndex = 15;
+            this.btnLogWorkoutdb.Text = "Log Workout";
+            this.btnLogWorkoutdb.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnViewProgressbd
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(696, 101);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "View Progress";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnViewProgressbd.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewProgressbd.Location = new System.Drawing.Point(696, 101);
+            this.btnViewProgressbd.Name = "btnViewProgressbd";
+            this.btnViewProgressbd.Size = new System.Drawing.Size(95, 23);
+            this.btnViewProgressbd.TabIndex = 16;
+            this.btnViewProgressbd.Text = "View Progress";
+            this.btnViewProgressbd.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnLogFooddb
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(696, 33);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 23);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Log Food";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnLogFooddb.Font = new System.Drawing.Font("Microsoft PhagsPa", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogFooddb.Location = new System.Drawing.Point(696, 33);
+            this.btnLogFooddb.Name = "btnLogFooddb";
+            this.btnLogFooddb.Size = new System.Drawing.Size(95, 23);
+            this.btnLogFooddb.TabIndex = 17;
+            this.btnLogFooddb.Text = "Log Food";
+            this.btnLogFooddb.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -141,48 +151,138 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(320, 320);
+            this.label7.Location = new System.Drawing.Point(383, 346);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 16);
             this.label7.TabIndex = 22;
             this.label7.Text = "Weight Progress";
             // 
-            // chart1
+            // chWeightProgressdb
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.chWeightProgressdb.ChartAreas.Add(chartArea1);
             legend1.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
             legend1.Name = "Weekly Progress";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(252, 192);
-            this.chart1.Name = "chart1";
+            this.chWeightProgressdb.Legends.Add(legend1);
+            this.chWeightProgressdb.Location = new System.Drawing.Point(315, 218);
+            this.chWeightProgressdb.Name = "chWeightProgressdb";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Weekly Progress";
             series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(282, 124);
-            this.chart1.TabIndex = 23;
-            this.chart1.Text = "chart1";
+            this.chWeightProgressdb.Series.Add(series1);
+            this.chWeightProgressdb.Size = new System.Drawing.Size(282, 124);
+            this.chWeightProgressdb.TabIndex = 23;
+            this.chWeightProgressdb.Text = "chart1";
+            // 
+            // labeluser
+            // 
+            this.labeluser.AutoSize = true;
+            this.labeluser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeluser.Location = new System.Drawing.Point(12, 101);
+            this.labeluser.Name = "labeluser";
+            this.labeluser.Size = new System.Drawing.Size(40, 16);
+            this.labeluser.TabIndex = 24;
+            this.labeluser.Text = "User";
+            // 
+            // labelDailySummary
+            // 
+            this.labelDailySummary.AutoSize = true;
+            this.labelDailySummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDailySummary.Location = new System.Drawing.Point(201, 101);
+            this.labelDailySummary.Name = "labelDailySummary";
+            this.labelDailySummary.Size = new System.Drawing.Size(111, 16);
+            this.labelDailySummary.TabIndex = 25;
+            this.labelDailySummary.Text = "Daily Summary";
+            // 
+            // cbUserdb
+            // 
+            this.cbUserdb.FormattingEnabled = true;
+            this.cbUserdb.Location = new System.Drawing.Point(15, 121);
+            this.cbUserdb.Name = "cbUserdb";
+            this.cbUserdb.Size = new System.Drawing.Size(121, 21);
+            this.cbUserdb.TabIndex = 26;
+            // 
+            // tbDailySummarydb
+            // 
+            this.tbDailySummarydb.Location = new System.Drawing.Point(204, 121);
+            this.tbDailySummarydb.Name = "tbDailySummarydb";
+            this.tbDailySummarydb.Size = new System.Drawing.Size(108, 20);
+            this.tbDailySummarydb.TabIndex = 27;
+            // 
+            // tbUserMeassurementsdb
+            // 
+            this.tbUserMeassurementsdb.Location = new System.Drawing.Point(352, 121);
+            this.tbUserMeassurementsdb.Name = "tbUserMeassurementsdb";
+            this.tbUserMeassurementsdb.Size = new System.Drawing.Size(108, 20);
+            this.tbUserMeassurementsdb.TabIndex = 29;
+            // 
+            // labelUserMeassurements
+            // 
+            this.labelUserMeassurements.AutoSize = true;
+            this.labelUserMeassurements.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUserMeassurements.Location = new System.Drawing.Point(349, 101);
+            this.labelUserMeassurements.Name = "labelUserMeassurements";
+            this.labelUserMeassurements.Size = new System.Drawing.Size(153, 16);
+            this.labelUserMeassurements.TabIndex = 28;
+            this.labelUserMeassurements.Text = "User Meassurements";
+            // 
+            // tbCurrentWeightdb
+            // 
+            this.tbCurrentWeightdb.Location = new System.Drawing.Point(127, 218);
+            this.tbCurrentWeightdb.Name = "tbCurrentWeightdb";
+            this.tbCurrentWeightdb.Size = new System.Drawing.Size(108, 20);
+            this.tbCurrentWeightdb.TabIndex = 30;
+            // 
+            // tbTotalCalsConsumeddb
+            // 
+            this.tbTotalCalsConsumeddb.Location = new System.Drawing.Point(200, 252);
+            this.tbTotalCalsConsumeddb.Name = "tbTotalCalsConsumeddb";
+            this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(59, 20);
+            this.tbTotalCalsConsumeddb.TabIndex = 31;
+            // 
+            // tbTotalCalsBurneddb
+            // 
+            this.tbTotalCalsBurneddb.Location = new System.Drawing.Point(200, 284);
+            this.tbTotalCalsBurneddb.Name = "tbTotalCalsBurneddb";
+            this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(59, 20);
+            this.tbTotalCalsBurneddb.TabIndex = 32;
+            // 
+            // tbNetCalsdb
+            // 
+            this.tbNetCalsdb.Location = new System.Drawing.Point(127, 314);
+            this.tbNetCalsdb.Name = "tbNetCalsdb";
+            this.tbNetCalsdb.Size = new System.Drawing.Size(108, 20);
+            this.tbNetCalsdb.TabIndex = 33;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.tbNetCalsdb);
+            this.Controls.Add(this.tbTotalCalsBurneddb);
+            this.Controls.Add(this.tbTotalCalsConsumeddb);
+            this.Controls.Add(this.tbCurrentWeightdb);
+            this.Controls.Add(this.tbUserMeassurementsdb);
+            this.Controls.Add(this.labelUserMeassurements);
+            this.Controls.Add(this.tbDailySummarydb);
+            this.Controls.Add(this.cbUserdb);
+            this.Controls.Add(this.labelDailySummary);
+            this.Controls.Add(this.labeluser);
+            this.Controls.Add(this.chWeightProgressdb);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLogFooddb);
+            this.Controls.Add(this.btnViewProgressbd);
+            this.Controls.Add(this.btnLogWorkoutdb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chWeightProgressdb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,14 +292,24 @@
 
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnLogWorkoutdb;
+        private System.Windows.Forms.Button btnViewProgressbd;
+        private System.Windows.Forms.Button btnLogFooddb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chWeightProgressdb;
+        private System.Windows.Forms.Label labeluser;
+        private System.Windows.Forms.Label labelDailySummary;
+        private System.Windows.Forms.ComboBox cbUserdb;
+        private System.Windows.Forms.TextBox tbDailySummarydb;
+        private System.Windows.Forms.TextBox tbUserMeassurementsdb;
+        private System.Windows.Forms.Label labelUserMeassurements;
+        private System.Windows.Forms.TextBox tbCurrentWeightdb;
+        private System.Windows.Forms.TextBox tbTotalCalsConsumeddb;
+        private System.Windows.Forms.TextBox tbTotalCalsBurneddb;
+        private System.Windows.Forms.TextBox tbNetCalsdb;
     }
 }
