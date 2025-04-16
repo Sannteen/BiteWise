@@ -73,5 +73,10 @@ namespace BiteWiseApp
         {
 
         }
+
+        private void RecipeDisplayTxtBx_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

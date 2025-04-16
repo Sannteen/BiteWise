@@ -47,7 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.EditGoals = new System.Windows.Forms.Button();
+            this.EditWeight = new System.Windows.Forms.Button();
             this.RefreshProg = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
@@ -195,15 +195,15 @@
             this.label9.Text = "Current Daily Calories ";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // EditGoals
+            // EditWeight
             // 
-            this.EditGoals.Location = new System.Drawing.Point(669, 263);
-            this.EditGoals.Name = "EditGoals";
-            this.EditGoals.Size = new System.Drawing.Size(181, 49);
-            this.EditGoals.TabIndex = 29;
-            this.EditGoals.Text = "Edit Goals";
-            this.EditGoals.UseVisualStyleBackColor = true;
-            this.EditGoals.Click += new System.EventHandler(this.button1_Click);
+            this.EditWeight.Location = new System.Drawing.Point(669, 263);
+            this.EditWeight.Name = "EditWeight";
+            this.EditWeight.Size = new System.Drawing.Size(181, 49);
+            this.EditWeight.TabIndex = 29;
+            this.EditWeight.Text = "Edit Weight";
+            this.EditWeight.UseVisualStyleBackColor = true;
+            this.EditWeight.Click += new System.EventHandler(this.button1_Click);
             // 
             // RefreshProg
             // 
@@ -220,7 +220,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(915, 558);
             this.Controls.Add(this.RefreshProg);
-            this.Controls.Add(this.EditGoals);
+            this.Controls.Add(this.EditWeight);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -263,7 +263,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button EditGoals;
+        private System.Windows.Forms.Button EditWeight;
         private System.Windows.Forms.Button RefreshProg;
     }
 }

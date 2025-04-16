@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\recipes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:recipes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\hotiy\\source\\repos\\bitewise\\bitewiseapp\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -39,39 +35,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Recipes.cs",
-              "DocumentMoniker": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\Recipes.cs",
-              "RelativeDocumentMoniker": "Recipes.cs",
-              "ToolTip": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\Recipes.cs*",
-              "RelativeToolTip": "Recipes.cs*",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwBYAAAA/AAAAAAAAAA==",
+              "Title": "UserSettings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserSettings.cs",
+              "RelativeDocumentMoniker": "UserSettings.cs",
+              "ToolTip": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\UserSettings.cs [Design]*",
+              "RelativeToolTip": "UserSettings.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:57:29.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Recipes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hotiy\\Source\\Repos\\BiteWise\\BiteWiseApp\\Recipes.Designer.cs",
-              "RelativeDocumentMoniker": "Recipes.Designer.cs",
-              "ToolTip": "C:\\Users\\hotiy\\Source\\Repos\\BiteWise\\BiteWiseApp\\Recipes.Designer.cs*",
-              "RelativeToolTip": "Recipes.Designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:58:13.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Recipes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\Recipes.cs",
-              "RelativeDocumentMoniker": "Recipes.cs",
-              "ToolTip": "C:\\Users\\hotiy\\source\\repos\\BiteWise\\BiteWiseApp\\Recipes.cs [Design]*",
-              "RelativeToolTip": "Recipes.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:56:38.406Z",
+              "WhenOpened": "2025-04-16T22:46:00.647Z",
               "EditorCaption": " [Design]"
             }
           ]

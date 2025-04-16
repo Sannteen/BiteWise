@@ -127,6 +127,12 @@
     <Compile Include="FoodLogging.Designer.cs">
       <DependentUpon>FoodLogging.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Settings.Designer.cs">
+      <DependentUpon>User Settings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Goal.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
@@ -224,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FoodLogging.resx">
       <DependentUpon>FoodLogging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Settings.resx">
+      <DependentUpon>User Settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressTrackingForm.resx">
       <DependentUpon>ProgressTrackingForm.cs</DependentUpon>

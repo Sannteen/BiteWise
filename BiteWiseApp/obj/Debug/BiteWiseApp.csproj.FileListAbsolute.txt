@@ -98,3 +98,4 @@ C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.Co
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Form1.resources
