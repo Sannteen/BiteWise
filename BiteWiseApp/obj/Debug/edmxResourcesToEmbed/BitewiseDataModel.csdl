@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BiteWiseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DailySummary">
+    <Key>
+      <PropertyRef Name="summary_id" />
+    </Key>
+    <Property Name="summary_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="total_calories_consumed" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="total_calories_burned" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="net_calories" Type="Decimal" Precision="5" Scale="2" />
+    <NavigationProperty Name="User" Relationship="Self.FK__DailySumm__user___4BAC3F29" FromRole="DailySummary" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Exercis">
+    <Key>
+      <PropertyRef Name="exercise_id" />
+    </Key>
+    <Property Name="exercise_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="calories_burned_per_min" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="user_id" Type="Int32" />
+    <NavigationProperty Name="WorkoutLogs" Relationship="Self.FK__WorkoutLo__exerc__48CFD27E" FromRole="Exercises" ToRole="WorkoutLogs" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Exercises_Users" FromRole="Exercises" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Food">
+    <Key>
+      <PropertyRef Name="food_id" />
+    </Key>
+    <Property Name="food_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="calories" Type="Int32" Nullable="false" />
+    <Property Name="protein" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="carbs" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="fats" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="fiber" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="serving_size" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="is_local" Type="Int16" />
+    <Property Name="user_id" Type="Int32" />
+    <NavigationProperty Name="Meals" Relationship="Self.FK__Meals__food_id__4316F928" FromRole="Food" ToRole="Meals" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Food_Users" FromRole="Food" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Goal">
+    <Key>
+      <PropertyRef Name="goal_id" />
+    </Key>
+    <Property Name="goal_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="target_weight" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="daily_caloric_target" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="weekly_weight_change_goal" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="created_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Goals__user_id__4E88ABD4" FromRole="Goals" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="JamaicanRecipe">
+    <Key>
+      <PropertyRef Name="recipe_id" />
+    </Key>
+    <Property Name="recipe_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="calories_per_serving" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="ingredients" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="instructions" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Meal">
+    <Key>
+      <PropertyRef Name="meal_id" />
+    </Key>
+    <Property Name="meal_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="food_id" Type="Int32" />
+    <Property Name="quantity" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="meal_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="consumed_at" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Food" Relationship="Self.FK__Meals__food_id__4316F928" FromRole="Meals" ToRole="Food" />
+    <NavigationProperty Name="User" Relationship="Self.FK__Meals__user_id__4222D4EF" FromRole="Meals" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User_Picture">
+    <Key>
+      <PropertyRef Name="user_Id" />
+    </Key>
+    <Property Name="user_Id" Type="Int32" Nullable="false" />
+    <Property Name="image" Type="Binary" MaxLength="50" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="UserMeasurement">
+    <Key>
+      <PropertyRef Name="measurement_id" />
+    </Key>
+    <Property Name="measurement_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="weight" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="waist_size" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="hip_size" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="chest_size" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="arm_size" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="leg_size" Type="Decimal" Precision="5" Scale="2" />
+    <NavigationProperty Name="User" Relationship="Self.FK__UserMeasu__user___3C69FB99" FromRole="UserMeasurements" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserPreference">
+    <Key>
+      <PropertyRef Name="preference_id" />
+    </Key>
+    <Property Name="preference_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="diet_type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="preferred_foods" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="allergies" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="disliked_foods" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK__UserPrefe__user___534D60F1" FromRole="UserPreferences" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="height" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="weight" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="activity_level" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="goal" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="lockStatus" Type="Int16" />
+    <Property Name="created_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="Login_Attempts" Type="Int32" />
+    <NavigationProperty Name="DailySummaries" Relationship="Self.FK__DailySumm__user___4BAC3F29" FromRole="Users" ToRole="DailySummary" />
+    <NavigationProperty Name="Exercises" Relationship="Self.FK_Exercises_Users" FromRole="Users" ToRole="Exercises" />
+    <NavigationProperty Name="Foods" Relationship="Self.FK_Food_Users" FromRole="Users" ToRole="Food" />
+    <NavigationProperty Name="Goals" Relationship="Self.FK__Goals__user_id__4E88ABD4" FromRole="Users" ToRole="Goals" />
+    <NavigationProperty Name="Meals" Relationship="Self.FK__Meals__user_id__4222D4EF" FromRole="Users" ToRole="Meals" />
+    <NavigationProperty Name="UserMeasurements" Relationship="Self.FK__UserMeasu__user___3C69FB99" FromRole="Users" ToRole="UserMeasurements" />
+    <NavigationProperty Name="UserPreferences" Relationship="Self.FK__UserPrefe__user___534D60F1" FromRole="Users" ToRole="UserPreferences" />
+    <NavigationProperty Name="WorkoutLogs" Relationship="Self.FK__WorkoutLo__user___47DBAE45" FromRole="Users" ToRole="WorkoutLogs" />
+  </EntityType>
+  <EntityType Name="WorkoutLog">
+    <Key>
+      <PropertyRef Name="log_id" />
+    </Key>
+    <Property Name="log_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" />
+    <Property Name="exercise_id" Type="Int32" />
+    <Property Name="duration" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="calories_burned" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Exercis" Relationship="Self.FK__WorkoutLo__exerc__48CFD27E" FromRole="WorkoutLogs" ToRole="Exercises" />
+    <NavigationProperty Name="User" Relationship="Self.FK__WorkoutLo__user___47DBAE45" FromRole="WorkoutLogs" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK__DailySumm__user___4BAC3F29">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DailySummary" Type="Self.DailySummary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="DailySummary">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__WorkoutLo__exerc__48CFD27E">
+    <End Role="Exercises" Type="Self.Exercis" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="WorkoutLogs" Type="Self.WorkoutLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exercises">
+        <PropertyRef Name="exercise_id" />
+      </Principal>
+      <Dependent Role="WorkoutLogs">
+        <PropertyRef Name="exercise_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exercises_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Exercises" Type="Self.Exercis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Exercises">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Meals__food_id__4316F928">
+    <End Role="Food" Type="Self.Food" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Meals" Type="Self.Meal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Food">
+        <PropertyRef Name="food_id" />
+      </Principal>
+      <Dependent Role="Meals">
+        <PropertyRef Name="food_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Food_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Food" Type="Self.Food" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Food">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Goals__user_id__4E88ABD4">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Goals" Type="Self.Goal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Goals">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Meals__user_id__4222D4EF">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Meals" Type="Self.Meal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Meals">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserMeasu__user___3C69FB99">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserMeasurements" Type="Self.UserMeasurement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="UserMeasurements">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserPrefe__user___534D60F1">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="UserPreferences" Type="Self.UserPreference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="UserPreferences">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__WorkoutLo__user___47DBAE45">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="WorkoutLogs" Type="Self.WorkoutLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="WorkoutLogs">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BiteWiseDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DailySummaries" EntityType="Self.DailySummary" />
+    <EntitySet Name="Exercises" EntityType="Self.Exercis" />
+    <EntitySet Name="Foods" EntityType="Self.Food" />
+    <EntitySet Name="Goals" EntityType="Self.Goal" />
+    <EntitySet Name="JamaicanRecipes" EntityType="Self.JamaicanRecipe" />
+    <EntitySet Name="Meals" EntityType="Self.Meal" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="User_Picture" EntityType="Self.User_Picture" />
+    <EntitySet Name="UserMeasurements" EntityType="Self.UserMeasurement" />
+    <EntitySet Name="UserPreferences" EntityType="Self.UserPreference" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="WorkoutLogs" EntityType="Self.WorkoutLog" />
+    <AssociationSet Name="FK__DailySumm__user___4BAC3F29" Association="Self.FK__DailySumm__user___4BAC3F29">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="DailySummary" EntitySet="DailySummaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK__WorkoutLo__exerc__48CFD27E" Association="Self.FK__WorkoutLo__exerc__48CFD27E">
+      <End Role="Exercises" EntitySet="Exercises" />
+      <End Role="WorkoutLogs" EntitySet="WorkoutLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exercises_Users" Association="Self.FK_Exercises_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Exercises" EntitySet="Exercises" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Meals__food_id__4316F928" Association="Self.FK__Meals__food_id__4316F928">
+      <End Role="Food" EntitySet="Foods" />
+      <End Role="Meals" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Food_Users" Association="Self.FK_Food_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Food" EntitySet="Foods" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Goals__user_id__4E88ABD4" Association="Self.FK__Goals__user_id__4E88ABD4">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Goals" EntitySet="Goals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Meals__user_id__4222D4EF" Association="Self.FK__Meals__user_id__4222D4EF">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Meals" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserMeasu__user___3C69FB99" Association="Self.FK__UserMeasu__user___3C69FB99">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserMeasurements" EntitySet="UserMeasurements" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserPrefe__user___534D60F1" Association="Self.FK__UserPrefe__user___534D60F1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserPreferences" EntitySet="UserPreferences" />
+    </AssociationSet>
+    <AssociationSet Name="FK__WorkoutLo__user___47DBAE45" Association="Self.FK__WorkoutLo__user___47DBAE45">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="WorkoutLogs" EntitySet="WorkoutLogs" />
+    </AssociationSet>
+    <FunctionImport Name="ExerciseSearch_Category" ReturnType="Collection(BiteWiseDBModel.ExerciseSearch_Category_Result)">
+      <Parameter Name="Category" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ExerciseSearch_Name" ReturnType="Collection(BiteWiseDBModel.ExerciseSearch_Name_Result)">
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ExerciseSearch_UserID" ReturnType="Collection(BiteWiseDBModel.ExerciseSearch_UserID_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Login_Attemps_Count">
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="Attempts" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SignUp">
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="Age" Mode="In" Type="Int32" />
+      <Parameter Name="Gender" Mode="In" Type="String" />
+      <Parameter Name="Height" Mode="In" Type="Decimal" />
+      <Parameter Name="Weight" Mode="In" Type="Decimal" />
+      <Parameter Name="ActivityLvl" Mode="In" Type="String" />
+      <Parameter Name="Goal" Mode="In" Type="String" />
+      <Parameter Name="LockStatus" Mode="In" Type="Int16" />
+      <Parameter Name="Creation_Date" Mode="In" Type="DateTime" />
+      <Parameter Name="Login_Attempts" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(BiteWiseDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(BiteWiseDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="User_Login">
+      <Parameter Name="email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="IsAccountUnlocked" Mode="InOut" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="User_Login_test">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="IsAccountUnlocked" Mode="InOut" Type="Int16" />
+    </FunctionImport>
+    <FunctionImport Name="UserDetails" ReturnType="Collection(BiteWiseDBModel.UserDetails_Result)">
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ExerciseSearch_Category_Result">
+    <Property Type="Int32" Name="exercise_id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="category" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="calories_burned_per_min" Nullable="false" Precision="5" Scale="2" />
+    <Property Type="Int32" Name="user_id" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ExerciseSearch_Name_Result">
+    <Property Type="Int32" Name="exercise_id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="category" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="calories_burned_per_min" Nullable="false" Precision="5" Scale="2" />
+    <Property Type="Int32" Name="user_id" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ExerciseSearch_UserID_Result">
+    <Property Type="Int32" Name="exercise_id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="category" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="calories_burned_per_min" Nullable="false" Precision="5" Scale="2" />
+    <Property Type="Int32" Name="user_id" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="UserDetails_Result">
+    <Property Type="Int32" Name="user_id" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="password" Nullable="false" MaxLength="255" />
+    <Property Type="Int32" Name="age" Nullable="true" />
+    <Property Type="String" Name="gender" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="height" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="Decimal" Name="weight" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="String" Name="activity_level" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="goal" Nullable="true" MaxLength="100" />
+    <Property Type="Int16" Name="lockStatus" Nullable="true" />
+    <Property Type="DateTime" Name="created_at" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="updated_at" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Login_Attempts" Nullable="true" />
+  </ComplexType>
+</Schema>

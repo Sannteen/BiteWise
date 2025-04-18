@@ -13,44 +13,17 @@ namespace BiteWiseApp
 {
     public partial class SummaryForm: Form
     {
+        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
         public SummaryForm()
         {
             InitializeComponent();
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void foodloglabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void NetCalorieslabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void chart1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
+            biteWiseDBEntities = new BiteWiseDBEntities1();
         }
 
         private void SummaryForm_Load(object sender, EventArgs e)
         {
-
+            var FoodLog = biteWiseDBEntities.Foods.ToList(); 
+            FoodLogDataGridView.DataSource = FoodLog;
         }
     }
 }
