@@ -98,3 +98,11 @@ C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.Co
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\hotiy\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\CircularProgressBar.dll
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.dll
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\WinFormAnimation.dll
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\CircularProgressBar.xml
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.xml
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date

@@ -66,6 +66,9 @@ namespace BiteWiseApp
 
         }
 
+        private void UserProfileForm_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

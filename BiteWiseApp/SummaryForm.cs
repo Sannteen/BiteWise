@@ -25,5 +25,15 @@ namespace BiteWiseApp
             var FoodLog = biteWiseDBEntities.Foods.ToList(); 
             FoodLogDataGridView.DataSource = FoodLog;
         }
+
+        private void WorkoutLogDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FoodLogDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
