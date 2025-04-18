@@ -33,23 +33,23 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label5 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.WeightChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.WeightHistoryTxtBx = new System.Windows.Forms.Label();
+            this.CurrentWeightTxtBx = new System.Windows.Forms.TextBox();
+            this.TargetWeightTxtBx = new System.Windows.Forms.TextBox();
+            this.CurrentDailyCalTxtBx = new System.Windows.Forms.TextBox();
+            this.WklyWeightChangeGoalTxtBx = new System.Windows.Forms.TextBox();
+            this.DailyCalTargetTxtBx = new System.Windows.Forms.TextBox();
+            this.CurrentWeightLabel = new System.Windows.Forms.Label();
+            this.TargetWeightLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.WklyWeightChangeGoalLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.EditGoals = new System.Windows.Forms.Button();
-            this.RefreshProg = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.DailyCalTargetLabel = new System.Windows.Forms.Label();
+            this.CurrentDailyCalLabel = new System.Windows.Forms.Label();
+            this.EditWeightBtn = new System.Windows.Forms.Button();
+            this.RefreshProgBtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.WeightChart)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -64,90 +64,90 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "BiteWise";
             // 
-            // chart1
+            // WeightChart
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.WeightChart.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(29, 241);
-            this.chart1.Name = "chart1";
+            this.WeightChart.Legends.Add(legend1);
+            this.WeightChart.Location = new System.Drawing.Point(29, 241);
+            this.WeightChart.Name = "WeightChart";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.Legend = "Legend1";
             series1.Name = "Weight";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(593, 274);
-            this.chart1.TabIndex = 14;
-            this.chart1.Text = "Weight";
-            this.chart1.Click += new System.EventHandler(this.chart1_Click);
+            this.WeightChart.Series.Add(series1);
+            this.WeightChart.Size = new System.Drawing.Size(593, 274);
+            this.WeightChart.TabIndex = 14;
+            this.WeightChart.Text = "Weight";
+            this.WeightChart.Click += new System.EventHandler(this.chart1_Click);
             // 
-            // label1
+            // WeightHistoryTxtBx
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 218);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Weight History";
+            this.WeightHistoryTxtBx.AutoSize = true;
+            this.WeightHistoryTxtBx.Location = new System.Drawing.Point(25, 218);
+            this.WeightHistoryTxtBx.Name = "WeightHistoryTxtBx";
+            this.WeightHistoryTxtBx.Size = new System.Drawing.Size(112, 20);
+            this.WeightHistoryTxtBx.TabIndex = 15;
+            this.WeightHistoryTxtBx.Text = "Weight History";
             // 
-            // textBox1
+            // CurrentWeightTxtBx
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 26);
-            this.textBox1.TabIndex = 16;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.CurrentWeightTxtBx.Location = new System.Drawing.Point(29, 69);
+            this.CurrentWeightTxtBx.Name = "CurrentWeightTxtBx";
+            this.CurrentWeightTxtBx.Size = new System.Drawing.Size(144, 26);
+            this.CurrentWeightTxtBx.TabIndex = 16;
+            this.CurrentWeightTxtBx.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // TargetWeightTxtBx
             // 
-            this.textBox2.Location = new System.Drawing.Point(237, 69);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(144, 26);
-            this.textBox2.TabIndex = 17;
+            this.TargetWeightTxtBx.Location = new System.Drawing.Point(237, 69);
+            this.TargetWeightTxtBx.Name = "TargetWeightTxtBx";
+            this.TargetWeightTxtBx.Size = new System.Drawing.Size(144, 26);
+            this.TargetWeightTxtBx.TabIndex = 17;
             // 
-            // textBox3
+            // CurrentDailyCalTxtBx
             // 
-            this.textBox3.Location = new System.Drawing.Point(336, 155);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(182, 26);
-            this.textBox3.TabIndex = 18;
+            this.CurrentDailyCalTxtBx.Location = new System.Drawing.Point(336, 155);
+            this.CurrentDailyCalTxtBx.Name = "CurrentDailyCalTxtBx";
+            this.CurrentDailyCalTxtBx.Size = new System.Drawing.Size(182, 26);
+            this.CurrentDailyCalTxtBx.TabIndex = 18;
             // 
-            // textBox4
+            // WklyWeightChangeGoalTxtBx
             // 
-            this.textBox4.Location = new System.Drawing.Point(653, 69);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(144, 26);
-            this.textBox4.TabIndex = 19;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.WklyWeightChangeGoalTxtBx.Location = new System.Drawing.Point(653, 69);
+            this.WklyWeightChangeGoalTxtBx.Name = "WklyWeightChangeGoalTxtBx";
+            this.WklyWeightChangeGoalTxtBx.Size = new System.Drawing.Size(144, 26);
+            this.WklyWeightChangeGoalTxtBx.TabIndex = 19;
+            this.WklyWeightChangeGoalTxtBx.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox6
+            // DailyCalTargetTxtBx
             // 
-            this.textBox6.Location = new System.Drawing.Point(444, 69);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(144, 26);
-            this.textBox6.TabIndex = 21;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.DailyCalTargetTxtBx.Location = new System.Drawing.Point(444, 69);
+            this.DailyCalTargetTxtBx.Name = "DailyCalTargetTxtBx";
+            this.DailyCalTargetTxtBx.Size = new System.Drawing.Size(144, 26);
+            this.DailyCalTargetTxtBx.TabIndex = 21;
+            this.DailyCalTargetTxtBx.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
-            // label2
+            // CurrentWeightLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 20);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Current Weight";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.CurrentWeightLabel.AutoSize = true;
+            this.CurrentWeightLabel.Location = new System.Drawing.Point(25, 46);
+            this.CurrentWeightLabel.Name = "CurrentWeightLabel";
+            this.CurrentWeightLabel.Size = new System.Drawing.Size(116, 20);
+            this.CurrentWeightLabel.TabIndex = 22;
+            this.CurrentWeightLabel.Text = "Current Weight";
+            this.CurrentWeightLabel.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // TargetWeightLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(233, 46);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 20);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Target Weight";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.TargetWeightLabel.AutoSize = true;
+            this.TargetWeightLabel.Location = new System.Drawing.Point(233, 46);
+            this.TargetWeightLabel.Name = "TargetWeightLabel";
+            this.TargetWeightLabel.Size = new System.Drawing.Size(109, 20);
+            this.TargetWeightLabel.TabIndex = 23;
+            this.TargetWeightLabel.Text = "Target Weight";
+            this.TargetWeightLabel.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -157,14 +157,14 @@
             this.label4.Size = new System.Drawing.Size(0, 20);
             this.label4.TabIndex = 24;
             // 
-            // label6
+            // WklyWeightChangeGoalLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(649, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(212, 20);
-            this.label6.TabIndex = 25;
-            this.label6.Text = "Weekly Weight Change Goal";
+            this.WklyWeightChangeGoalLabel.AutoSize = true;
+            this.WklyWeightChangeGoalLabel.Location = new System.Drawing.Point(649, 46);
+            this.WklyWeightChangeGoalLabel.Name = "WklyWeightChangeGoalLabel";
+            this.WklyWeightChangeGoalLabel.Size = new System.Drawing.Size(212, 20);
+            this.WklyWeightChangeGoalLabel.TabIndex = 25;
+            this.WklyWeightChangeGoalLabel.Text = "Weekly Weight Change Goal";
             // 
             // label7
             // 
@@ -175,71 +175,71 @@
             this.label7.TabIndex = 26;
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label8
+            // DailyCalTargetLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(443, 46);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(145, 20);
-            this.label8.TabIndex = 27;
-            this.label8.Text = "Daily Caloric Target";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.DailyCalTargetLabel.AutoSize = true;
+            this.DailyCalTargetLabel.Location = new System.Drawing.Point(443, 46);
+            this.DailyCalTargetLabel.Name = "DailyCalTargetLabel";
+            this.DailyCalTargetLabel.Size = new System.Drawing.Size(145, 20);
+            this.DailyCalTargetLabel.TabIndex = 27;
+            this.DailyCalTargetLabel.Text = "Daily Caloric Target";
+            this.DailyCalTargetLabel.Click += new System.EventHandler(this.label8_Click);
             // 
-            // label9
+            // CurrentDailyCalLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(342, 132);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(165, 20);
-            this.label9.TabIndex = 28;
-            this.label9.Text = "Current Daily Calories ";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.CurrentDailyCalLabel.AutoSize = true;
+            this.CurrentDailyCalLabel.Location = new System.Drawing.Point(342, 132);
+            this.CurrentDailyCalLabel.Name = "CurrentDailyCalLabel";
+            this.CurrentDailyCalLabel.Size = new System.Drawing.Size(165, 20);
+            this.CurrentDailyCalLabel.TabIndex = 28;
+            this.CurrentDailyCalLabel.Text = "Current Daily Calories ";
+            this.CurrentDailyCalLabel.Click += new System.EventHandler(this.label9_Click);
             // 
-            // EditGoals
+            // EditWeightBtn
             // 
-            this.EditGoals.Location = new System.Drawing.Point(669, 263);
-            this.EditGoals.Name = "EditGoals";
-            this.EditGoals.Size = new System.Drawing.Size(181, 49);
-            this.EditGoals.TabIndex = 29;
-            this.EditGoals.Text = "Edit Goals";
-            this.EditGoals.UseVisualStyleBackColor = true;
-            this.EditGoals.Click += new System.EventHandler(this.button1_Click);
+            this.EditWeightBtn.Location = new System.Drawing.Point(669, 263);
+            this.EditWeightBtn.Name = "EditWeightBtn";
+            this.EditWeightBtn.Size = new System.Drawing.Size(181, 49);
+            this.EditWeightBtn.TabIndex = 29;
+            this.EditWeightBtn.Text = "Update Weight";
+            this.EditWeightBtn.UseVisualStyleBackColor = true;
+            this.EditWeightBtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // RefreshProg
+            // RefreshProgBtn
             // 
-            this.RefreshProg.Location = new System.Drawing.Point(674, 347);
-            this.RefreshProg.Name = "RefreshProg";
-            this.RefreshProg.Size = new System.Drawing.Size(176, 51);
-            this.RefreshProg.TabIndex = 30;
-            this.RefreshProg.Text = "Refresh Progress";
-            this.RefreshProg.UseVisualStyleBackColor = true;
+            this.RefreshProgBtn.Location = new System.Drawing.Point(674, 347);
+            this.RefreshProgBtn.Name = "RefreshProgBtn";
+            this.RefreshProgBtn.Size = new System.Drawing.Size(176, 51);
+            this.RefreshProgBtn.TabIndex = 30;
+            this.RefreshProgBtn.Text = "Refresh Progress";
+            this.RefreshProgBtn.UseVisualStyleBackColor = true;
             // 
             // Goals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(915, 558);
-            this.Controls.Add(this.RefreshProg);
-            this.Controls.Add(this.EditGoals);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.RefreshProgBtn);
+            this.Controls.Add(this.EditWeightBtn);
+            this.Controls.Add(this.CurrentDailyCalLabel);
+            this.Controls.Add(this.DailyCalTargetLabel);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.WklyWeightChangeGoalLabel);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.TargetWeightLabel);
+            this.Controls.Add(this.CurrentWeightLabel);
+            this.Controls.Add(this.DailyCalTargetTxtBx);
+            this.Controls.Add(this.WklyWeightChangeGoalTxtBx);
+            this.Controls.Add(this.CurrentDailyCalTxtBx);
+            this.Controls.Add(this.TargetWeightTxtBx);
+            this.Controls.Add(this.CurrentWeightTxtBx);
+            this.Controls.Add(this.WeightHistoryTxtBx);
+            this.Controls.Add(this.WeightChart);
             this.Controls.Add(this.label5);
             this.Name = "Goals";
             this.Text = "Goals";
             this.Load += new System.EventHandler(this.Goals_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WeightChart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,21 +249,21 @@
 
         private System.Windows.Forms.Label label5;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataVisualization.Charting.Chart WeightChart;
+        private System.Windows.Forms.Label WeightHistoryTxtBx;
+        private System.Windows.Forms.TextBox CurrentWeightTxtBx;
+        private System.Windows.Forms.TextBox TargetWeightTxtBx;
+        private System.Windows.Forms.TextBox CurrentDailyCalTxtBx;
+        private System.Windows.Forms.TextBox WklyWeightChangeGoalTxtBx;
+        private System.Windows.Forms.TextBox DailyCalTargetTxtBx;
+        private System.Windows.Forms.Label CurrentWeightLabel;
+        private System.Windows.Forms.Label TargetWeightLabel;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label WklyWeightChangeGoalLabel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button EditGoals;
-        private System.Windows.Forms.Button RefreshProg;
+        private System.Windows.Forms.Label DailyCalTargetLabel;
+        private System.Windows.Forms.Label CurrentDailyCalLabel;
+        private System.Windows.Forms.Button EditWeightBtn;
+        private System.Windows.Forms.Button RefreshProgBtn;
     }
 }

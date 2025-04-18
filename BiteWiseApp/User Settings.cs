@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace BiteWiseApp
 {
-    public partial class FoodLogging: Form
+    public partial class Form1: Form
     {
-        public FoodLogging()
+        public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

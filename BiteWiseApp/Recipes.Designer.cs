@@ -62,6 +62,7 @@
             this.RecipeDisplayTxtBx.Name = "RecipeDisplayTxtBx";
             this.RecipeDisplayTxtBx.Size = new System.Drawing.Size(672, 149);
             this.RecipeDisplayTxtBx.TabIndex = 2;
+            this.RecipeDisplayTxtBx.TextChanged += new System.EventHandler(this.RecipeDisplayTxtBx_TextChanged);
             // 
             // RecipeOfDayLabel
             // 

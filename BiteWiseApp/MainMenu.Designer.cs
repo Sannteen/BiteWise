@@ -43,6 +43,8 @@
             this.UsernameTxt = new System.Windows.Forms.Label();
             this.TimerLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.goalsOverviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +57,8 @@
             this.recipesToolStripMenuItem,
             this.userPreferencesToolStripMenuItem,
             this.goalsToolStripMenuItem,
-            this.ActivityStripMenuItem});
+            this.ActivityStripMenuItem,
+            this.userSettingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
@@ -81,7 +84,7 @@
             // getRecipesToolStripMenuItem
             // 
             this.getRecipesToolStripMenuItem.Name = "getRecipesToolStripMenuItem";
-            this.getRecipesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.getRecipesToolStripMenuItem.Size = new System.Drawing.Size(205, 34);
             this.getRecipesToolStripMenuItem.Text = "Get Recipes";
             this.getRecipesToolStripMenuItem.Click += new System.EventHandler(this.getRecipesToolStripMenuItem_Click);
             // 
@@ -96,7 +99,8 @@
             // 
             this.goalsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.summaryToolStripMenuItem});
+            this.summaryToolStripMenuItem,
+            this.goalsOverviewToolStripMenuItem});
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
             this.goalsToolStripMenuItem.Size = new System.Drawing.Size(72, 29);
             this.goalsToolStripMenuItem.Text = "Goals";
@@ -129,13 +133,13 @@
             // exerciseToolStripMenuItem
             // 
             this.exerciseToolStripMenuItem.Name = "exerciseToolStripMenuItem";
-            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(175, 34);
             this.exerciseToolStripMenuItem.Text = "Exercise";
             // 
             // serachToolStripMenuItem
             // 
             this.serachToolStripMenuItem.Name = "serachToolStripMenuItem";
-            this.serachToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.serachToolStripMenuItem.Size = new System.Drawing.Size(175, 34);
             this.serachToolStripMenuItem.Text = "Search";
             // 
             // UsernameTxt
@@ -168,6 +172,19 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // userSettingsToolStripMenuItem
+            // 
+            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
+            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(132, 29);
+            this.userSettingsToolStripMenuItem.Text = "User Settings";
+            // 
+            // goalsOverviewToolStripMenuItem
+            // 
+            this.goalsOverviewToolStripMenuItem.CheckOnClick = true;
+            this.goalsOverviewToolStripMenuItem.Name = "goalsOverviewToolStripMenuItem";
+            this.goalsOverviewToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.goalsOverviewToolStripMenuItem.Text = "Goals Overview";
             // 
             // MainMenu
             // 
@@ -207,5 +224,7 @@
         public System.Windows.Forms.Label UsernameTxt;
         public System.Windows.Forms.Label TimerLbl;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem userSettingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem goalsOverviewToolStripMenuItem;
     }
 }

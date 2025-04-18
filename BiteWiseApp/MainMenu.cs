@@ -63,7 +63,14 @@ namespace BiteWiseApp
 
         private void goalsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Goals G1 = new Goals();
+            G1.MdiParent = this;
+            G1.Show();
+        }
 
+        private void goalsOverviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void userToolStripMenuItem_Click(object sender, EventArgs e)
@@ -82,5 +89,6 @@ namespace BiteWiseApp
             this.TimerLbl.Text = Time.ToString();
 
         }
+
     }
 }
