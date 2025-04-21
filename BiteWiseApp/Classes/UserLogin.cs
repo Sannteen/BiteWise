@@ -54,7 +54,7 @@ namespace BiteWiseApp.Classes
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"An error occurred: {ex.Message}");
+                    MessageBox.Show($"An error occurred: {ex.Message}","Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 

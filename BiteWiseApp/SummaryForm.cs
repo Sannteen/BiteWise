@@ -35,5 +35,10 @@ namespace BiteWiseApp
         {
 
         }
+
+        private void DateLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -20,6 +20,23 @@ namespace BiteWiseApp
            
         }
 
+        private void LoadFormInPanel(Form form)
+        {
+            panelMain.Controls.Clear();              // Remove existing child controls
+            form.TopLevel = false;                   // Important: embed form in panel
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Dock = DockStyle.None;
+            panelMain.Controls.Add(form);
+
+            //center in panel
+            form.Location = new Point(
+               (panelMain.Width - form.Width) / 2,
+               (panelMain.Height - form.Height) / 2
+           );
+
+            form.Show();
+        }
+
         private void recipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
@@ -28,44 +45,35 @@ namespace BiteWiseApp
 
         private void userPreferencesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserProfileForm upf = new UserProfileForm();
-            upf.MdiParent = this;
-            upf.Show();
+            LoadFormInPanel(new UserProfileForm());
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
        {
-          ProgressTrackingForm ptf = new ProgressTrackingForm();
-          ptf.MdiParent = this;
-          ptf.Show();
+            LoadFormInPanel(new ProgressTrackingForm());
         }
 
         private void summaryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SummaryForm sf = new SummaryForm();
-            sf.MdiParent = this;
-            sf.Show();
+            LoadFormInPanel(new SummaryForm());
         }
 
         private void getRecipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            Recipes R1 = new Recipes();
-            R1.MdiParent = this;
-            R1.Show();
+            LoadFormInPanel(new Recipes());
 
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-
+            LoadFormInPanel(new Dashboard());
+            
         }
 
         private void goalsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Goals G1 = new Goals();
-            G1.MdiParent = this;
-            G1.Show();
+            LoadFormInPanel(new Goals());
         }
 
         private void goalsOverviewToolStripMenuItem_Click(object sender, EventArgs e)
@@ -90,5 +98,14 @@ namespace BiteWiseApp
 
         }
 
+        private void dashboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new Dashboard());
+        }
+
+        private void serachToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new ExerciseSearchLog());
+        }
     }
 }

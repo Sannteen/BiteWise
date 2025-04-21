@@ -82,6 +82,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BitewiseDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="BiteWiseDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiteWiseDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BiteWiseDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiteWiseDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BiteWiseDBDataSet_Workout.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BiteWiseDBDataSet_Workout.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Recipe.cs" />
     <Compile Include="Classes\UserLogin.cs" />
     <Compile Include="Classes\User_Rgestration.cs" />
@@ -213,6 +228,11 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="User_ExerciseLog_View.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>User_ExerciseLog_View.xsd</DependentUpon>
+    </Compile>
     <Compile Include="User_Picture.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
@@ -275,6 +295,39 @@
     <None Include="BitewiseDataModel.edmx.diagram">
       <DependentUpon>BitewiseDataModel.edmx</DependentUpon>
     </None>
+    <None Include="BiteWiseDBDataSet.xsc">
+      <DependentUpon>BiteWiseDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BiteWiseDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BiteWiseDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BiteWiseDBDataSet.xss">
+      <DependentUpon>BiteWiseDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BiteWiseDBDataSet1.xsc">
+      <DependentUpon>BiteWiseDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BiteWiseDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BiteWiseDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BiteWiseDBDataSet1.xss">
+      <DependentUpon>BiteWiseDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BiteWiseDBDataSet_Workout.xsc">
+      <DependentUpon>BiteWiseDBDataSet_Workout.xsd</DependentUpon>
+    </None>
+    <None Include="BiteWiseDBDataSet_Workout.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BiteWiseDBDataSet_Workout.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BiteWiseDBDataSet_Workout.xss">
+      <DependentUpon>BiteWiseDBDataSet_Workout.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -285,6 +338,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="User_ExerciseLog_View.xsc">
+      <DependentUpon>User_ExerciseLog_View.xsd</DependentUpon>
+    </None>
+    <None Include="User_ExerciseLog_View.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>User_ExerciseLog_View.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="User_ExerciseLog_View.xss">
+      <DependentUpon>User_ExerciseLog_View.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

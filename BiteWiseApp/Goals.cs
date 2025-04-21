@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,6 +69,21 @@ namespace BiteWiseApp
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void RefreshProgBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WklyWeightChangeGoalLabel_Click(object sender, EventArgs e)
         {
 
         }

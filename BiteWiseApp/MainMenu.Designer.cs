@@ -37,20 +37,20 @@
             this.goalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.summaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.goalsOverviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ActivityStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exerciseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.UsernameTxt = new System.Windows.Forms.Label();
             this.TimerLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.goalsOverviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
@@ -62,36 +62,37 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(1133, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(1133, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // dashboardToolStripMenuItem
             // 
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(116, 29);
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(76, 22);
             this.dashboardToolStripMenuItem.Text = "Dashboard";
+            this.dashboardToolStripMenuItem.Click += new System.EventHandler(this.dashboardToolStripMenuItem_Click);
             // 
             // recipesToolStripMenuItem
             // 
             this.recipesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.getRecipesToolStripMenuItem});
             this.recipesToolStripMenuItem.Name = "recipesToolStripMenuItem";
-            this.recipesToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
+            this.recipesToolStripMenuItem.Size = new System.Drawing.Size(59, 22);
             this.recipesToolStripMenuItem.Text = "Recipes";
             this.recipesToolStripMenuItem.Click += new System.EventHandler(this.recipesToolStripMenuItem_Click);
             // 
             // getRecipesToolStripMenuItem
             // 
             this.getRecipesToolStripMenuItem.Name = "getRecipesToolStripMenuItem";
-            this.getRecipesToolStripMenuItem.Size = new System.Drawing.Size(205, 34);
+            this.getRecipesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.getRecipesToolStripMenuItem.Text = "Get Recipes";
             this.getRecipesToolStripMenuItem.Click += new System.EventHandler(this.getRecipesToolStripMenuItem_Click);
             // 
             // userPreferencesToolStripMenuItem
             // 
             this.userPreferencesToolStripMenuItem.Name = "userPreferencesToolStripMenuItem";
-            this.userPreferencesToolStripMenuItem.Size = new System.Drawing.Size(78, 29);
+            this.userPreferencesToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
             this.userPreferencesToolStripMenuItem.Text = "Profile";
             this.userPreferencesToolStripMenuItem.Click += new System.EventHandler(this.userPreferencesToolStripMenuItem_Click);
             // 
@@ -102,23 +103,30 @@
             this.summaryToolStripMenuItem,
             this.goalsOverviewToolStripMenuItem});
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
-            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(72, 29);
+            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
             this.goalsToolStripMenuItem.Text = "Goals";
             this.goalsToolStripMenuItem.Click += new System.EventHandler(this.goalsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "Progress Tracking";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // summaryToolStripMenuItem
             // 
             this.summaryToolStripMenuItem.Name = "summaryToolStripMenuItem";
-            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.summaryToolStripMenuItem.Text = "Summary";
             this.summaryToolStripMenuItem.Click += new System.EventHandler(this.summaryToolStripMenuItem_Click);
+            // 
+            // goalsOverviewToolStripMenuItem
+            // 
+            this.goalsOverviewToolStripMenuItem.CheckOnClick = true;
+            this.goalsOverviewToolStripMenuItem.Name = "goalsOverviewToolStripMenuItem";
+            this.goalsOverviewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.goalsOverviewToolStripMenuItem.Text = "Goals Overview";
             // 
             // ActivityStripMenuItem
             // 
@@ -126,32 +134,39 @@
             this.exerciseToolStripMenuItem,
             this.serachToolStripMenuItem});
             this.ActivityStripMenuItem.Name = "ActivityStripMenuItem";
-            this.ActivityStripMenuItem.Size = new System.Drawing.Size(121, 29);
+            this.ActivityStripMenuItem.Size = new System.Drawing.Size(82, 22);
             this.ActivityStripMenuItem.Text = "Activity Log";
             this.ActivityStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
             // 
             // exerciseToolStripMenuItem
             // 
             this.exerciseToolStripMenuItem.Name = "exerciseToolStripMenuItem";
-            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(175, 34);
+            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.exerciseToolStripMenuItem.Text = "Exercise";
             // 
             // serachToolStripMenuItem
             // 
             this.serachToolStripMenuItem.Name = "serachToolStripMenuItem";
-            this.serachToolStripMenuItem.Size = new System.Drawing.Size(175, 34);
+            this.serachToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.serachToolStripMenuItem.Text = "Search";
+            this.serachToolStripMenuItem.Click += new System.EventHandler(this.serachToolStripMenuItem_Click);
+            // 
+            // userSettingsToolStripMenuItem
+            // 
+            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
+            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.userSettingsToolStripMenuItem.Text = "User Settings";
             // 
             // UsernameTxt
             // 
             this.UsernameTxt.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.UsernameTxt.AutoSize = true;
-            this.UsernameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameTxt.Font = new System.Drawing.Font("Arial Narrow", 10F);
             this.UsernameTxt.ForeColor = System.Drawing.Color.Black;
             this.UsernameTxt.Location = new System.Drawing.Point(701, 0);
             this.UsernameTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UsernameTxt.Name = "UsernameTxt";
-            this.UsernameTxt.Size = new System.Drawing.Size(26, 33);
+            this.UsernameTxt.Size = new System.Drawing.Size(12, 17);
             this.UsernameTxt.TabIndex = 3;
             this.UsernameTxt.Text = "*";
             // 
@@ -159,12 +174,12 @@
             // 
             this.TimerLbl.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TimerLbl.AutoSize = true;
-            this.TimerLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimerLbl.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimerLbl.ForeColor = System.Drawing.Color.Black;
             this.TimerLbl.Location = new System.Drawing.Point(848, 0);
             this.TimerLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TimerLbl.Name = "TimerLbl";
-            this.TimerLbl.Size = new System.Drawing.Size(26, 33);
+            this.TimerLbl.Size = new System.Drawing.Size(11, 16);
             this.TimerLbl.TabIndex = 3;
             this.TimerLbl.Text = "*";
             this.TimerLbl.Click += new System.EventHandler(this.TimerLbl_Click);
@@ -173,24 +188,20 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // userSettingsToolStripMenuItem
+            // panelMain
             // 
-            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
-            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(132, 29);
-            this.userSettingsToolStripMenuItem.Text = "User Settings";
-            // 
-            // goalsOverviewToolStripMenuItem
-            // 
-            this.goalsOverviewToolStripMenuItem.CheckOnClick = true;
-            this.goalsOverviewToolStripMenuItem.Name = "goalsOverviewToolStripMenuItem";
-            this.goalsOverviewToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.goalsOverviewToolStripMenuItem.Text = "Goals Overview";
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 24);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1133, 546);
+            this.panelMain.TabIndex = 5;
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 570);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.TimerLbl);
             this.Controls.Add(this.UsernameTxt);
             this.Controls.Add(this.menuStrip1);
@@ -226,5 +237,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem userSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goalsOverviewToolStripMenuItem;
+        private System.Windows.Forms.Panel panelMain;
     }
 }

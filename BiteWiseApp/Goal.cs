@@ -11,7 +11,7 @@ namespace BiteWiseApp
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class Goal
     {
         public int goal_id { get; set; }

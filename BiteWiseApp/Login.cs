@@ -68,7 +68,7 @@ namespace BiteWiseApp
                         MainMenu MM = new MainMenu();
                         this.Hide();
                         MM.Show();
-                        MM.UsernameTxt.Text = email.ToString();
+                        MM.UsernameTxt.Text = "Current User: " +email.ToString();
 
 
 
@@ -77,11 +77,12 @@ namespace BiteWiseApp
                     }
                     else if (accountStatus == "1" )
                     {
-                        MessageBox.Show("Your account is locked. Please contact support.");
+                        MessageBox.Show("Your account is locked. Please contact support.","Login",MessageBoxButtons.OK,MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        MessageBox.Show("Invalid credentials. Please try again.");
+                        MessageBox.Show("Invalid credentials. Please try again.", "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                     }
 
 
@@ -91,7 +92,8 @@ namespace BiteWiseApp
                 catch (Exception es)
                 {
 
-                    MessageBox.Show(es.ToString(), "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show(es.Message, "Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    GC.Collect();
 
                 }
 
