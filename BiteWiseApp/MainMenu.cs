@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BiteWiseApp.Properties;
 
 
 namespace BiteWiseApp
@@ -45,7 +46,7 @@ namespace BiteWiseApp
 
         private void userPreferencesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new UserProfileForm());
+            
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -60,9 +61,7 @@ namespace BiteWiseApp
 
         private void getRecipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             LoadFormInPanel(new Recipes());
-
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -73,13 +72,9 @@ namespace BiteWiseApp
 
         private void goalsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new Goals());
+           
         }
 
-        private void goalsOverviewToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void userToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -106,6 +101,36 @@ namespace BiteWiseApp
         private void serachToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LoadFormInPanel(new ExerciseSearchLog());
+        }
+
+        private void exerciseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new ExerciseLogging());
+        }
+
+        private void goalsOverviewToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new Goals());
+        }
+
+        private void userProfileToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new UserProfileForm());
+        }
+
+        private void userSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new UserSettings());
+        }
+
+        private void goalsOverviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new Goals());
+        }
+
+        private void exerciseToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new ExerciseLogging());
         }
     }
 }

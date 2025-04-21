@@ -93,7 +93,6 @@ C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Dashbo
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseLogging.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseSearchLog.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.FoodLogging.resources
-C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Form1.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ProgressTrackingForm.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SummaryForm.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.UserProfileForm.resources
@@ -108,3 +107,4 @@ C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.UserSettings.resources

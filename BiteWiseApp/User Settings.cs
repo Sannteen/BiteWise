@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BiteWiseApp
 {
-    public partial class Form1: Form
+    public partial class UserSettings: Form
     {
-        public Form1()
+        public UserSettings()
         {
             InitializeComponent();
         }
