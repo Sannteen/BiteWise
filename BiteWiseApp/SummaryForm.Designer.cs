@@ -97,7 +97,7 @@
             this.DateLabel.Size = new System.Drawing.Size(42, 20);
             this.DateLabel.TabIndex = 16;
             this.DateLabel.Text = "Date";
-            this.DateLabel.Click += new System.EventHandler(this.DateLabel_Click);
+            
             // 
             // foodloglabel
             // 
@@ -159,7 +159,7 @@
             this.FoodLogDataGridView.RowTemplate.Height = 28;
             this.FoodLogDataGridView.Size = new System.Drawing.Size(390, 172);
             this.FoodLogDataGridView.TabIndex = 26;
-            this.FoodLogDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.FoodLogDataGridView_CellContentClick);
+            
             // 
             // WorkoutLogDataGridView
             // 
@@ -200,7 +200,7 @@
             this.WorkoutLogDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.WorkoutLogDataGridView.Size = new System.Drawing.Size(413, 172);
             this.WorkoutLogDataGridView.TabIndex = 30;
-            this.WorkoutLogDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.WorkoutLogDataGridView_CellContentClick);
+            
             // 
             // TotalCalBurned
             // 

@@ -22,23 +22,22 @@ namespace BiteWiseApp
 
         private void SummaryForm_Load(object sender, EventArgs e)
         {
-            var FoodLog = biteWiseDBEntities.Foods.ToList(); 
-            FoodLogDataGridView.DataSource = FoodLog;
+            /* var FoodLog = biteWiseDBEntities.Foods.ToList(); 
+             FoodLogDataGridView.DataSource = FoodLog; */
+
+
+            var foodSummary = biteWiseDBEntities.Foods
+       .GroupBy(f => f.category)
+       .Select(g => new
+       {
+           Category = g.Key,
+           TotalCalories = g.Sum(f => f.calories)
+       })
+       .ToList();
+
+            FoodLogDataGridView.DataSource = foodSummary;
         }
 
-        private void WorkoutLogDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void FoodLogDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void DateLabel_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
