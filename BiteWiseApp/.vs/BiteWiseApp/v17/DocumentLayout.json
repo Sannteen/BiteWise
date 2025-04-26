@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\project\\bitewiseapp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\project\\bitewiseapp\\bitewisedatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\bitewisedatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\project\\bitewiseapp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\project\\bitewiseapp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,37 +46,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BitewiseDataModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\BitewiseDataModel.edmx",
               "RelativeDocumentMoniker": "BitewiseDataModel.edmx",
               "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\BitewiseDataModel.edmx [Diagram1]",
               "RelativeToolTip": "BitewiseDataModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-04-26T03:41:30.879Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-04-26T03:41:30.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SummaryForm.cs",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs",
               "RelativeDocumentMoniker": "SummaryForm.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeToolTip": "SummaryForm.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs*",
+              "RelativeToolTip": "SummaryForm.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAawDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T03:31:39.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SummaryForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs",
               "RelativeDocumentMoniker": "SummaryForm.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs [Design]",
-              "RelativeToolTip": "SummaryForm.cs [Design]",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\SummaryForm.cs [Design]*",
+              "RelativeToolTip": "SummaryForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T03:30:23.503Z",
               "EditorCaption": " [Design]"
@@ -90,8 +89,7 @@
               "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\project\\BiteWiseApp\\UserProfile.cs [Design]",
               "RelativeToolTip": "UserProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:30:51.639Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-26T03:30:51.639Z"
             },
             {
               "$type": "Document",
@@ -103,8 +101,7 @@
               "RelativeToolTip": "MainMenu.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAMwGYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T20:51:43.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T20:51:43.614Z"
             }
           ]
         }
