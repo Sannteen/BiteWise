@@ -84,10 +84,10 @@
             // 
             // nametextBox
             // 
-            this.nametextBox.Location = new System.Drawing.Point(17, 278);
-            this.nametextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nametextBox.Location = new System.Drawing.Point(20, 321);
+            this.nametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(150, 20);
+            this.nametextBox.Size = new System.Drawing.Size(174, 23);
             this.nametextBox.TabIndex = 6;
             // 
             // NameLabel
@@ -95,7 +95,7 @@
             this.NameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLabel.Location = new System.Drawing.Point(15, 255);
+            this.NameLabel.Location = new System.Drawing.Point(18, 294);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(40, 15);
@@ -106,7 +106,7 @@
             // 
             this.Emaillabel.AutoSize = true;
             this.Emaillabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Emaillabel.Location = new System.Drawing.Point(15, 307);
+            this.Emaillabel.Location = new System.Drawing.Point(18, 354);
             this.Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Emaillabel.Name = "Emaillabel";
             this.Emaillabel.Size = new System.Drawing.Size(36, 15);
@@ -115,17 +115,17 @@
             // 
             // EmailtextBox
             // 
-            this.EmailtextBox.Location = new System.Drawing.Point(18, 325);
-            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmailtextBox.Location = new System.Drawing.Point(21, 375);
+            this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
-            this.EmailtextBox.Size = new System.Drawing.Size(149, 20);
+            this.EmailtextBox.Size = new System.Drawing.Size(173, 23);
             this.EmailtextBox.TabIndex = 9;
             // 
             // Passwordlabel
             // 
             this.Passwordlabel.AutoSize = true;
             this.Passwordlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Passwordlabel.Location = new System.Drawing.Point(15, 354);
+            this.Passwordlabel.Location = new System.Drawing.Point(18, 408);
             this.Passwordlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Passwordlabel.Name = "Passwordlabel";
             this.Passwordlabel.Size = new System.Drawing.Size(59, 15);
@@ -134,10 +134,10 @@
             // 
             // PasswordtextBox
             // 
-            this.PasswordtextBox.Location = new System.Drawing.Point(16, 372);
-            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordtextBox.Location = new System.Drawing.Point(19, 429);
+            this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
-            this.PasswordtextBox.Size = new System.Drawing.Size(151, 20);
+            this.PasswordtextBox.Size = new System.Drawing.Size(176, 23);
             this.PasswordtextBox.TabIndex = 11;
             this.PasswordtextBox.TextChanged += new System.EventHandler(this.PasswordtextBox_TextChanged);
             // 
@@ -145,10 +145,10 @@
             // 
             this.SaveChangesButton.BackColor = System.Drawing.Color.White;
             this.SaveChangesButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveChangesButton.Location = new System.Drawing.Point(660, 406);
-            this.SaveChangesButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SaveChangesButton.Location = new System.Drawing.Point(770, 468);
+            this.SaveChangesButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaveChangesButton.Name = "SaveChangesButton";
-            this.SaveChangesButton.Size = new System.Drawing.Size(98, 27);
+            this.SaveChangesButton.Size = new System.Drawing.Size(114, 31);
             this.SaveChangesButton.TabIndex = 12;
             this.SaveChangesButton.Text = "Save Changes";
             this.SaveChangesButton.UseVisualStyleBackColor = false;
@@ -159,7 +159,7 @@
             this.UserProfilelabel.AutoSize = true;
             this.UserProfilelabel.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserProfilelabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.UserProfilelabel.Location = new System.Drawing.Point(238, 6);
+            this.UserProfilelabel.Location = new System.Drawing.Point(278, 7);
             this.UserProfilelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserProfilelabel.Name = "UserProfilelabel";
             this.UserProfilelabel.Size = new System.Drawing.Size(213, 38);
@@ -170,7 +170,7 @@
             // 
             this.AgeLabel.AutoSize = true;
             this.AgeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeLabel.Location = new System.Drawing.Point(519, 83);
+            this.AgeLabel.Location = new System.Drawing.Point(606, 96);
             this.AgeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AgeLabel.Name = "AgeLabel";
             this.AgeLabel.Size = new System.Drawing.Size(29, 15);
@@ -181,7 +181,7 @@
             // 
             this.Weightlabel.AutoSize = true;
             this.Weightlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Weightlabel.Location = new System.Drawing.Point(519, 148);
+            this.Weightlabel.Location = new System.Drawing.Point(606, 171);
             this.Weightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Weightlabel.Name = "Weightlabel";
             this.Weightlabel.Size = new System.Drawing.Size(73, 15);
@@ -192,7 +192,7 @@
             // 
             this.Heightlabel.AutoSize = true;
             this.Heightlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Heightlabel.Location = new System.Drawing.Point(519, 115);
+            this.Heightlabel.Location = new System.Drawing.Point(606, 133);
             this.Heightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Heightlabel.Name = "Heightlabel";
             this.Heightlabel.Size = new System.Drawing.Size(73, 15);
@@ -204,7 +204,7 @@
             this.Goallabel.AutoSize = true;
             this.Goallabel.BackColor = System.Drawing.SystemColors.Control;
             this.Goallabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Goallabel.Location = new System.Drawing.Point(247, 289);
+            this.Goallabel.Location = new System.Drawing.Point(288, 333);
             this.Goallabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Goallabel.Name = "Goallabel";
             this.Goallabel.Size = new System.Drawing.Size(50, 20);
@@ -215,7 +215,7 @@
             // 
             this.TargetWgtlabel.AutoSize = true;
             this.TargetWgtlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TargetWgtlabel.Location = new System.Drawing.Point(241, 324);
+            this.TargetWgtlabel.Location = new System.Drawing.Point(281, 374);
             this.TargetWgtlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TargetWgtlabel.Name = "TargetWgtlabel";
             this.TargetWgtlabel.Size = new System.Drawing.Size(101, 15);
@@ -226,7 +226,7 @@
             // 
             this.DCaloricTgetLabel.AutoSize = true;
             this.DCaloricTgetLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DCaloricTgetLabel.Location = new System.Drawing.Point(241, 372);
+            this.DCaloricTgetLabel.Location = new System.Drawing.Point(281, 429);
             this.DCaloricTgetLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DCaloricTgetLabel.Name = "DCaloricTgetLabel";
             this.DCaloricTgetLabel.Size = new System.Drawing.Size(113, 15);
@@ -237,7 +237,7 @@
             // 
             this.WklyWgtgoalslabel.AutoSize = true;
             this.WklyWgtgoalslabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WklyWgtgoalslabel.Location = new System.Drawing.Point(507, 237);
+            this.WklyWgtgoalslabel.Location = new System.Drawing.Point(592, 273);
             this.WklyWgtgoalslabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WklyWgtgoalslabel.Name = "WklyWgtgoalslabel";
             this.WklyWgtgoalslabel.Size = new System.Drawing.Size(167, 20);
@@ -248,7 +248,7 @@
             // 
             this.Sundaylabel.AutoSize = true;
             this.Sundaylabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sundaylabel.Location = new System.Drawing.Point(517, 289);
+            this.Sundaylabel.Location = new System.Drawing.Point(603, 333);
             this.Sundaylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Sundaylabel.Name = "Sundaylabel";
             this.Sundaylabel.Size = new System.Drawing.Size(28, 15);
@@ -259,7 +259,7 @@
             // 
             this.SaturdayLabel.AutoSize = true;
             this.SaturdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaturdayLabel.Location = new System.Drawing.Point(643, 335);
+            this.SaturdayLabel.Location = new System.Drawing.Point(750, 387);
             this.SaturdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.SaturdayLabel.Name = "SaturdayLabel";
             this.SaturdayLabel.Size = new System.Drawing.Size(25, 15);
@@ -270,7 +270,7 @@
             // 
             this.FridayLabel.AutoSize = true;
             this.FridayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FridayLabel.Location = new System.Drawing.Point(586, 335);
+            this.FridayLabel.Location = new System.Drawing.Point(684, 387);
             this.FridayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FridayLabel.Name = "FridayLabel";
             this.FridayLabel.Size = new System.Drawing.Size(21, 15);
@@ -281,7 +281,7 @@
             // 
             this.ThursdayLabel.AutoSize = true;
             this.ThursdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThursdayLabel.Location = new System.Drawing.Point(517, 335);
+            this.ThursdayLabel.Location = new System.Drawing.Point(603, 387);
             this.ThursdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ThursdayLabel.Name = "ThursdayLabel";
             this.ThursdayLabel.Size = new System.Drawing.Size(38, 15);
@@ -292,7 +292,7 @@
             // 
             this.WednesdayLabel.AutoSize = true;
             this.WednesdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WednesdayLabel.Location = new System.Drawing.Point(703, 289);
+            this.WednesdayLabel.Location = new System.Drawing.Point(820, 333);
             this.WednesdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WednesdayLabel.Name = "WednesdayLabel";
             this.WednesdayLabel.Size = new System.Drawing.Size(33, 15);
@@ -303,7 +303,7 @@
             // 
             this.TuesdayLabel.AutoSize = true;
             this.TuesdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TuesdayLabel.Location = new System.Drawing.Point(639, 289);
+            this.TuesdayLabel.Location = new System.Drawing.Point(746, 333);
             this.TuesdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TuesdayLabel.Name = "TuesdayLabel";
             this.TuesdayLabel.Size = new System.Drawing.Size(32, 15);
@@ -314,7 +314,7 @@
             // 
             this.MondayLabel.AutoSize = true;
             this.MondayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MondayLabel.Location = new System.Drawing.Point(579, 289);
+            this.MondayLabel.Location = new System.Drawing.Point(676, 333);
             this.MondayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MondayLabel.Name = "MondayLabel";
             this.MondayLabel.Size = new System.Drawing.Size(32, 15);
@@ -325,10 +325,10 @@
             // 
             this.UploadImageButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.UploadImageButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UploadImageButton.Location = new System.Drawing.Point(281, 224);
-            this.UploadImageButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UploadImageButton.Location = new System.Drawing.Point(328, 258);
+            this.UploadImageButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadImageButton.Name = "UploadImageButton";
-            this.UploadImageButton.Size = new System.Drawing.Size(107, 22);
+            this.UploadImageButton.Size = new System.Drawing.Size(125, 25);
             this.UploadImageButton.TabIndex = 42;
             this.UploadImageButton.Text = "Upload ";
             this.UploadImageButton.UseVisualStyleBackColor = true;
@@ -338,7 +338,7 @@
             // 
             this.Biometricdatalabel.AutoSize = true;
             this.Biometricdatalabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Biometricdatalabel.Location = new System.Drawing.Point(507, 54);
+            this.Biometricdatalabel.Location = new System.Drawing.Point(592, 62);
             this.Biometricdatalabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Biometricdatalabel.Name = "Biometricdatalabel";
             this.Biometricdatalabel.Size = new System.Drawing.Size(118, 20);
@@ -348,8 +348,8 @@
             // PasswordcheckBox
             // 
             this.PasswordcheckBox.AutoSize = true;
-            this.PasswordcheckBox.Location = new System.Drawing.Point(169, 374);
-            this.PasswordcheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PasswordcheckBox.Location = new System.Drawing.Point(197, 432);
+            this.PasswordcheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordcheckBox.Name = "PasswordcheckBox";
             this.PasswordcheckBox.Size = new System.Drawing.Size(15, 14);
             this.PasswordcheckBox.TabIndex = 53;
@@ -365,15 +365,15 @@
             0,
             0,
             65536});
-            this.SunnumericUpDown.Location = new System.Drawing.Point(517, 266);
-            this.SunnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SunnumericUpDown.Location = new System.Drawing.Point(603, 307);
+            this.SunnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.SunnumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.SunnumericUpDown.Name = "SunnumericUpDown";
-            this.SunnumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.SunnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.SunnumericUpDown.TabIndex = 54;
             // 
             // MonnumericUpDown
@@ -385,15 +385,15 @@
             0,
             0,
             65536});
-            this.MonnumericUpDown.Location = new System.Drawing.Point(573, 267);
-            this.MonnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MonnumericUpDown.Location = new System.Drawing.Point(668, 308);
+            this.MonnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.MonnumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.MonnumericUpDown.Name = "MonnumericUpDown";
-            this.MonnumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.MonnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.MonnumericUpDown.TabIndex = 55;
             // 
             // TuesnumericUpDown
@@ -405,10 +405,10 @@
             0,
             0,
             65536});
-            this.TuesnumericUpDown.Location = new System.Drawing.Point(633, 266);
-            this.TuesnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TuesnumericUpDown.Location = new System.Drawing.Point(738, 307);
+            this.TuesnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.TuesnumericUpDown.Name = "TuesnumericUpDown";
-            this.TuesnumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.TuesnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.TuesnumericUpDown.TabIndex = 56;
             // 
             // WednumericUpDown
@@ -420,15 +420,15 @@
             0,
             0,
             65536});
-            this.WednumericUpDown.Location = new System.Drawing.Point(697, 267);
-            this.WednumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WednumericUpDown.Location = new System.Drawing.Point(813, 308);
+            this.WednumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.WednumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.WednumericUpDown.Name = "WednumericUpDown";
-            this.WednumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.WednumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.WednumericUpDown.TabIndex = 57;
             // 
             // ThursnumericUpDown
@@ -440,15 +440,15 @@
             0,
             0,
             65536});
-            this.ThursnumericUpDown.Location = new System.Drawing.Point(517, 318);
-            this.ThursnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ThursnumericUpDown.Location = new System.Drawing.Point(603, 367);
+            this.ThursnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.ThursnumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.ThursnumericUpDown.Name = "ThursnumericUpDown";
-            this.ThursnumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.ThursnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.ThursnumericUpDown.TabIndex = 58;
             // 
             // FrinumericUpDown
@@ -460,15 +460,15 @@
             0,
             0,
             65536});
-            this.FrinumericUpDown.Location = new System.Drawing.Point(573, 317);
-            this.FrinumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FrinumericUpDown.Location = new System.Drawing.Point(668, 366);
+            this.FrinumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.FrinumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.FrinumericUpDown.Name = "FrinumericUpDown";
-            this.FrinumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.FrinumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.FrinumericUpDown.TabIndex = 59;
             // 
             // SatnumericUpDown
@@ -480,25 +480,25 @@
             0,
             0,
             65536});
-            this.SatnumericUpDown.Location = new System.Drawing.Point(633, 317);
-            this.SatnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SatnumericUpDown.Location = new System.Drawing.Point(738, 366);
+            this.SatnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.SatnumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.SatnumericUpDown.Name = "SatnumericUpDown";
-            this.SatnumericUpDown.Size = new System.Drawing.Size(40, 20);
+            this.SatnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.SatnumericUpDown.TabIndex = 60;
             // 
             // Editbutton
             // 
             this.Editbutton.BackColor = System.Drawing.Color.White;
             this.Editbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Editbutton.Location = new System.Drawing.Point(533, 406);
-            this.Editbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Editbutton.Location = new System.Drawing.Point(622, 468);
+            this.Editbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Editbutton.Name = "Editbutton";
-            this.Editbutton.Size = new System.Drawing.Size(98, 27);
+            this.Editbutton.Size = new System.Drawing.Size(114, 31);
             this.Editbutton.TabIndex = 61;
             this.Editbutton.Text = "Edit";
             this.Editbutton.UseVisualStyleBackColor = false;
@@ -506,10 +506,10 @@
             // AgenumericUpDown
             // 
             this.AgenumericUpDown.AllowDrop = true;
-            this.AgenumericUpDown.Location = new System.Drawing.Point(599, 84);
-            this.AgenumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AgenumericUpDown.Location = new System.Drawing.Point(699, 97);
+            this.AgenumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.AgenumericUpDown.Name = "AgenumericUpDown";
-            this.AgenumericUpDown.Size = new System.Drawing.Size(63, 20);
+            this.AgenumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.AgenumericUpDown.TabIndex = 62;
             // 
             // WeightnumericUpDown
@@ -521,24 +521,24 @@
             0,
             0,
             65536});
-            this.WeightnumericUpDown.Location = new System.Drawing.Point(599, 147);
-            this.WeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WeightnumericUpDown.Location = new System.Drawing.Point(699, 170);
+            this.WeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
-            this.WeightnumericUpDown.Size = new System.Drawing.Size(63, 20);
+            this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.WeightnumericUpDown.TabIndex = 63;
             // 
             // HeightnumericUpDown
             // 
             this.HeightnumericUpDown.AllowDrop = true;
-            this.HeightnumericUpDown.Location = new System.Drawing.Point(599, 114);
-            this.HeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.HeightnumericUpDown.Location = new System.Drawing.Point(699, 132);
+            this.HeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.HeightnumericUpDown.Maximum = new decimal(new int[] {
             3000,
             0,
             0,
             0});
             this.HeightnumericUpDown.Name = "HeightnumericUpDown";
-            this.HeightnumericUpDown.Size = new System.Drawing.Size(63, 20);
+            this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.HeightnumericUpDown.TabIndex = 64;
             // 
             // TargetWeightnumericUpDown
@@ -549,15 +549,15 @@
             0,
             0,
             65536});
-            this.TargetWeightnumericUpDown.Location = new System.Drawing.Point(363, 326);
-            this.TargetWeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TargetWeightnumericUpDown.Location = new System.Drawing.Point(424, 376);
+            this.TargetWeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.TargetWeightnumericUpDown.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.TargetWeightnumericUpDown.Name = "TargetWeightnumericUpDown";
-            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(58, 20);
+            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.TargetWeightnumericUpDown.TabIndex = 65;
             // 
             // DailyCalTarnumericUpDown
@@ -569,31 +569,32 @@
             0,
             0,
             65536});
-            this.DailyCalTarnumericUpDown.Location = new System.Drawing.Point(363, 371);
-            this.DailyCalTarnumericUpDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DailyCalTarnumericUpDown.Location = new System.Drawing.Point(424, 428);
+            this.DailyCalTarnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.DailyCalTarnumericUpDown.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
             this.DailyCalTarnumericUpDown.Name = "DailyCalTarnumericUpDown";
-            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(58, 20);
+            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
             // 
             // ProfilePictureBox
             // 
-            this.ProfilePictureBox.Location = new System.Drawing.Point(249, 68);
-            this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProfilePictureBox.Location = new System.Drawing.Point(290, 78);
+            this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilePictureBox.Name = "ProfilePictureBox";
-            this.ProfilePictureBox.Size = new System.Drawing.Size(172, 150);
+            this.ProfilePictureBox.Size = new System.Drawing.Size(201, 173);
             this.ProfilePictureBox.TabIndex = 67;
             this.ProfilePictureBox.TabStop = false;
             // 
             // UserProfileForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 461);
+            this.ClientSize = new System.Drawing.Size(939, 532);
             this.Controls.Add(this.ProfilePictureBox);
             this.Controls.Add(this.DailyCalTarnumericUpDown);
             this.Controls.Add(this.TargetWeightnumericUpDown);
@@ -633,7 +634,8 @@
             this.Controls.Add(this.Passwordlabel);
             this.Controls.Add(this.EmailtextBox);
             this.Controls.Add(this.Emaillabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserProfileForm";
             this.Text = "User Profile";
             this.Load += new System.EventHandler(this.UserProfileForm_Load);

@@ -60,7 +60,7 @@
             legend1.Name = "Legend1";
             this.weightprogresschart.Legends.Add(legend1);
             this.weightprogresschart.Location = new System.Drawing.Point(2, 2);
-            this.weightprogresschart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.weightprogresschart.Margin = new System.Windows.Forms.Padding(2);
             this.weightprogresschart.Name = "weightprogresschart";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
@@ -68,7 +68,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Weight";
             this.weightprogresschart.Series.Add(series1);
-            this.weightprogresschart.Size = new System.Drawing.Size(312, 151);
+            this.weightprogresschart.Size = new System.Drawing.Size(363, 174);
             this.weightprogresschart.TabIndex = 2;
             this.weightprogresschart.Text = "Weight Progress overtime";
             title1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -81,7 +81,7 @@
             this.DailySumarylabel.AutoSize = true;
             this.DailySumarylabel.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DailySumarylabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.DailySumarylabel.Location = new System.Drawing.Point(187, 6);
+            this.DailySumarylabel.Location = new System.Drawing.Point(218, 7);
             this.DailySumarylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DailySumarylabel.Name = "DailySumarylabel";
             this.DailySumarylabel.Size = new System.Drawing.Size(320, 38);
@@ -94,8 +94,8 @@
             this.chart1.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(328, 2);
-            this.chart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chart1.Location = new System.Drawing.Point(381, 2);
+            this.chart1.Margin = new System.Windows.Forms.Padding(2);
             this.chart1.Name = "chart1";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -103,7 +103,7 @@
             series2.Name = "Calories ";
             series2.YValuesPerPoint = 4;
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(343, 151);
+            this.chart1.Size = new System.Drawing.Size(400, 174);
             this.chart1.TabIndex = 16;
             this.chart1.Text = "chart1";
             title2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -116,19 +116,19 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.73736F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.262643F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 347F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 406F));
             this.tableLayoutPanel1.Controls.Add(this.weightprogresschart, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.chart1, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.BdyMeasurementHistory, 0, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(25, 58);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(29, 67);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 7F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 178F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 205F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(674, 340);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(786, 392);
             this.tableLayoutPanel1.TabIndex = 17;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -138,8 +138,8 @@
             this.BdyMeasurementHistory.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.BdyMeasurementHistory.Legends.Add(legend3);
-            this.BdyMeasurementHistory.Location = new System.Drawing.Point(2, 164);
-            this.BdyMeasurementHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BdyMeasurementHistory.Location = new System.Drawing.Point(2, 189);
+            this.BdyMeasurementHistory.Margin = new System.Windows.Forms.Padding(2);
             this.BdyMeasurementHistory.Name = "BdyMeasurementHistory";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
@@ -157,7 +157,7 @@
             this.BdyMeasurementHistory.Series.Add(series3);
             this.BdyMeasurementHistory.Series.Add(series4);
             this.BdyMeasurementHistory.Series.Add(series5);
-            this.BdyMeasurementHistory.Size = new System.Drawing.Size(312, 174);
+            this.BdyMeasurementHistory.Size = new System.Drawing.Size(363, 201);
             this.BdyMeasurementHistory.TabIndex = 6;
             this.BdyMeasurementHistory.Text = "Body Measurement History ";
             title3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,12 +167,13 @@
             // 
             // ProgressTrackingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 406);
+            this.ClientSize = new System.Drawing.Size(826, 468);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.DailySumarylabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProgressTrackingForm";
             this.Text = "ProgressTrackingForm";
             ((System.ComponentModel.ISupportInitialize)(this.weightprogresschart)).EndInit();

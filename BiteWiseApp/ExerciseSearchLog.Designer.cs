@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.SearchNtn = new System.Windows.Forms.Button();
             this.SearchLbl = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.user_Work_logTableAdapter = new BiteWiseApp.User_ExerciseLog_ViewTableAdapters.User_Work_logTableAdapter();
-            this.biteWiseDBDataSet1 = new BiteWiseApp.BiteWiseDBDataSet1();
             this.userWorklogBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.biteWiseDBDataSet1 = new BiteWiseApp.BiteWiseDBDataSet1();
+            this.user_Work_logTableAdapter = new BiteWiseApp.User_ExerciseLog_ViewTableAdapters.User_Work_logTableAdapter();
             this.user_Work_logTableAdapter1 = new BiteWiseApp.BiteWiseDBDataSet1TableAdapters.User_Work_logTableAdapter();
             this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.exerciseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +45,8 @@
             this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userWorklogBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // SearchNtn
@@ -86,6 +87,8 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
@@ -107,19 +110,19 @@
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // user_Work_logTableAdapter
+            // userWorklogBindingSource
             // 
-            this.user_Work_logTableAdapter.ClearBeforeFill = true;
+            this.userWorklogBindingSource.DataMember = "User_Work_log";
+            this.userWorklogBindingSource.DataSource = this.biteWiseDBDataSet1;
             // 
             // biteWiseDBDataSet1
             // 
             this.biteWiseDBDataSet1.DataSetName = "BiteWiseDBDataSet1";
             this.biteWiseDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // userWorklogBindingSource
+            // user_Work_logTableAdapter
             // 
-            this.userWorklogBindingSource.DataMember = "User_Work_log";
-            this.userWorklogBindingSource.DataSource = this.biteWiseDBDataSet1;
+            this.user_Work_logTableAdapter.ClearBeforeFill = true;
             // 
             // user_Work_logTableAdapter1
             // 
@@ -127,10 +130,14 @@
             // 
             // userNameDataGridViewTextBoxColumn
             // 
+            this.userNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.userNameDataGridViewTextBoxColumn.DataPropertyName = "User Name";
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userNameDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.userNameDataGridViewTextBoxColumn.HeaderText = "User Name";
             this.userNameDataGridViewTextBoxColumn.Name = "userNameDataGridViewTextBoxColumn";
             this.userNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.userNameDataGridViewTextBoxColumn.Visible = false;
             // 
             // exerciseNameDataGridViewTextBoxColumn
             // 
@@ -183,8 +190,8 @@
             this.Text = "ExerciseSearchLog";
             this.Load += new System.EventHandler(this.ExerciseSearchLog_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userWorklogBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
