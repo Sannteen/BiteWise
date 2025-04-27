@@ -45,7 +45,7 @@
             this.GoalLbl = new System.Windows.Forms.Label();
             this.ActivityLvlTB = new System.Windows.Forms.ComboBox();
             this.GoalTB = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.RegistrationLB = new System.Windows.Forms.Label();
             this.PasswordLbl = new System.Windows.Forms.Label();
             this.PasswordTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -53,19 +53,20 @@
             // Savebtn
             // 
             this.Savebtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Savebtn.Location = new System.Drawing.Point(439, 560);
-            this.Savebtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Savebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
+            this.Savebtn.Location = new System.Drawing.Point(497, 503);
+            this.Savebtn.Margin = new System.Windows.Forms.Padding(1, 1, 1, 3);
             this.Savebtn.Name = "Savebtn";
-            this.Savebtn.Size = new System.Drawing.Size(121, 51);
+            this.Savebtn.Size = new System.Drawing.Size(82, 28);
             this.Savebtn.TabIndex = 9;
             this.Savebtn.Text = "Save";
-            this.Savebtn.UseVisualStyleBackColor = true;
+            this.Savebtn.UseVisualStyleBackColor = false;
             this.Savebtn.Click += new System.EventHandler(this.Savebtn_Click);
             // 
             // NameTB
             // 
             this.NameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.NameTB.Location = new System.Drawing.Point(161, 230);
+            this.NameTB.Location = new System.Drawing.Point(471, 140);
             this.NameTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NameTB.Name = "NameTB";
             this.NameTB.Size = new System.Drawing.Size(172, 23);
@@ -75,7 +76,7 @@
             // 
             this.NameLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.NameLbl.AutoSize = true;
-            this.NameLbl.Location = new System.Drawing.Point(83, 235);
+            this.NameLbl.Location = new System.Drawing.Point(391, 148);
             this.NameLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NameLbl.Name = "NameLbl";
             this.NameLbl.Size = new System.Drawing.Size(39, 15);
@@ -86,7 +87,7 @@
             // 
             this.EmailLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.EmailLbl.AutoSize = true;
-            this.EmailLbl.Location = new System.Drawing.Point(385, 233);
+            this.EmailLbl.Location = new System.Drawing.Point(391, 187);
             this.EmailLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.EmailLbl.Name = "EmailLbl";
             this.EmailLbl.Size = new System.Drawing.Size(36, 15);
@@ -96,7 +97,7 @@
             // EmailTB
             // 
             this.EmailTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.EmailTB.Location = new System.Drawing.Point(476, 227);
+            this.EmailTB.Location = new System.Drawing.Point(471, 179);
             this.EmailTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.EmailTB.Name = "EmailTB";
             this.EmailTB.Size = new System.Drawing.Size(172, 23);
@@ -105,7 +106,7 @@
             // AgeTB
             // 
             this.AgeTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AgeTB.Location = new System.Drawing.Point(161, 303);
+            this.AgeTB.Location = new System.Drawing.Point(471, 257);
             this.AgeTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.AgeTB.Name = "AgeTB";
             this.AgeTB.Size = new System.Drawing.Size(172, 23);
@@ -115,7 +116,7 @@
             // 
             this.AgeLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.AgeLbl.AutoSize = true;
-            this.AgeLbl.Location = new System.Drawing.Point(83, 312);
+            this.AgeLbl.Location = new System.Drawing.Point(391, 265);
             this.AgeLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AgeLbl.Name = "AgeLbl";
             this.AgeLbl.Size = new System.Drawing.Size(28, 15);
@@ -126,7 +127,7 @@
             // 
             this.GenderLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.GenderLbl.AutoSize = true;
-            this.GenderLbl.Location = new System.Drawing.Point(385, 312);
+            this.GenderLbl.Location = new System.Drawing.Point(391, 304);
             this.GenderLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GenderLbl.Name = "GenderLbl";
             this.GenderLbl.Size = new System.Drawing.Size(45, 15);
@@ -142,7 +143,7 @@
             "Female",
             "Male",
             "Others"});
-            this.GenderCB.Location = new System.Drawing.Point(476, 302);
+            this.GenderCB.Location = new System.Drawing.Point(471, 296);
             this.GenderCB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.GenderCB.Name = "GenderCB";
             this.GenderCB.Size = new System.Drawing.Size(172, 23);
@@ -151,7 +152,7 @@
             // WeightTB
             // 
             this.WeightTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.WeightTB.Location = new System.Drawing.Point(161, 376);
+            this.WeightTB.Location = new System.Drawing.Point(471, 374);
             this.WeightTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.WeightTB.Name = "WeightTB";
             this.WeightTB.Size = new System.Drawing.Size(172, 23);
@@ -161,7 +162,7 @@
             // 
             this.WeightLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.WeightLbl.AutoSize = true;
-            this.WeightLbl.Location = new System.Drawing.Point(83, 384);
+            this.WeightLbl.Location = new System.Drawing.Point(391, 382);
             this.WeightLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WeightLbl.Name = "WeightLbl";
             this.WeightLbl.Size = new System.Drawing.Size(45, 15);
@@ -172,7 +173,7 @@
             // 
             this.HeightLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.HeightLbl.AutoSize = true;
-            this.HeightLbl.Location = new System.Drawing.Point(679, 312);
+            this.HeightLbl.Location = new System.Drawing.Point(391, 343);
             this.HeightLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HeightLbl.Name = "HeightLbl";
             this.HeightLbl.Size = new System.Drawing.Size(43, 15);
@@ -182,7 +183,7 @@
             // HeightTB
             // 
             this.HeightTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.HeightTB.Location = new System.Drawing.Point(776, 302);
+            this.HeightTB.Location = new System.Drawing.Point(471, 335);
             this.HeightTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.HeightTB.Name = "HeightTB";
             this.HeightTB.Size = new System.Drawing.Size(172, 23);
@@ -192,18 +193,18 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(679, 380);
+            this.label1.Location = new System.Drawing.Point(386, 460);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 15);
+            this.label1.Size = new System.Drawing.Size(77, 15);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Activity Lvl";
+            this.label1.Text = "Activity Level";
             // 
             // GoalLbl
             // 
             this.GoalLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.GoalLbl.AutoSize = true;
-            this.GoalLbl.Location = new System.Drawing.Point(385, 384);
+            this.GoalLbl.Location = new System.Drawing.Point(391, 421);
             this.GoalLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GoalLbl.Name = "GoalLbl";
             this.GoalLbl.Size = new System.Drawing.Size(31, 15);
@@ -219,7 +220,7 @@
             "High",
             "Medium",
             "Low"});
-            this.ActivityLvlTB.Location = new System.Drawing.Point(776, 375);
+            this.ActivityLvlTB.Location = new System.Drawing.Point(471, 452);
             this.ActivityLvlTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ActivityLvlTB.Name = "ActivityLvlTB";
             this.ActivityLvlTB.Size = new System.Drawing.Size(172, 23);
@@ -228,30 +229,31 @@
             // GoalTB
             // 
             this.GoalTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.GoalTB.Location = new System.Drawing.Point(476, 376);
+            this.GoalTB.Location = new System.Drawing.Point(471, 413);
             this.GoalTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.GoalTB.Name = "GoalTB";
             this.GoalTB.Size = new System.Drawing.Size(172, 23);
             this.GoalTB.TabIndex = 7;
             // 
-            // label2
+            // RegistrationLB
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(328, 58);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(323, 42);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "User Registration";
+            this.RegistrationLB.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.RegistrationLB.AutoSize = true;
+            this.RegistrationLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistrationLB.ForeColor = System.Drawing.Color.DarkCyan;
+            this.RegistrationLB.Location = new System.Drawing.Point(328, 58);
+            this.RegistrationLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RegistrationLB.Name = "RegistrationLB";
+            this.RegistrationLB.Size = new System.Drawing.Size(412, 42);
+            this.RegistrationLB.TabIndex = 0;
+            this.RegistrationLB.Text = "Create a New Account";
+            this.RegistrationLB.Click += new System.EventHandler(this.label2_Click);
             // 
             // PasswordLbl
             // 
             this.PasswordLbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordLbl.AutoSize = true;
-            this.PasswordLbl.Location = new System.Drawing.Point(679, 227);
+            this.PasswordLbl.Location = new System.Drawing.Point(391, 226);
             this.PasswordLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordLbl.Name = "PasswordLbl";
             this.PasswordLbl.Size = new System.Drawing.Size(57, 15);
@@ -261,7 +263,7 @@
             // PasswordTB
             // 
             this.PasswordTB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.PasswordTB.Location = new System.Drawing.Point(776, 224);
+            this.PasswordTB.Location = new System.Drawing.Point(471, 218);
             this.PasswordTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '*';
@@ -275,7 +277,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 624);
             this.Controls.Add(this.PasswordTB);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.RegistrationLB);
             this.Controls.Add(this.ActivityLvlTB);
             this.Controls.Add(this.GoalLbl);
             this.Controls.Add(this.GenderCB);
@@ -324,7 +326,7 @@
         private System.Windows.Forms.Label GoalLbl;
         private System.Windows.Forms.ComboBox ActivityLvlTB;
         private System.Windows.Forms.TextBox GoalTB;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label RegistrationLB;
         private System.Windows.Forms.Label PasswordLbl;
         private System.Windows.Forms.TextBox PasswordTB;
     }

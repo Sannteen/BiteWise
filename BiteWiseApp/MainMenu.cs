@@ -100,7 +100,7 @@ namespace BiteWiseApp
 
         private void serachToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ExerciseSearchLog());
+            LoadFormInPanel(new ExerciseAndFoodLog());
         }
 
         private void exerciseToolStripMenuItem_Click(object sender, EventArgs e)

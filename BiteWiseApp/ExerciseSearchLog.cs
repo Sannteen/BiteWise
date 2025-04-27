@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BiteWiseApp
 {
-    public partial class ExerciseSearchLog: Form
+    public partial class ExerciseAndFoodLog: Form
     {
-        public ExerciseSearchLog()
+        public ExerciseAndFoodLog()
         {
             InitializeComponent();
             
@@ -66,6 +66,21 @@ namespace BiteWiseApp
                 GC.Collect();
             
             }
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

@@ -41,7 +41,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(198, 180);
+            this.label1.Location = new System.Drawing.Point(252, 180);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 15);
@@ -51,7 +51,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(198, 216);
+            this.label2.Location = new System.Drawing.Point(252, 216);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 15);
@@ -60,27 +60,27 @@
             // 
             // UsernameTB
             // 
-            this.UsernameTB.Location = new System.Drawing.Point(268, 172);
+            this.UsernameTB.Location = new System.Drawing.Point(322, 172);
             this.UsernameTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.UsernameTB.Name = "UsernameTB";
-            this.UsernameTB.Size = new System.Drawing.Size(168, 23);
+            this.UsernameTB.Size = new System.Drawing.Size(146, 23);
             this.UsernameTB.TabIndex = 1;
             // 
             // PasswordTB
             // 
-            this.PasswordTB.Location = new System.Drawing.Point(270, 208);
+            this.PasswordTB.Location = new System.Drawing.Point(324, 208);
             this.PasswordTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PasswordTB.Name = "PasswordTB";
             this.PasswordTB.PasswordChar = '*';
-            this.PasswordTB.Size = new System.Drawing.Size(167, 23);
+            this.PasswordTB.Size = new System.Drawing.Size(145, 23);
             this.PasswordTB.TabIndex = 2;
             // 
             // LoginBtn
             // 
-            this.LoginBtn.Location = new System.Drawing.Point(270, 253);
+            this.LoginBtn.Location = new System.Drawing.Point(324, 253);
             this.LoginBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(128, 57);
+            this.LoginBtn.Size = new System.Drawing.Size(106, 42);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             // SignUpLb
             // 
             this.SignUpLb.AutoSize = true;
-            this.SignUpLb.Location = new System.Drawing.Point(209, 333);
+            this.SignUpLb.Location = new System.Drawing.Point(263, 333);
             this.SignUpLb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SignUpLb.Name = "SignUpLb";
             this.SignUpLb.Size = new System.Drawing.Size(146, 15);
@@ -100,7 +100,7 @@
             // Signup
             // 
             this.Signup.AutoSize = true;
-            this.Signup.Location = new System.Drawing.Point(371, 333);
+            this.Signup.Location = new System.Drawing.Point(425, 333);
             this.Signup.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Signup.Name = "Signup";
             this.Signup.Size = new System.Drawing.Size(48, 15);
@@ -114,7 +114,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Juice ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(208, 67);
+            this.label3.Location = new System.Drawing.Point(262, 67);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(187, 72);
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 443);
+            this.ClientSize = new System.Drawing.Size(725, 430);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Signup);
             this.Controls.Add(this.SignUpLb);

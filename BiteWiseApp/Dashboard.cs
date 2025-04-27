@@ -16,5 +16,25 @@ namespace BiteWiseApp
         {
             InitializeComponent();
         }
+
+        private void tbUserMeassurementsdb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegistrationLB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
