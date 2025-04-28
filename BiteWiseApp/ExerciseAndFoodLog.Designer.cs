@@ -30,38 +30,39 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridView dataGridView1;
+            this.exerciseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalCaloriesBurntDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.userWorklogBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.biteWiseDBDataSet1 = new BiteWiseApp.BiteWiseDBDataSet1();
             this.user_Work_logTableAdapter = new BiteWiseApp.User_ExerciseLog_ViewTableAdapters.User_Work_logTableAdapter();
             this.user_Work_logTableAdapter1 = new BiteWiseApp.BiteWiseDBDataSet1TableAdapters.User_Work_logTableAdapter();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.FoodSelectLB = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.ServingLB = new System.Windows.Forms.Label();
-            this.TypeLB = new System.Windows.Forms.Label();
-            this.ServingtextBox = new System.Windows.Forms.TextBox();
-            this.TypetextBox = new System.Windows.Forms.TextBox();
+            this.FoodLoglb = new System.Windows.Forms.Label();
             this.AddLogfoodBT = new System.Windows.Forms.Button();
+            this.TypetextBox = new System.Windows.Forms.TextBox();
+            this.ServingtextBox = new System.Windows.Forms.TextBox();
+            this.TypeLB = new System.Windows.Forms.Label();
+            this.ServingLB = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.FoodSelectLB = new System.Windows.Forms.Label();
+            this.ExeLogLb = new System.Windows.Forms.Label();
+            this.AddLogExeBT = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.BurnedCalLB = new System.Windows.Forms.Label();
             this.DurationLB = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.SelectExeLB = new System.Windows.Forms.Label();
-            this.AddLogExeBT = new System.Windows.Forms.Button();
-            this.FoodLoglb = new System.Windows.Forms.Label();
-            this.ExeLogLb = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.SearchNtn = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SearchLbl = new System.Windows.Forms.Label();
-            this.SearchNtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.exerciseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalCaloriesBurntDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userWorklogBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -72,8 +73,71 @@
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.AllowUserToResizeRows = false;
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
+            dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.exerciseNameDataGridViewTextBoxColumn,
+            this.categoryDataGridViewTextBoxColumn,
+            this.totalCaloriesBurntDataGridViewTextBoxColumn,
+            this.durationDataGridViewTextBoxColumn,
+            this.dateDataGridViewTextBoxColumn});
+            dataGridView1.Cursor = System.Windows.Forms.Cursors.Default;
+            dataGridView1.DataSource = this.userWorklogBindingSource;
+            dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridView1.Location = new System.Drawing.Point(0, 0);
+            dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
+            dataGridView1.Size = new System.Drawing.Size(618, 327);
+            dataGridView1.TabIndex = 21;
+            dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+            // 
+            // exerciseNameDataGridViewTextBoxColumn
+            // 
+            this.exerciseNameDataGridViewTextBoxColumn.DataPropertyName = "Exercise Name";
+            this.exerciseNameDataGridViewTextBoxColumn.HeaderText = "Exercise Name";
+            this.exerciseNameDataGridViewTextBoxColumn.Name = "exerciseNameDataGridViewTextBoxColumn";
+            this.exerciseNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // categoryDataGridViewTextBoxColumn
+            // 
+            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "category";
+            this.categoryDataGridViewTextBoxColumn.HeaderText = "Category";
+            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
+            this.categoryDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // totalCaloriesBurntDataGridViewTextBoxColumn
+            // 
+            this.totalCaloriesBurntDataGridViewTextBoxColumn.DataPropertyName = "Total Calories Burnt";
+            this.totalCaloriesBurntDataGridViewTextBoxColumn.HeaderText = "Total Calories Burnt";
+            this.totalCaloriesBurntDataGridViewTextBoxColumn.Name = "totalCaloriesBurntDataGridViewTextBoxColumn";
+            this.totalCaloriesBurntDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // durationDataGridViewTextBoxColumn
+            // 
+            this.durationDataGridViewTextBoxColumn.DataPropertyName = "duration";
+            this.durationDataGridViewTextBoxColumn.HeaderText = "Duration";
+            this.durationDataGridViewTextBoxColumn.Name = "durationDataGridViewTextBoxColumn";
+            this.durationDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // userWorklogBindingSource
             // 
@@ -101,6 +165,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.White;
             this.splitContainer1.Panel1.Controls.Add(this.FoodLoglb);
             this.splitContainer1.Panel1.Controls.Add(this.AddLogfoodBT);
             this.splitContainer1.Panel1.Controls.Add(this.TypetextBox);
@@ -109,9 +174,11 @@
             this.splitContainer1.Panel1.Controls.Add(this.ServingLB);
             this.splitContainer1.Panel1.Controls.Add(this.comboBox1);
             this.splitContainer1.Panel1.Controls.Add(this.FoodSelectLB);
+            this.splitContainer1.Panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(199)))), ((int)(((byte)(181)))));
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.White;
             this.splitContainer1.Panel2.Controls.Add(this.ExeLogLb);
             this.splitContainer1.Panel2.Controls.Add(this.AddLogExeBT);
             this.splitContainer1.Panel2.Controls.Add(this.textBox2);
@@ -120,9 +187,71 @@
             this.splitContainer1.Panel2.Controls.Add(this.DurationLB);
             this.splitContainer1.Panel2.Controls.Add(this.comboBox2);
             this.splitContainer1.Panel2.Controls.Add(this.SelectExeLB);
+            this.splitContainer1.Panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(199)))), ((int)(((byte)(181)))));
             this.splitContainer1.Size = new System.Drawing.Size(291, 412);
             this.splitContainer1.SplitterDistance = 200;
             this.splitContainer1.TabIndex = 11;
+            // 
+            // FoodLoglb
+            // 
+            this.FoodLoglb.AutoSize = true;
+            this.FoodLoglb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodLoglb.Location = new System.Drawing.Point(101, 17);
+            this.FoodLoglb.Name = "FoodLoglb";
+            this.FoodLoglb.Size = new System.Drawing.Size(89, 21);
+            this.FoodLoglb.TabIndex = 19;
+            this.FoodLoglb.Text = "FOOD LOG";
+            // 
+            // AddLogfoodBT
+            // 
+            this.AddLogfoodBT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(199)))), ((int)(((byte)(181)))));
+            this.AddLogfoodBT.ForeColor = System.Drawing.Color.White;
+            this.AddLogfoodBT.Location = new System.Drawing.Point(109, 153);
+            this.AddLogfoodBT.Name = "AddLogfoodBT";
+            this.AddLogfoodBT.Size = new System.Drawing.Size(75, 23);
+            this.AddLogfoodBT.TabIndex = 18;
+            this.AddLogfoodBT.Text = "Add to Log";
+            this.AddLogfoodBT.UseVisualStyleBackColor = false;
+            // 
+            // TypetextBox
+            // 
+            this.TypetextBox.Location = new System.Drawing.Point(122, 117);
+            this.TypetextBox.Name = "TypetextBox";
+            this.TypetextBox.Size = new System.Drawing.Size(121, 23);
+            this.TypetextBox.TabIndex = 17;
+            // 
+            // ServingtextBox
+            // 
+            this.ServingtextBox.Location = new System.Drawing.Point(122, 86);
+            this.ServingtextBox.Name = "ServingtextBox";
+            this.ServingtextBox.Size = new System.Drawing.Size(121, 23);
+            this.ServingtextBox.TabIndex = 16;
+            // 
+            // TypeLB
+            // 
+            this.TypeLB.AutoSize = true;
+            this.TypeLB.Location = new System.Drawing.Point(48, 125);
+            this.TypeLB.Name = "TypeLB";
+            this.TypeLB.Size = new System.Drawing.Size(61, 15);
+            this.TypeLB.TabIndex = 15;
+            this.TypeLB.Text = "Meal Type";
+            // 
+            // ServingLB
+            // 
+            this.ServingLB.AutoSize = true;
+            this.ServingLB.Location = new System.Drawing.Point(48, 94);
+            this.ServingLB.Name = "ServingLB";
+            this.ServingLB.Size = new System.Drawing.Size(46, 15);
+            this.ServingLB.TabIndex = 14;
+            this.ServingLB.Text = "Serving";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(122, 55);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
+            this.comboBox1.TabIndex = 13;
             // 
             // FoodSelectLB
             // 
@@ -134,54 +263,26 @@
             this.FoodSelectLB.Text = "Select Food";
             this.FoodSelectLB.Click += new System.EventHandler(this.label1_Click);
             // 
-            // comboBox1
+            // ExeLogLb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(122, 55);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 13;
+            this.ExeLogLb.AutoSize = true;
+            this.ExeLogLb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExeLogLb.Location = new System.Drawing.Point(36, 17);
+            this.ExeLogLb.Name = "ExeLogLb";
+            this.ExeLogLb.Size = new System.Drawing.Size(116, 21);
+            this.ExeLogLb.TabIndex = 25;
+            this.ExeLogLb.Text = "EXERCISE LOG";
             // 
-            // ServingLB
+            // AddLogExeBT
             // 
-            this.ServingLB.AutoSize = true;
-            this.ServingLB.Location = new System.Drawing.Point(48, 94);
-            this.ServingLB.Name = "ServingLB";
-            this.ServingLB.Size = new System.Drawing.Size(46, 15);
-            this.ServingLB.TabIndex = 14;
-            this.ServingLB.Text = "Serving";
-            // 
-            // TypeLB
-            // 
-            this.TypeLB.AutoSize = true;
-            this.TypeLB.Location = new System.Drawing.Point(48, 125);
-            this.TypeLB.Name = "TypeLB";
-            this.TypeLB.Size = new System.Drawing.Size(61, 15);
-            this.TypeLB.TabIndex = 15;
-            this.TypeLB.Text = "Meal Type";
-            // 
-            // ServingtextBox
-            // 
-            this.ServingtextBox.Location = new System.Drawing.Point(122, 86);
-            this.ServingtextBox.Name = "ServingtextBox";
-            this.ServingtextBox.Size = new System.Drawing.Size(121, 23);
-            this.ServingtextBox.TabIndex = 16;
-            // 
-            // TypetextBox
-            // 
-            this.TypetextBox.Location = new System.Drawing.Point(122, 117);
-            this.TypetextBox.Name = "TypetextBox";
-            this.TypetextBox.Size = new System.Drawing.Size(121, 23);
-            this.TypetextBox.TabIndex = 17;
-            // 
-            // AddLogfoodBT
-            // 
-            this.AddLogfoodBT.Location = new System.Drawing.Point(109, 153);
-            this.AddLogfoodBT.Name = "AddLogfoodBT";
-            this.AddLogfoodBT.Size = new System.Drawing.Size(75, 23);
-            this.AddLogfoodBT.TabIndex = 18;
-            this.AddLogfoodBT.Text = "Add to Log";
-            this.AddLogfoodBT.UseVisualStyleBackColor = true;
+            this.AddLogExeBT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(199)))), ((int)(((byte)(181)))));
+            this.AddLogExeBT.ForeColor = System.Drawing.Color.White;
+            this.AddLogExeBT.Location = new System.Drawing.Point(117, 151);
+            this.AddLogExeBT.Name = "AddLogExeBT";
+            this.AddLogExeBT.Size = new System.Drawing.Size(75, 23);
+            this.AddLogExeBT.TabIndex = 24;
+            this.AddLogExeBT.Text = "Add to Log";
+            this.AddLogExeBT.UseVisualStyleBackColor = false;
             // 
             // textBox2
             // 
@@ -232,35 +333,6 @@
             this.SelectExeLB.TabIndex = 18;
             this.SelectExeLB.Text = "Select Exercise";
             // 
-            // AddLogExeBT
-            // 
-            this.AddLogExeBT.Location = new System.Drawing.Point(117, 151);
-            this.AddLogExeBT.Name = "AddLogExeBT";
-            this.AddLogExeBT.Size = new System.Drawing.Size(75, 23);
-            this.AddLogExeBT.TabIndex = 24;
-            this.AddLogExeBT.Text = "Add to Log";
-            this.AddLogExeBT.UseVisualStyleBackColor = true;
-            // 
-            // FoodLoglb
-            // 
-            this.FoodLoglb.AutoSize = true;
-            this.FoodLoglb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FoodLoglb.Location = new System.Drawing.Point(101, 17);
-            this.FoodLoglb.Name = "FoodLoglb";
-            this.FoodLoglb.Size = new System.Drawing.Size(89, 21);
-            this.FoodLoglb.TabIndex = 19;
-            this.FoodLoglb.Text = "FOOD LOG";
-            // 
-            // ExeLogLb
-            // 
-            this.ExeLogLb.AutoSize = true;
-            this.ExeLogLb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExeLogLb.Location = new System.Drawing.Point(36, 17);
-            this.ExeLogLb.Name = "ExeLogLb";
-            this.ExeLogLb.Size = new System.Drawing.Size(116, 21);
-            this.ExeLogLb.TabIndex = 25;
-            this.ExeLogLb.Text = "EXERCISE LOG";
-            // 
             // splitContainer2
             // 
             this.splitContainer2.Location = new System.Drawing.Point(351, 94);
@@ -279,6 +351,21 @@
             this.splitContainer2.Size = new System.Drawing.Size(618, 412);
             this.splitContainer2.SplitterDistance = 81;
             this.splitContainer2.TabIndex = 12;
+            // 
+            // SearchNtn
+            // 
+            this.SearchNtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.SearchNtn.AutoSize = true;
+            this.SearchNtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(111)))), ((int)(((byte)(97)))));
+            this.SearchNtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SearchNtn.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.SearchNtn.Location = new System.Drawing.Point(519, 27);
+            this.SearchNtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.SearchNtn.Name = "SearchNtn";
+            this.SearchNtn.Size = new System.Drawing.Size(73, 25);
+            this.SearchNtn.TabIndex = 20;
+            this.SearchNtn.Text = "Search";
+            this.SearchNtn.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
@@ -300,47 +387,6 @@
             this.SearchLbl.TabIndex = 18;
             this.SearchLbl.Text = "Search";
             // 
-            // dataGridView1
-            // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.AllowUserToResizeColumns = false;
-            dataGridView1.AllowUserToResizeRows = false;
-            dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
-            dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.exerciseNameDataGridViewTextBoxColumn,
-            this.categoryDataGridViewTextBoxColumn,
-            this.totalCaloriesBurntDataGridViewTextBoxColumn,
-            this.durationDataGridViewTextBoxColumn,
-            this.dateDataGridViewTextBoxColumn});
-            dataGridView1.Cursor = System.Windows.Forms.Cursors.Default;
-            dataGridView1.DataSource = this.userWorklogBindingSource;
-            dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            dataGridView1.Location = new System.Drawing.Point(0, 0);
-            dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
-            dataGridView1.Size = new System.Drawing.Size(618, 327);
-            dataGridView1.TabIndex = 21;
-            dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
-            // 
-            // SearchNtn
-            // 
-            this.SearchNtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.SearchNtn.AutoSize = true;
-            this.SearchNtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.SearchNtn.Location = new System.Drawing.Point(519, 27);
-            this.SearchNtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.SearchNtn.Name = "SearchNtn";
-            this.SearchNtn.Size = new System.Drawing.Size(73, 25);
-            this.SearchNtn.TabIndex = 20;
-            this.SearchNtn.Text = "Search";
-            this.SearchNtn.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -353,45 +399,11 @@
             this.label1.Text = "FOOD AND WORK OUT LOG";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // exerciseNameDataGridViewTextBoxColumn
-            // 
-            this.exerciseNameDataGridViewTextBoxColumn.DataPropertyName = "Exercise Name";
-            this.exerciseNameDataGridViewTextBoxColumn.HeaderText = "Exercise Name";
-            this.exerciseNameDataGridViewTextBoxColumn.Name = "exerciseNameDataGridViewTextBoxColumn";
-            this.exerciseNameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // categoryDataGridViewTextBoxColumn
-            // 
-            this.categoryDataGridViewTextBoxColumn.DataPropertyName = "category";
-            this.categoryDataGridViewTextBoxColumn.HeaderText = "Category";
-            this.categoryDataGridViewTextBoxColumn.Name = "categoryDataGridViewTextBoxColumn";
-            this.categoryDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // totalCaloriesBurntDataGridViewTextBoxColumn
-            // 
-            this.totalCaloriesBurntDataGridViewTextBoxColumn.DataPropertyName = "Total Calories Burnt";
-            this.totalCaloriesBurntDataGridViewTextBoxColumn.HeaderText = "Total Calories Burnt";
-            this.totalCaloriesBurntDataGridViewTextBoxColumn.Name = "totalCaloriesBurntDataGridViewTextBoxColumn";
-            this.totalCaloriesBurntDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // durationDataGridViewTextBoxColumn
-            // 
-            this.durationDataGridViewTextBoxColumn.DataPropertyName = "duration";
-            this.durationDataGridViewTextBoxColumn.HeaderText = "Duration";
-            this.durationDataGridViewTextBoxColumn.Name = "durationDataGridViewTextBoxColumn";
-            this.durationDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // ExerciseAndFoodLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(998, 596);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.splitContainer2);
@@ -400,8 +412,9 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "ExerciseAndFoodLog";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "ExerciseSearchLog";
+            this.Text = "ExerciseAndFoodLog";
             this.Load += new System.EventHandler(this.ExerciseSearchLog_Load);
+            ((System.ComponentModel.ISupportInitialize)(dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userWorklogBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.biteWiseDBDataSet1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -415,7 +428,6 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

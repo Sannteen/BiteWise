@@ -118,11 +118,11 @@
     <Compile Include="ExerciseLogging.Designer.cs">
       <DependentUpon>ExerciseLogging.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExerciseSearchLog.cs">
+    <Compile Include="ExerciseAndFoodLog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExerciseSearchLog.Designer.cs">
-      <DependentUpon>ExerciseSearchLog.cs</DependentUpon>
+    <Compile Include="ExerciseAndFoodLog.Designer.cs">
+      <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </Compile>
     <Compile Include="ExerciseSearch_Category_Result.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
@@ -245,8 +245,8 @@
     <EmbeddedResource Include="ExerciseLogging.resx">
       <DependentUpon>ExerciseLogging.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExerciseSearchLog.resx">
-      <DependentUpon>ExerciseSearchLog.cs</DependentUpon>
+    <EmbeddedResource Include="ExerciseAndFoodLog.resx">
+      <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoodLogging.resx">
       <DependentUpon>FoodLogging.cs</DependentUpon>

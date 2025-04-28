@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dashboardLB = new System.Windows.Forms.Label();
             this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
@@ -227,20 +227,20 @@
             // 
             // chWeightProgressdb
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chWeightProgressdb.ChartAreas.Add(chartArea1);
-            legend1.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
-            legend1.Name = "Weekly Progress";
-            legend1.Title = "Weight Progress";
-            legend1.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chWeightProgressdb.Legends.Add(legend1);
+            chartArea4.Name = "ChartArea1";
+            this.chWeightProgressdb.ChartAreas.Add(chartArea4);
+            legend4.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
+            legend4.Name = "Weekly Progress";
+            legend4.Title = "Weight Progress";
+            legend4.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chWeightProgressdb.Legends.Add(legend4);
             this.chWeightProgressdb.Location = new System.Drawing.Point(28, 149);
             this.chWeightProgressdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chWeightProgressdb.Name = "chWeightProgressdb";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Weekly Progress";
-            series1.Name = "Days";
-            this.chWeightProgressdb.Series.Add(series1);
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Weekly Progress";
+            series4.Name = "Days";
+            this.chWeightProgressdb.Series.Add(series4);
             this.chWeightProgressdb.Size = new System.Drawing.Size(428, 275);
             this.chWeightProgressdb.TabIndex = 74;
             this.chWeightProgressdb.Text = "Weight Progress";
@@ -256,6 +256,7 @@
             this.btnLogFooddb.TabIndex = 73;
             this.btnLogFooddb.Text = "Log Food";
             this.btnLogFooddb.UseVisualStyleBackColor = true;
+            this.btnLogFooddb.Click += new System.EventHandler(this.btnLogFooddb_Click);
             // 
             // btnViewProgressbd
             // 
@@ -278,6 +279,7 @@
             this.btnLogWorkoutdb.TabIndex = 71;
             this.btnLogWorkoutdb.Text = "Log Workout";
             this.btnLogWorkoutdb.UseVisualStyleBackColor = true;
+            this.btnLogWorkoutdb.Click += new System.EventHandler(this.btnLogWorkoutdb_Click);
             // 
             // Dashboard
             // 
@@ -290,6 +292,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

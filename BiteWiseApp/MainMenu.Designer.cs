@@ -31,22 +31,17 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.recipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.getRecipesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userPreferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logEntriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logFoodToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logWorkoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goalsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.summaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.goalsOverviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ActivityStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exerciseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.serachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userPreferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.UsernameTxt = new System.Windows.Forms.Label();
             this.TimerLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
-            this.userProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.userSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,10 +50,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dashboardToolStripMenuItem,
-            this.recipesToolStripMenuItem,
-            this.userPreferencesToolStripMenuItem,
+            this.logEntriesToolStripMenuItem,
             this.goalsToolStripMenuItem,
-            this.ActivityStripMenuItem});
+            this.userPreferencesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
@@ -73,21 +67,35 @@
             this.dashboardToolStripMenuItem.Text = "Dashboard";
             this.dashboardToolStripMenuItem.Click += new System.EventHandler(this.dashboardToolStripMenuItem_Click);
             // 
-            // recipesToolStripMenuItem
+            // logEntriesToolStripMenuItem
             // 
-            this.recipesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.getRecipesToolStripMenuItem});
-            this.recipesToolStripMenuItem.Name = "recipesToolStripMenuItem";
-            this.recipesToolStripMenuItem.Size = new System.Drawing.Size(59, 22);
-            this.recipesToolStripMenuItem.Text = "Recipes";
-            this.recipesToolStripMenuItem.Click += new System.EventHandler(this.recipesToolStripMenuItem_Click);
+            this.logEntriesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logFoodToolStripMenuItem,
+            this.logWorkoutToolStripMenuItem});
+            this.logEntriesToolStripMenuItem.Name = "logEntriesToolStripMenuItem";
+            this.logEntriesToolStripMenuItem.Size = new System.Drawing.Size(77, 22);
+            this.logEntriesToolStripMenuItem.Text = "Log Entries";
             // 
-            // getRecipesToolStripMenuItem
+            // logFoodToolStripMenuItem
             // 
-            this.getRecipesToolStripMenuItem.Name = "getRecipesToolStripMenuItem";
-            this.getRecipesToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.getRecipesToolStripMenuItem.Text = "Get Recipes";
-            this.getRecipesToolStripMenuItem.Click += new System.EventHandler(this.getRecipesToolStripMenuItem_Click);
+            this.logFoodToolStripMenuItem.Name = "logFoodToolStripMenuItem";
+            this.logFoodToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logFoodToolStripMenuItem.Text = "Log Food";
+            this.logFoodToolStripMenuItem.Click += new System.EventHandler(this.logFoodToolStripMenuItem_Click);
+            // 
+            // logWorkoutToolStripMenuItem
+            // 
+            this.logWorkoutToolStripMenuItem.Name = "logWorkoutToolStripMenuItem";
+            this.logWorkoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logWorkoutToolStripMenuItem.Text = "Log Workout";
+            this.logWorkoutToolStripMenuItem.Click += new System.EventHandler(this.logWorkoutToolStripMenuItem_Click);
+            // 
+            // goalsToolStripMenuItem
+            // 
+            this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
+            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(64, 22);
+            this.goalsToolStripMenuItem.Text = "Progress";
+            this.goalsToolStripMenuItem.Click += new System.EventHandler(this.goalsToolStripMenuItem_Click);
             // 
             // userPreferencesToolStripMenuItem
             // 
@@ -99,62 +107,19 @@
             this.userPreferencesToolStripMenuItem.Text = "Profile";
             this.userPreferencesToolStripMenuItem.Click += new System.EventHandler(this.userPreferencesToolStripMenuItem_Click);
             // 
-            // goalsToolStripMenuItem
+            // userProfileToolStripMenuItem
             // 
-            this.goalsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.summaryToolStripMenuItem,
-            this.goalsOverviewToolStripMenuItem});
-            this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
-            this.goalsToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
-            this.goalsToolStripMenuItem.Text = "Goals";
-            this.goalsToolStripMenuItem.Click += new System.EventHandler(this.goalsToolStripMenuItem_Click);
+            this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
+            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.userProfileToolStripMenuItem.Text = "User Profile";
+            this.userProfileToolStripMenuItem.Click += new System.EventHandler(this.userProfileToolStripMenuItem_Click_1);
             // 
-            // toolStripMenuItem1
+            // userSettingsToolStripMenuItem
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.toolStripMenuItem1.Text = "Progress Tracking";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // summaryToolStripMenuItem
-            // 
-            this.summaryToolStripMenuItem.Name = "summaryToolStripMenuItem";
-            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.summaryToolStripMenuItem.Text = "Daily Summary";
-            this.summaryToolStripMenuItem.Click += new System.EventHandler(this.summaryToolStripMenuItem_Click);
-            // 
-            // goalsOverviewToolStripMenuItem
-            // 
-            this.goalsOverviewToolStripMenuItem.CheckOnClick = true;
-            this.goalsOverviewToolStripMenuItem.Name = "goalsOverviewToolStripMenuItem";
-            this.goalsOverviewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.goalsOverviewToolStripMenuItem.Text = "Goals";
-            this.goalsOverviewToolStripMenuItem.Click += new System.EventHandler(this.goalsOverviewToolStripMenuItem_Click);
-            // 
-            // ActivityStripMenuItem
-            // 
-            this.ActivityStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exerciseToolStripMenuItem,
-            this.serachToolStripMenuItem});
-            this.ActivityStripMenuItem.Name = "ActivityStripMenuItem";
-            this.ActivityStripMenuItem.Size = new System.Drawing.Size(82, 22);
-            this.ActivityStripMenuItem.Text = "Activity Log";
-            this.ActivityStripMenuItem.Click += new System.EventHandler(this.userToolStripMenuItem_Click);
-            // 
-            // exerciseToolStripMenuItem
-            // 
-            this.exerciseToolStripMenuItem.Name = "exerciseToolStripMenuItem";
-            this.exerciseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exerciseToolStripMenuItem.Text = "Exercise";
-            this.exerciseToolStripMenuItem.Click += new System.EventHandler(this.exerciseToolStripMenuItem_Click_1);
-            // 
-            // serachToolStripMenuItem
-            // 
-            this.serachToolStripMenuItem.Name = "serachToolStripMenuItem";
-            this.serachToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.serachToolStripMenuItem.Text = "Search";
-            this.serachToolStripMenuItem.Click += new System.EventHandler(this.serachToolStripMenuItem_Click);
+            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
+            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.userSettingsToolStripMenuItem.Text = "User Settings";
+            this.userSettingsToolStripMenuItem.Click += new System.EventHandler(this.userSettingsToolStripMenuItem_Click);
             // 
             // UsernameTxt
             // 
@@ -162,7 +127,7 @@
             this.UsernameTxt.AutoSize = true;
             this.UsernameTxt.Font = new System.Drawing.Font("Arial Narrow", 10F);
             this.UsernameTxt.ForeColor = System.Drawing.Color.Black;
-            this.UsernameTxt.Location = new System.Drawing.Point(701, 0);
+            this.UsernameTxt.Location = new System.Drawing.Point(784, 4);
             this.UsernameTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UsernameTxt.Name = "UsernameTxt";
             this.UsernameTxt.Size = new System.Drawing.Size(12, 17);
@@ -175,7 +140,7 @@
             this.TimerLbl.AutoSize = true;
             this.TimerLbl.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimerLbl.ForeColor = System.Drawing.Color.Black;
-            this.TimerLbl.Location = new System.Drawing.Point(848, 0);
+            this.TimerLbl.Location = new System.Drawing.Point(999, 5);
             this.TimerLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TimerLbl.Name = "TimerLbl";
             this.TimerLbl.Size = new System.Drawing.Size(11, 16);
@@ -194,20 +159,6 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1133, 546);
             this.panelMain.TabIndex = 5;
-            // 
-            // userProfileToolStripMenuItem
-            // 
-            this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
-            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.userProfileToolStripMenuItem.Text = "User Profile";
-            this.userProfileToolStripMenuItem.Click += new System.EventHandler(this.userProfileToolStripMenuItem_Click_1);
-            // 
-            // userSettingsToolStripMenuItem
-            // 
-            this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
-            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.userSettingsToolStripMenuItem.Text = "User Settings";
-            this.userSettingsToolStripMenuItem.Click += new System.EventHandler(this.userSettingsToolStripMenuItem_Click);
             // 
             // MainMenu
             // 
@@ -235,22 +186,17 @@
 
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ActivityStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dashboardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem recipesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userPreferencesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goalsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem summaryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem getRecipesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exerciseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem serachToolStripMenuItem;
         public System.Windows.Forms.Label UsernameTxt;
         public System.Windows.Forms.Label TimerLbl;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.ToolStripMenuItem goalsOverviewToolStripMenuItem;
-        private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.ToolStripMenuItem userProfileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userSettingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logEntriesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logFoodToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logWorkoutToolStripMenuItem;
+        public System.Windows.Forms.Panel panelMain;
     }
 }

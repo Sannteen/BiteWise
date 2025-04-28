@@ -21,7 +21,7 @@ namespace BiteWiseApp
            
         }
 
-        private void LoadFormInPanel(Form form)
+        public void LoadFormInPanel(Form form)
         {
             panelMain.Controls.Clear();              // Remove existing child controls
             form.TopLevel = false;                   // Important: embed form in panel
@@ -98,21 +98,6 @@ namespace BiteWiseApp
             LoadFormInPanel(new Dashboard());
         }
 
-        private void serachToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoadFormInPanel(new ExerciseAndFoodLog());
-        }
-
-        private void exerciseToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoadFormInPanel(new ExerciseLogging());
-        }
-
-        private void goalsOverviewToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-            LoadFormInPanel(new Goals());
-        }
-
         private void userProfileToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             LoadFormInPanel(new UserProfileForm());
@@ -123,14 +108,14 @@ namespace BiteWiseApp
             LoadFormInPanel(new UserSettings());
         }
 
-        private void goalsOverviewToolStripMenuItem_Click(object sender, EventArgs e)
+        private void logFoodToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new Goals());
+            LoadFormInPanel(new ExerciseAndFoodLog());
         }
 
-        private void exerciseToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void logWorkoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ExerciseLogging());
+            LoadFormInPanel(new ExerciseAndFoodLog());
         }
     }
 }
