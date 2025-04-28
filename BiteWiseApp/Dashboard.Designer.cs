@@ -33,7 +33,6 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.dashboardLB = new System.Windows.Forms.Label();
             this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.tbNetCalsdb = new System.Windows.Forms.TextBox();
             this.tbTotalCalsBurneddb = new System.Windows.Forms.TextBox();
@@ -50,6 +49,7 @@
             this.btnLogFooddb = new System.Windows.Forms.Button();
             this.btnViewProgressbd = new System.Windows.Forms.Button();
             this.btnLogWorkoutdb = new System.Windows.Forms.Button();
+            this.dashboardLB = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -91,20 +91,6 @@
             this.splitContainer1.SplitterDistance = 385;
             this.splitContainer1.TabIndex = 71;
             // 
-            // dashboardLB
-            // 
-            this.dashboardLB.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dashboardLB.AutoSize = true;
-            this.dashboardLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardLB.ForeColor = System.Drawing.Color.DarkCyan;
-            this.dashboardLB.Location = new System.Drawing.Point(202, 34);
-            this.dashboardLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.dashboardLB.Name = "dashboardLB";
-            this.dashboardLB.Size = new System.Drawing.Size(572, 42);
-            this.dashboardLB.TabIndex = 69;
-            this.dashboardLB.Text = "Welcome to BitWise Dashboard";
-            this.dashboardLB.Click += new System.EventHandler(this.RegistrationLB_Click);
-            // 
             // ProfilePictureBox
             // 
             this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -122,7 +108,7 @@
             this.tbNetCalsdb.Location = new System.Drawing.Point(194, 420);
             this.tbNetCalsdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbNetCalsdb.Name = "tbNetCalsdb";
-            this.tbNetCalsdb.Size = new System.Drawing.Size(118, 23);
+            this.tbNetCalsdb.Size = new System.Drawing.Size(118, 31);
             this.tbNetCalsdb.TabIndex = 78;
             // 
             // tbTotalCalsBurneddb
@@ -130,7 +116,7 @@
             this.tbTotalCalsBurneddb.Location = new System.Drawing.Point(244, 383);
             this.tbTotalCalsBurneddb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbTotalCalsBurneddb.Name = "tbTotalCalsBurneddb";
-            this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(68, 23);
+            this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(68, 31);
             this.tbTotalCalsBurneddb.TabIndex = 77;
             // 
             // tbTotalCalsConsumeddb
@@ -138,7 +124,7 @@
             this.tbTotalCalsConsumeddb.Location = new System.Drawing.Point(269, 346);
             this.tbTotalCalsConsumeddb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbTotalCalsConsumeddb.Name = "tbTotalCalsConsumeddb";
-            this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(43, 23);
+            this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(43, 31);
             this.tbTotalCalsConsumeddb.TabIndex = 76;
             // 
             // tbCurrentWeightdb
@@ -146,7 +132,7 @@
             this.tbCurrentWeightdb.Location = new System.Drawing.Point(194, 309);
             this.tbCurrentWeightdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbCurrentWeightdb.Name = "tbCurrentWeightdb";
-            this.tbCurrentWeightdb.Size = new System.Drawing.Size(118, 23);
+            this.tbCurrentWeightdb.Size = new System.Drawing.Size(118, 31);
             this.tbCurrentWeightdb.TabIndex = 75;
             // 
             // cbUserdb
@@ -155,7 +141,7 @@
             this.cbUserdb.Location = new System.Drawing.Point(122, 272);
             this.cbUserdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cbUserdb.Name = "cbUserdb";
-            this.cbUserdb.Size = new System.Drawing.Size(190, 23);
+            this.cbUserdb.Size = new System.Drawing.Size(190, 33);
             this.cbUserdb.TabIndex = 74;
             // 
             // labeluser
@@ -165,7 +151,7 @@
             this.labeluser.Location = new System.Drawing.Point(78, 279);
             this.labeluser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeluser.Name = "labeluser";
-            this.labeluser.Size = new System.Drawing.Size(40, 16);
+            this.labeluser.Size = new System.Drawing.Size(57, 25);
             this.labeluser.TabIndex = 73;
             this.labeluser.Text = "User";
             // 
@@ -176,7 +162,7 @@
             this.label6.Location = new System.Drawing.Point(78, 423);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 16);
+            this.label6.Size = new System.Drawing.Size(131, 25);
             this.label6.TabIndex = 72;
             this.label6.Text = "Net Calories";
             // 
@@ -187,7 +173,7 @@
             this.label4.Location = new System.Drawing.Point(78, 387);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 16);
+            this.label4.Size = new System.Drawing.Size(222, 25);
             this.label4.TabIndex = 71;
             this.label4.Text = "Total Calories Burned";
             // 
@@ -198,7 +184,7 @@
             this.label3.Location = new System.Drawing.Point(78, 351);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(182, 16);
+            this.label3.Size = new System.Drawing.Size(257, 25);
             this.label3.TabIndex = 70;
             this.label3.Text = "Total Calories Consumed";
             // 
@@ -209,7 +195,7 @@
             this.label2.Location = new System.Drawing.Point(78, 315);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 16);
+            this.label2.Size = new System.Drawing.Size(158, 25);
             this.label2.TabIndex = 69;
             this.label2.Text = "Current Weight";
             // 
@@ -279,11 +265,25 @@
             this.btnLogWorkoutdb.Text = "Log Workout";
             this.btnLogWorkoutdb.UseVisualStyleBackColor = true;
             // 
+            // dashboardLB
+            // 
+            this.dashboardLB.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dashboardLB.AutoSize = true;
+            this.dashboardLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardLB.ForeColor = System.Drawing.Color.DarkCyan;
+            this.dashboardLB.Location = new System.Drawing.Point(281, 34);
+            this.dashboardLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.dashboardLB.Name = "dashboardLB";
+            this.dashboardLB.Size = new System.Drawing.Size(845, 64);
+            this.dashboardLB.TabIndex = 69;
+            this.dashboardLB.Text = "Welcome to BitWise Dashboard";
+            this.dashboardLB.Click += new System.EventHandler(this.RegistrationLB_Click);
+            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 706);
+            this.ClientSize = new System.Drawing.Size(1135, 706);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.dashboardLB);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
