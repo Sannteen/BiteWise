@@ -257,11 +257,12 @@
             this.NetCaloriesProgressBar.OuterColor = System.Drawing.Color.Gray;
             this.NetCaloriesProgressBar.OuterMargin = -25;
             this.NetCaloriesProgressBar.OuterWidth = 26;
-            this.NetCaloriesProgressBar.ProgressColor = System.Drawing.Color.DarkCyan;
+            this.NetCaloriesProgressBar.ProgressColor = System.Drawing.Color.Turquoise;
             this.NetCaloriesProgressBar.ProgressWidth = 25;
             this.NetCaloriesProgressBar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.NetCaloriesProgressBar.Size = new System.Drawing.Size(270, 259);
             this.NetCaloriesProgressBar.StartAngle = 270;
+            this.NetCaloriesProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.NetCaloriesProgressBar.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
             this.NetCaloriesProgressBar.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
             this.NetCaloriesProgressBar.SubscriptText = ".23";
