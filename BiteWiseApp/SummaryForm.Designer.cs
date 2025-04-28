@@ -51,16 +51,25 @@
             this.WorkoutLogDataGridView = new System.Windows.Forms.DataGridView();
             this.TotalCalBurned = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tltCaloriesconsumedchart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.NetCaloriesLabel = new System.Windows.Forms.Label();
+            this.NetCaloriesProgressBar = new CircularProgressBar.CircularProgressBar();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.FoodLogDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WorkoutLogDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TotalCalBurned)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tltCaloriesconsumedchart1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // DailySumarylabel
             // 
             this.DailySumarylabel.AutoSize = true;
             this.DailySumarylabel.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DailySumarylabel.ForeColor = System.Drawing.Color.DarkCyan;
             this.DailySumarylabel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.DailySumarylabel.Location = new System.Drawing.Point(345, 7);
             this.DailySumarylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -96,7 +105,7 @@
             // 
             this.foodloglabel.AutoSize = true;
             this.foodloglabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.foodloglabel.Location = new System.Drawing.Point(60, 147);
+            this.foodloglabel.Location = new System.Drawing.Point(31, 6);
             this.foodloglabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.foodloglabel.Name = "foodloglabel";
             this.foodloglabel.Size = new System.Drawing.Size(113, 30);
@@ -107,7 +116,7 @@
             // 
             this.WoutoutLogLabel.AutoSize = true;
             this.WoutoutLogLabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WoutoutLogLabel.Location = new System.Drawing.Point(312, 147);
+            this.WoutoutLogLabel.Location = new System.Drawing.Point(31, 296);
             this.WoutoutLogLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WoutoutLogLabel.Name = "WoutoutLogLabel";
             this.WoutoutLogLabel.Size = new System.Drawing.Size(156, 30);
@@ -118,23 +127,25 @@
             // 
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FoodLogDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.FoodLogDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FoodLogDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.FoodLogDataGridView.Location = new System.Drawing.Point(53, 193);
+            this.FoodLogDataGridView.Location = new System.Drawing.Point(36, 47);
             this.FoodLogDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.FoodLogDataGridView.Name = "FoodLogDataGridView";
             this.FoodLogDataGridView.RowHeadersWidth = 62;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FoodLogDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.FoodLogDataGridView.RowTemplate.Height = 28;
-            this.FoodLogDataGridView.Size = new System.Drawing.Size(241, 289);
+            this.FoodLogDataGridView.Size = new System.Drawing.Size(240, 225);
             this.FoodLogDataGridView.TabIndex = 26;
             // 
             // WorkoutLogDataGridView
             // 
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.WorkoutLogDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.WorkoutLogDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.WorkoutLogDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.WorkoutLogDataGridView.Location = new System.Drawing.Point(317, 193);
+            this.WorkoutLogDataGridView.Location = new System.Drawing.Point(12, 328);
             this.WorkoutLogDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.WorkoutLogDataGridView.Name = "WorkoutLogDataGridView";
             this.WorkoutLogDataGridView.RowHeadersWidth = 62;
@@ -142,7 +153,7 @@
             this.WorkoutLogDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.WorkoutLogDataGridView.RowTemplate.Height = 28;
             this.WorkoutLogDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.WorkoutLogDataGridView.Size = new System.Drawing.Size(241, 289);
+            this.WorkoutLogDataGridView.Size = new System.Drawing.Size(303, 156);
             this.WorkoutLogDataGridView.TabIndex = 30;
             // 
             // TotalCalBurned
@@ -151,7 +162,7 @@
             this.TotalCalBurned.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.TotalCalBurned.Legends.Add(legend1);
-            this.TotalCalBurned.Location = new System.Drawing.Point(708, 84);
+            this.TotalCalBurned.Location = new System.Drawing.Point(2, 6);
             this.TotalCalBurned.Margin = new System.Windows.Forms.Padding(2);
             this.TotalCalBurned.Name = "TotalCalBurned";
             series1.ChartArea = "ChartArea1";
@@ -171,7 +182,7 @@
             this.TotalCalBurned.Series.Add(series1);
             this.TotalCalBurned.Series.Add(series2);
             this.TotalCalBurned.Series.Add(series3);
-            this.TotalCalBurned.Size = new System.Drawing.Size(379, 204);
+            this.TotalCalBurned.Size = new System.Drawing.Size(427, 234);
             this.TotalCalBurned.TabIndex = 7;
             this.TotalCalBurned.Text = "Body Measurement History ";
             title1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -185,7 +196,7 @@
             this.tltCaloriesconsumedchart1.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.tltCaloriesconsumedchart1.Legends.Add(legend2);
-            this.tltCaloriesconsumedchart1.Location = new System.Drawing.Point(708, 303);
+            this.tltCaloriesconsumedchart1.Location = new System.Drawing.Point(2, 258);
             this.tltCaloriesconsumedchart1.Margin = new System.Windows.Forms.Padding(2);
             this.tltCaloriesconsumedchart1.Name = "tltCaloriesconsumedchart1";
             series4.ChartArea = "ChartArea1";
@@ -193,7 +204,7 @@
             series4.Legend = "Legend1";
             series4.Name = "Series1";
             this.tltCaloriesconsumedchart1.Series.Add(series4);
-            this.tltCaloriesconsumedchart1.Size = new System.Drawing.Size(379, 179);
+            this.tltCaloriesconsumedchart1.Size = new System.Drawing.Size(427, 234);
             this.tltCaloriesconsumedchart1.TabIndex = 26;
             this.tltCaloriesconsumedchart1.Text = "Total Calories Consumed";
             title2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -201,17 +212,86 @@
             title2.Text = "Total Calories Consumed";
             this.tltCaloriesconsumedchart1.Titles.Add(title2);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.TotalCalBurned);
+            this.panel1.Controls.Add(this.tltCaloriesconsumedchart1);
+            this.panel1.Location = new System.Drawing.Point(390, 142);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(437, 494);
+            this.panel1.TabIndex = 31;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.NetCaloriesLabel);
+            this.panel2.Controls.Add(this.NetCaloriesProgressBar);
+            this.panel2.Location = new System.Drawing.Point(856, 147);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(297, 487);
+            this.panel2.TabIndex = 32;
+            // 
+            // NetCaloriesLabel
+            // 
+            this.NetCaloriesLabel.AutoSize = true;
+            this.NetCaloriesLabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NetCaloriesLabel.Location = new System.Drawing.Point(2, 1);
+            this.NetCaloriesLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NetCaloriesLabel.Name = "NetCaloriesLabel";
+            this.NetCaloriesLabel.Size = new System.Drawing.Size(145, 30);
+            this.NetCaloriesLabel.TabIndex = 33;
+            this.NetCaloriesLabel.Text = "Net Calories";
+            // 
+            // NetCaloriesProgressBar
+            // 
+            this.NetCaloriesProgressBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.NetCaloriesProgressBar.AnimationSpeed = 500;
+            this.NetCaloriesProgressBar.BackColor = System.Drawing.Color.Transparent;
+            this.NetCaloriesProgressBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
+            this.NetCaloriesProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.NetCaloriesProgressBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.NetCaloriesProgressBar.InnerMargin = 2;
+            this.NetCaloriesProgressBar.InnerWidth = -1;
+            this.NetCaloriesProgressBar.Location = new System.Drawing.Point(7, 62);
+            this.NetCaloriesProgressBar.MarqueeAnimationSpeed = 2000;
+            this.NetCaloriesProgressBar.Name = "NetCaloriesProgressBar";
+            this.NetCaloriesProgressBar.OuterColor = System.Drawing.Color.Gray;
+            this.NetCaloriesProgressBar.OuterMargin = -25;
+            this.NetCaloriesProgressBar.OuterWidth = 26;
+            this.NetCaloriesProgressBar.ProgressColor = System.Drawing.Color.DarkCyan;
+            this.NetCaloriesProgressBar.ProgressWidth = 25;
+            this.NetCaloriesProgressBar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
+            this.NetCaloriesProgressBar.Size = new System.Drawing.Size(270, 259);
+            this.NetCaloriesProgressBar.StartAngle = 270;
+            this.NetCaloriesProgressBar.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.NetCaloriesProgressBar.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.NetCaloriesProgressBar.SubscriptText = ".23";
+            this.NetCaloriesProgressBar.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.NetCaloriesProgressBar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.NetCaloriesProgressBar.SuperscriptText = "°C";
+            this.NetCaloriesProgressBar.TabIndex = 0;
+            this.NetCaloriesProgressBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.NetCaloriesProgressBar.Value = 68;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.panel3.Controls.Add(this.FoodLogDataGridView);
+            this.panel3.Controls.Add(this.WorkoutLogDataGridView);
+            this.panel3.Controls.Add(this.WoutoutLogLabel);
+            this.panel3.Controls.Add(this.foodloglabel);
+            this.panel3.Location = new System.Drawing.Point(29, 142);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(326, 491);
+            this.panel3.TabIndex = 33;
+            // 
             // SummaryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 663);
-            this.Controls.Add(this.tltCaloriesconsumedchart1);
-            this.Controls.Add(this.TotalCalBurned);
-            this.Controls.Add(this.WoutoutLogLabel);
-            this.Controls.Add(this.WorkoutLogDataGridView);
-            this.Controls.Add(this.FoodLogDataGridView);
-            this.Controls.Add(this.foodloglabel);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.DateLabel);
             this.Controls.Add(this.DatePickfordailysumry);
             this.Controls.Add(this.DailySumarylabel);
@@ -224,6 +304,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.WorkoutLogDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TotalCalBurned)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tltCaloriesconsumedchart1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,5 +325,10 @@
         public System.Windows.Forms.DateTimePicker DatePickfordailysumry;
         private System.Windows.Forms.DataVisualization.Charting.Chart TotalCalBurned;
         private System.Windows.Forms.DataVisualization.Charting.Chart tltCaloriesconsumedchart1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label NetCaloriesLabel;
+        private CircularProgressBar.CircularProgressBar NetCaloriesProgressBar;
+        private System.Windows.Forms.Panel panel3;
     }
 }

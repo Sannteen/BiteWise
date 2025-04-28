@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BiteWise App\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BiteWise App\\BiteWiseApp\\progresstrackingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:progresstrackingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,9 +40,9 @@
               "RelativeDocumentMoniker": "SummaryForm.cs",
               "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BiteWise App\\BiteWiseApp\\SummaryForm.cs",
               "RelativeToolTip": "SummaryForm.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAhwDAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T02:31:01.008Z",
+              "WhenOpened": "2025-04-28T02:44:24.086Z",
               "EditorCaption": ""
             },
             {
@@ -60,17 +56,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T02:30:12.032Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProgressTrackingForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BiteWise App\\BiteWiseApp\\ProgressTrackingForm.cs",
-              "RelativeDocumentMoniker": "ProgressTrackingForm.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BiteWise App\\BiteWiseApp\\ProgressTrackingForm.cs [Design]",
-              "RelativeToolTip": "ProgressTrackingForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T23:50:23.741Z"
             }
           ]
         }
