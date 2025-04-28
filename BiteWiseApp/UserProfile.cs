@@ -72,22 +72,26 @@ namespace BiteWiseApp
             }
 
         }
+        public static class Session
+        {
+            public static int LoggedInUserId { get; set; }
+        }
 
         private void UserProfileForm_Load(object sender, EventArgs e)
         {
 
             int currentUserId = Session.LoggedInUserId; 
 
-            var currentUser = biteWiseDBEntities.users.FirstOrDefault(u => u.UserID == currentUserId);
+            var currentUser = biteWiseDBEntities.Users.FirstOrDefault(u => u.user_id == currentUserId);
 
             if (currentUser != null)
             {
-                txtName.Text = currentUser.Name;
-                txtEmail.Text = currentUser.Email;
-                txtPassword.Text = currentUser.Password;
-                txtAge.Text = currentUser.Age.ToString();
-                txtHeight.Text = currentUser.Height.ToString();
-                txtWeight.Text = currentUser.Weight.ToString();
+                nametextBox.Text = currentUser.name;
+                EmailtextBox.Text = currentUser.email;
+                PasswordtextBox.Text = currentUser.password;
+                AgenumericUpDown.Value = (decimal) currentUser.age;
+                HeightnumericUpDown.Value = (decimal) currentUser.height;
+                WeightnumericUpDown.Value = (decimal) currentUser.weight;
             }
             else
             {
