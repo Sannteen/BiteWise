@@ -34,14 +34,17 @@ namespace BiteWiseApp
                 FoodLogDataGridView.DataSource = foodSummary;
 
 
-            var workoutSummary = biteWiseDBEntities.Exercises
-                .GroupBy(ex => ex.name)
-                .Select(g => new
-                {
-                    Exercise = g.Key,
-                    CaloriesBurned = g.Sum(ex => ex.calories_burned_per_min)
-                })
-                .ToList();
+            var workoutSummary = (from wl in biteWiseDBEntities.WorkoutLogs
+                                  join ex in biteWiseDBEntities.Exercises
+                                  on wl.exercise_id equals ex.exercise_id
+                                  group new { wl, ex } by ex.name into g
+                                  select new
+                                  {
+                                      Exercise = g.Key,
+                                      TotalDuration = g.Sum(x => x.wl.duration),
+                                      CaloriesBurned = g.Sum(x => x.wl.duration * x.ex.calories_burned_per_min)
+                                  })
+                     .ToList();
 
             WorkoutLogDataGridView.DataSource = workoutSummary;
         }

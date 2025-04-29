@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Collections.Specialized.BitVector32;
+using System.Windows.Forms.DataVisualization.Charting;
+using System.Windows.Forms.VisualStyles;
+using System.Xml.Linq;
 
 namespace BiteWiseApp
 {
@@ -65,10 +72,31 @@ namespace BiteWiseApp
             }
 
         }
+        public static class Session
+        {
+            public static int LoggedInUserId { get; set; }
+        }
 
         private void UserProfileForm_Load(object sender, EventArgs e)
         {
 
+            int currentUserId = Session.LoggedInUserId; 
+
+            var currentUser = biteWiseDBEntities.Users.FirstOrDefault(u => u.user_id == currentUserId);
+
+            if (currentUser != null)
+            {
+                nametextBox.Text = currentUser.name;
+                EmailtextBox.Text = currentUser.email;
+                PasswordtextBox.Text = currentUser.password;
+                AgenumericUpDown.Value = (decimal) currentUser.age;
+                HeightnumericUpDown.Value = (decimal) currentUser.height;
+                WeightnumericUpDown.Value = (decimal) currentUser.weight;
+            }
+            else
+            {
+                MessageBox.Show("User not found.");
+            }
         }
     }
-}
+    }
