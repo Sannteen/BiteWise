@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.tbNetCalsdb = new System.Windows.Forms.TextBox();
@@ -77,7 +77,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+            //this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
@@ -108,32 +108,36 @@
             this.tbNetCalsdb.Location = new System.Drawing.Point(194, 420);
             this.tbNetCalsdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbNetCalsdb.Name = "tbNetCalsdb";
-            this.tbNetCalsdb.Size = new System.Drawing.Size(118, 31);
+            this.tbNetCalsdb.Size = new System.Drawing.Size(118, 23);
             this.tbNetCalsdb.TabIndex = 78;
+           // this.tbNetCalsdb.TextChanged += new System.EventHandler(this.tbNetCalsdb_TextChanged);
             // 
             // tbTotalCalsBurneddb
             // 
             this.tbTotalCalsBurneddb.Location = new System.Drawing.Point(244, 383);
             this.tbTotalCalsBurneddb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbTotalCalsBurneddb.Name = "tbTotalCalsBurneddb";
-            this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(68, 31);
+            this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(68, 23);
             this.tbTotalCalsBurneddb.TabIndex = 77;
+            //this.tbTotalCalsBurneddb.TextChanged += new System.EventHandler(this.tbTotalCalsBurneddb_TextChanged);
             // 
             // tbTotalCalsConsumeddb
             // 
             this.tbTotalCalsConsumeddb.Location = new System.Drawing.Point(269, 346);
             this.tbTotalCalsConsumeddb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbTotalCalsConsumeddb.Name = "tbTotalCalsConsumeddb";
-            this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(43, 31);
+            this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(43, 23);
             this.tbTotalCalsConsumeddb.TabIndex = 76;
+           // this.tbTotalCalsConsumeddb.TextChanged += new System.EventHandler(this.tbTotalCalsConsumeddb_TextChanged);
             // 
             // tbCurrentWeightdb
             // 
             this.tbCurrentWeightdb.Location = new System.Drawing.Point(194, 309);
             this.tbCurrentWeightdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbCurrentWeightdb.Name = "tbCurrentWeightdb";
-            this.tbCurrentWeightdb.Size = new System.Drawing.Size(118, 31);
+            this.tbCurrentWeightdb.Size = new System.Drawing.Size(118, 23);
             this.tbCurrentWeightdb.TabIndex = 75;
+           // this.tbCurrentWeightdb.TextChanged += new System.EventHandler(this.tbCurrentWeightdb_TextChanged);
             // 
             // cbUserdb
             // 
@@ -141,8 +145,9 @@
             this.cbUserdb.Location = new System.Drawing.Point(122, 272);
             this.cbUserdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cbUserdb.Name = "cbUserdb";
-            this.cbUserdb.Size = new System.Drawing.Size(190, 33);
+            this.cbUserdb.Size = new System.Drawing.Size(190, 23);
             this.cbUserdb.TabIndex = 74;
+           // this.cbUserdb.SelectedIndexChanged += new System.EventHandler(this.cbUserdb_SelectedIndexChanged);
             // 
             // labeluser
             // 
@@ -151,7 +156,7 @@
             this.labeluser.Location = new System.Drawing.Point(78, 279);
             this.labeluser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labeluser.Name = "labeluser";
-            this.labeluser.Size = new System.Drawing.Size(57, 25);
+            this.labeluser.Size = new System.Drawing.Size(40, 16);
             this.labeluser.TabIndex = 73;
             this.labeluser.Text = "User";
             // 
@@ -162,7 +167,7 @@
             this.label6.Location = new System.Drawing.Point(78, 423);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 25);
+            this.label6.Size = new System.Drawing.Size(93, 16);
             this.label6.TabIndex = 72;
             this.label6.Text = "Net Calories";
             // 
@@ -173,7 +178,7 @@
             this.label4.Location = new System.Drawing.Point(78, 387);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(222, 25);
+            this.label4.Size = new System.Drawing.Size(158, 16);
             this.label4.TabIndex = 71;
             this.label4.Text = "Total Calories Burned";
             // 
@@ -184,7 +189,7 @@
             this.label3.Location = new System.Drawing.Point(78, 351);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(257, 25);
+            this.label3.Size = new System.Drawing.Size(182, 16);
             this.label3.TabIndex = 70;
             this.label3.Text = "Total Calories Consumed";
             // 
@@ -195,7 +200,7 @@
             this.label2.Location = new System.Drawing.Point(78, 315);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 25);
+            this.label2.Size = new System.Drawing.Size(108, 16);
             this.label2.TabIndex = 69;
             this.label2.Text = "Current Weight";
             // 
@@ -213,20 +218,20 @@
             // 
             // chWeightProgressdb
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chWeightProgressdb.ChartAreas.Add(chartArea4);
-            legend4.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
-            legend4.Name = "Weekly Progress";
-            legend4.Title = "Weight Progress";
-            legend4.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chWeightProgressdb.Legends.Add(legend4);
+            chartArea5.Name = "ChartArea1";
+            this.chWeightProgressdb.ChartAreas.Add(chartArea5);
+            legend5.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
+            legend5.Name = "Weekly Progress";
+            legend5.Title = "Weight Progress";
+            legend5.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chWeightProgressdb.Legends.Add(legend5);
             this.chWeightProgressdb.Location = new System.Drawing.Point(28, 149);
             this.chWeightProgressdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chWeightProgressdb.Name = "chWeightProgressdb";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Weekly Progress";
-            series4.Name = "Days";
-            this.chWeightProgressdb.Series.Add(series4);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Weekly Progress";
+            series5.Name = "Days";
+            this.chWeightProgressdb.Series.Add(series5);
             this.chWeightProgressdb.Size = new System.Drawing.Size(428, 275);
             this.chWeightProgressdb.TabIndex = 74;
             this.chWeightProgressdb.Text = "Weight Progress";
@@ -276,19 +281,20 @@
             this.dashboardLB.Location = new System.Drawing.Point(281, 34);
             this.dashboardLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dashboardLB.Name = "dashboardLB";
-            this.dashboardLB.Size = new System.Drawing.Size(845, 64);
+            this.dashboardLB.Size = new System.Drawing.Size(572, 42);
             this.dashboardLB.TabIndex = 69;
             this.dashboardLB.Text = "Welcome to BitWise Dashboard";
-            this.dashboardLB.Click += new System.EventHandler(this.RegistrationLB_Click);
+           // this.dashboardLB.Click += new System.EventHandler(this.RegistrationLB_Click);
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 706);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.dashboardLB);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Dashboard";
             this.Text = "Dashboard";

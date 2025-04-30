@@ -102,7 +102,7 @@
             dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
             dataGridView1.Size = new System.Drawing.Size(618, 327);
             dataGridView1.TabIndex = 21;
-            dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+//            dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // exerciseNameDataGridViewTextBoxColumn
             // 

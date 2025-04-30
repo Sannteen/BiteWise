@@ -97,6 +97,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BiteWiseDBDataSet_Workout.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Session.cs" />
     <Compile Include="Classes\Recipe.cs" />
     <Compile Include="Classes\UserLogin.cs" />
     <Compile Include="Classes\User_Rgestration.cs" />
@@ -111,12 +112,6 @@
     </Compile>
     <Compile Include="Exercis.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ExerciseLogging.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ExerciseLogging.Designer.cs">
-      <DependentUpon>ExerciseLogging.cs</DependentUpon>
     </Compile>
     <Compile Include="ExerciseAndFoodLog.cs">
       <SubType>Form</SubType>
@@ -136,11 +131,11 @@
     <Compile Include="Food.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="FoodLogging.cs">
+    <Compile Include="Recipes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FoodLogging.Designer.cs">
-      <DependentUpon>FoodLogging.cs</DependentUpon>
+    <Compile Include="Recipes.Designer.cs">
+      <DependentUpon>Recipes.cs</DependentUpon>
     </Compile>
     <Compile Include="User Settings.cs">
       <SubType>Form</SubType>
@@ -216,12 +211,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recipes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recipes.Designer.cs">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,14 +231,11 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExerciseLogging.resx">
-      <DependentUpon>ExerciseLogging.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ExerciseAndFoodLog.resx">
       <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoodLogging.resx">
-      <DependentUpon>FoodLogging.cs</DependentUpon>
+    <EmbeddedResource Include="Recipes.resx">
+      <DependentUpon>Recipes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Settings.resx">
       <DependentUpon>User Settings.cs</DependentUpon>
@@ -282,9 +268,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Recipes.resx">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
@@ -373,6 +356,9 @@
       <DependentUpon>BitewiseDataModel.edmx</DependentUpon>
       <LastGenOutput>BitewiseDataModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Profile-pic-ph2.png" />
+    <None Include="Resources\blur background.png" />
+    <None Include="Resources\BGBiteWise2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

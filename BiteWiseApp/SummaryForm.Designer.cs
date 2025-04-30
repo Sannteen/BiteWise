@@ -74,7 +74,7 @@
             this.DailySumarylabel.Location = new System.Drawing.Point(345, 7);
             this.DailySumarylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DailySumarylabel.Name = "DailySumarylabel";
-            this.DailySumarylabel.Size = new System.Drawing.Size(424, 56);
+            this.DailySumarylabel.Size = new System.Drawing.Size(286, 38);
             this.DailySumarylabel.TabIndex = 14;
             this.DailySumarylabel.Text = "Daily Summary ";
             // 
@@ -86,7 +86,7 @@
             this.DatePickfordailysumry.Margin = new System.Windows.Forms.Padding(2);
             this.DatePickfordailysumry.MaxDate = new System.DateTime(9998, 1, 12, 0, 0, 0, 0);
             this.DatePickfordailysumry.Name = "DatePickfordailysumry";
-            this.DatePickfordailysumry.Size = new System.Drawing.Size(259, 31);
+            this.DatePickfordailysumry.Size = new System.Drawing.Size(259, 23);
             this.DatePickfordailysumry.TabIndex = 15;
             this.DatePickfordailysumry.Value = new System.DateTime(2025, 3, 20, 0, 0, 0, 0);
             // 
@@ -97,7 +97,7 @@
             this.DateLabel.Location = new System.Drawing.Point(59, 73);
             this.DateLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DateLabel.Name = "DateLabel";
-            this.DateLabel.Size = new System.Drawing.Size(64, 31);
+            this.DateLabel.Size = new System.Drawing.Size(42, 20);
             this.DateLabel.TabIndex = 16;
             this.DateLabel.Text = "Date";
             // 
@@ -108,7 +108,7 @@
             this.foodloglabel.Location = new System.Drawing.Point(31, 6);
             this.foodloglabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.foodloglabel.Name = "foodloglabel";
-            this.foodloglabel.Size = new System.Drawing.Size(113, 30);
+            this.foodloglabel.Size = new System.Drawing.Size(79, 20);
             this.foodloglabel.TabIndex = 18;
             this.foodloglabel.Text = "Food Log";
             // 
@@ -119,7 +119,7 @@
             this.WoutoutLogLabel.Location = new System.Drawing.Point(31, 296);
             this.WoutoutLogLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WoutoutLogLabel.Name = "WoutoutLogLabel";
-            this.WoutoutLogLabel.Size = new System.Drawing.Size(156, 30);
+            this.WoutoutLogLabel.Size = new System.Drawing.Size(108, 20);
             this.WoutoutLogLabel.TabIndex = 21;
             this.WoutoutLogLabel.Text = "Workout Log";
             // 
@@ -237,7 +237,7 @@
             this.NetCaloriesLabel.Location = new System.Drawing.Point(2, 1);
             this.NetCaloriesLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NetCaloriesLabel.Name = "NetCaloriesLabel";
-            this.NetCaloriesLabel.Size = new System.Drawing.Size(145, 30);
+            this.NetCaloriesLabel.Size = new System.Drawing.Size(98, 20);
             this.NetCaloriesLabel.TabIndex = 33;
             this.NetCaloriesLabel.Text = "Net Calories";
             // 
@@ -287,7 +287,7 @@
             // 
             // SummaryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 663);
             this.Controls.Add(this.panel3);

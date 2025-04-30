@@ -50,12 +50,11 @@ namespace BiteWiseApp
 
         private void ExerciseSearchLog_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'biteWiseDBDataSet1.User_Work_log' table. You can move, or remove it, as needed.
-            this.user_Work_logTableAdapter1.Fill(this.biteWiseDBDataSet1.User_Work_log);
-
+            
             try
             {
-
+                // TODO: This line of code loads data into the 'biteWiseDBDataSet1.User_Work_log' table. You can move, or remove it, as needed.
+                this.user_Work_logTableAdapter1.Fill(this.biteWiseDBDataSet1.User_Work_log);
             }
 
             catch (Exception ex) 

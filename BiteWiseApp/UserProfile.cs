@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ using static System.Collections.Specialized.BitVector32;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Forms.VisualStyles;
 using System.Xml.Linq;
+using System.IO;
 
 namespace BiteWiseApp
 {
@@ -49,26 +51,51 @@ namespace BiteWiseApp
             }
         }
 
+        byte[] imageBytes = null;
         private void UploadImageButton_Click(object sender, EventArgs e)
         {
-            try
             {
-                OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Title = "Select Profile Picture";
-                dialog.Filter = "JPG files (*.jpg)|*.jpg|PNG files (*.png)|*.png|All files (*.*)|*.*";
+                openFileDialog1.Title = "Select an Image";
+                openFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
 
-                if (dialog.ShowDialog() == DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    string imageLocation = dialog.FileName;
-                    ProfilePictureBox.ImageLocation = imageLocation;
+                    string filePath = openFileDialog1.FileName;
+                    imageBytes = File.ReadAllBytes(filePath);
 
-                    //SaveImagePathToDatabase(imageLocation); 
-
+                    // Display image in PictureBox
+                    ProfilePictureBox.Image = Image.FromFile(filePath);
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("An error occurred: " + ex.Message);
+
+                if (imageBytes != null)
+                {
+                    int userId = Session.LoggedInUserId;
+
+                    using (var db = new BiteWiseDBEntities1())
+                    {
+                        var existing = db.User_Picture.FirstOrDefault(x => x.user_Id == userId);
+
+                        if (existing != null)
+                        {
+                            existing.image = imageBytes;
+                        }
+                        else
+                        {
+                            db.User_Picture.Add(new User_Picture
+                            {
+                                user_Id = userId,
+                                image = imageBytes
+                            });
+                        }
+
+                        db.SaveChanges();
+                        MessageBox.Show("Image uploaded successfully.", "Upload", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select an image before uploading.", "Upload", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
 
         }
@@ -97,6 +124,11 @@ namespace BiteWiseApp
             {
                 MessageBox.Show("User not found.");
             }
+        }
+
+        private void nametextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

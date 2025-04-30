@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logEntriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,14 +80,14 @@
             // logFoodToolStripMenuItem
             // 
             this.logFoodToolStripMenuItem.Name = "logFoodToolStripMenuItem";
-            this.logFoodToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logFoodToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.logFoodToolStripMenuItem.Text = "Log Food";
             this.logFoodToolStripMenuItem.Click += new System.EventHandler(this.logFoodToolStripMenuItem_Click);
             // 
             // logWorkoutToolStripMenuItem
             // 
             this.logWorkoutToolStripMenuItem.Name = "logWorkoutToolStripMenuItem";
-            this.logWorkoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logWorkoutToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.logWorkoutToolStripMenuItem.Text = "Log Workout";
             this.logWorkoutToolStripMenuItem.Click += new System.EventHandler(this.logWorkoutToolStripMenuItem_Click);
             // 
@@ -171,6 +172,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Symbol", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
