@@ -131,12 +131,6 @@
     <Compile Include="Food.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Recipes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recipes.Designer.cs">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </Compile>
     <Compile Include="User Settings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,12 +145,6 @@
     </Compile>
     <Compile Include="Meal.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProgressTrackingForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProgressTrackingForm.Designer.cs">
-      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
       <DependentUpon>BitewiseDataModel.tt</DependentUpon>
@@ -234,14 +222,8 @@
     <EmbeddedResource Include="ExerciseAndFoodLog.resx">
       <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recipes.resx">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="User Settings.resx">
       <DependentUpon>User Settings.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProgressTrackingForm.resx">
-      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SummaryForm.resx">
       <DependentUpon>SummaryForm.cs</DependentUpon>

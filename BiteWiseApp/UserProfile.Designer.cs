@@ -42,24 +42,9 @@
             this.Goallabel = new System.Windows.Forms.Label();
             this.TargetWgtlabel = new System.Windows.Forms.Label();
             this.DCaloricTgetLabel = new System.Windows.Forms.Label();
-            this.WklyWgtgoalslabel = new System.Windows.Forms.Label();
-            this.Sundaylabel = new System.Windows.Forms.Label();
-            this.SaturdayLabel = new System.Windows.Forms.Label();
-            this.FridayLabel = new System.Windows.Forms.Label();
-            this.ThursdayLabel = new System.Windows.Forms.Label();
-            this.WednesdayLabel = new System.Windows.Forms.Label();
-            this.TuesdayLabel = new System.Windows.Forms.Label();
-            this.MondayLabel = new System.Windows.Forms.Label();
             this.UploadImageButton = new System.Windows.Forms.Button();
             this.Biometricdatalabel = new System.Windows.Forms.Label();
             this.PasswordcheckBox = new System.Windows.Forms.CheckBox();
-            this.SunnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.MonnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.TuesnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.WednumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.ThursnumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.FrinumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.SatnumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.Editbutton = new System.Windows.Forms.Button();
             this.AgenumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.WeightnumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -68,15 +53,8 @@
             this.DailyCalTarnumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.DeleteProfilebutton = new System.Windows.Forms.Button();
             this.UpdatePasswordbutton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.SunnumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MonnumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TuesnumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WednumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ThursnumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FrinumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SatnumericUpDown)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WeightnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HeightnumericUpDown)).BeginInit();
@@ -87,7 +65,7 @@
             // 
             // nametextBox
             // 
-            this.nametextBox.Location = new System.Drawing.Point(173, 311);
+            this.nametextBox.Location = new System.Drawing.Point(143, 311);
             this.nametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Size = new System.Drawing.Size(174, 31);
@@ -99,7 +77,7 @@
             this.NameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameLabel.Location = new System.Drawing.Point(110, 319);
+            this.NameLabel.Location = new System.Drawing.Point(80, 319);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(62, 25);
@@ -110,7 +88,7 @@
             // 
             this.Emaillabel.AutoSize = true;
             this.Emaillabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Emaillabel.Location = new System.Drawing.Point(110, 356);
+            this.Emaillabel.Location = new System.Drawing.Point(80, 356);
             this.Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Emaillabel.Name = "Emaillabel";
             this.Emaillabel.Size = new System.Drawing.Size(58, 25);
@@ -119,7 +97,7 @@
             // 
             // EmailtextBox
             // 
-            this.EmailtextBox.Location = new System.Drawing.Point(173, 348);
+            this.EmailtextBox.Location = new System.Drawing.Point(143, 348);
             this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(173, 31);
@@ -129,7 +107,7 @@
             // 
             this.Passwordlabel.AutoSize = true;
             this.Passwordlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Passwordlabel.Location = new System.Drawing.Point(110, 393);
+            this.Passwordlabel.Location = new System.Drawing.Point(80, 393);
             this.Passwordlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Passwordlabel.Name = "Passwordlabel";
             this.Passwordlabel.Size = new System.Drawing.Size(92, 25);
@@ -138,7 +116,7 @@
             // 
             // PasswordtextBox
             // 
-            this.PasswordtextBox.Location = new System.Drawing.Point(173, 385);
+            this.PasswordtextBox.Location = new System.Drawing.Point(143, 385);
             this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
             this.PasswordtextBox.Size = new System.Drawing.Size(176, 31);
@@ -150,7 +128,7 @@
             this.SaveChangesButton.BackColor = System.Drawing.Color.DarkCyan;
             this.SaveChangesButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveChangesButton.ForeColor = System.Drawing.Color.Transparent;
-            this.SaveChangesButton.Location = new System.Drawing.Point(814, 479);
+            this.SaveChangesButton.Location = new System.Drawing.Point(616, 479);
             this.SaveChangesButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaveChangesButton.Name = "SaveChangesButton";
             this.SaveChangesButton.Size = new System.Drawing.Size(114, 31);
@@ -176,7 +154,7 @@
             // 
             this.AgeLabel.AutoSize = true;
             this.AgeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeLabel.Location = new System.Drawing.Point(402, 120);
+            this.AgeLabel.Location = new System.Drawing.Point(411, 127);
             this.AgeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AgeLabel.Name = "AgeLabel";
             this.AgeLabel.Size = new System.Drawing.Size(46, 25);
@@ -187,7 +165,7 @@
             // 
             this.Weightlabel.AutoSize = true;
             this.Weightlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Weightlabel.Location = new System.Drawing.Point(402, 195);
+            this.Weightlabel.Location = new System.Drawing.Point(411, 202);
             this.Weightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Weightlabel.Name = "Weightlabel";
             this.Weightlabel.Size = new System.Drawing.Size(114, 25);
@@ -198,7 +176,7 @@
             // 
             this.Heightlabel.AutoSize = true;
             this.Heightlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Heightlabel.Location = new System.Drawing.Point(402, 157);
+            this.Heightlabel.Location = new System.Drawing.Point(411, 164);
             this.Heightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Heightlabel.Name = "Heightlabel";
             this.Heightlabel.Size = new System.Drawing.Size(114, 25);
@@ -210,7 +188,7 @@
             this.Goallabel.AutoSize = true;
             this.Goallabel.BackColor = System.Drawing.SystemColors.Control;
             this.Goallabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Goallabel.Location = new System.Drawing.Point(475, 275);
+            this.Goallabel.Location = new System.Drawing.Point(484, 292);
             this.Goallabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Goallabel.Name = "Goallabel";
             this.Goallabel.Size = new System.Drawing.Size(73, 30);
@@ -221,7 +199,7 @@
             // 
             this.TargetWgtlabel.AutoSize = true;
             this.TargetWgtlabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TargetWgtlabel.Location = new System.Drawing.Point(402, 321);
+            this.TargetWgtlabel.Location = new System.Drawing.Point(411, 338);
             this.TargetWgtlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TargetWgtlabel.Name = "TargetWgtlabel";
             this.TargetWgtlabel.Size = new System.Drawing.Size(154, 25);
@@ -232,106 +210,18 @@
             // 
             this.DCaloricTgetLabel.AutoSize = true;
             this.DCaloricTgetLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DCaloricTgetLabel.Location = new System.Drawing.Point(402, 363);
+            this.DCaloricTgetLabel.Location = new System.Drawing.Point(411, 380);
             this.DCaloricTgetLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DCaloricTgetLabel.Name = "DCaloricTgetLabel";
             this.DCaloricTgetLabel.Size = new System.Drawing.Size(177, 25);
             this.DCaloricTgetLabel.TabIndex = 23;
             this.DCaloricTgetLabel.Text = "Daily Caloric Target";
             // 
-            // WklyWgtgoalslabel
-            // 
-            this.WklyWgtgoalslabel.AutoSize = true;
-            this.WklyWgtgoalslabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WklyWgtgoalslabel.Location = new System.Drawing.Point(678, 82);
-            this.WklyWgtgoalslabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.WklyWgtgoalslabel.Name = "WklyWgtgoalslabel";
-            this.WklyWgtgoalslabel.Size = new System.Drawing.Size(244, 30);
-            this.WklyWgtgoalslabel.TabIndex = 25;
-            this.WklyWgtgoalslabel.Text = "Weekly Weight Goals";
-            // 
-            // Sundaylabel
-            // 
-            this.Sundaylabel.AutoSize = true;
-            this.Sundaylabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sundaylabel.Location = new System.Drawing.Point(722, 133);
-            this.Sundaylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Sundaylabel.Name = "Sundaylabel";
-            this.Sundaylabel.Size = new System.Drawing.Size(44, 25);
-            this.Sundaylabel.TabIndex = 26;
-            this.Sundaylabel.Text = "Sun";
-            // 
-            // SaturdayLabel
-            // 
-            this.SaturdayLabel.AutoSize = true;
-            this.SaturdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaturdayLabel.Location = new System.Drawing.Point(722, 367);
-            this.SaturdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.SaturdayLabel.Name = "SaturdayLabel";
-            this.SaturdayLabel.Size = new System.Drawing.Size(39, 25);
-            this.SaturdayLabel.TabIndex = 27;
-            this.SaturdayLabel.Text = "Sat";
-            // 
-            // FridayLabel
-            // 
-            this.FridayLabel.AutoSize = true;
-            this.FridayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FridayLabel.Location = new System.Drawing.Point(722, 328);
-            this.FridayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.FridayLabel.Name = "FridayLabel";
-            this.FridayLabel.Size = new System.Drawing.Size(33, 25);
-            this.FridayLabel.TabIndex = 28;
-            this.FridayLabel.Text = "Fri";
-            // 
-            // ThursdayLabel
-            // 
-            this.ThursdayLabel.AutoSize = true;
-            this.ThursdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ThursdayLabel.Location = new System.Drawing.Point(722, 289);
-            this.ThursdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.ThursdayLabel.Name = "ThursdayLabel";
-            this.ThursdayLabel.Size = new System.Drawing.Size(60, 25);
-            this.ThursdayLabel.TabIndex = 29;
-            this.ThursdayLabel.Text = "Thurs";
-            // 
-            // WednesdayLabel
-            // 
-            this.WednesdayLabel.AutoSize = true;
-            this.WednesdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WednesdayLabel.Location = new System.Drawing.Point(722, 250);
-            this.WednesdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.WednesdayLabel.Name = "WednesdayLabel";
-            this.WednesdayLabel.Size = new System.Drawing.Size(51, 25);
-            this.WednesdayLabel.TabIndex = 30;
-            this.WednesdayLabel.Text = "Wed";
-            // 
-            // TuesdayLabel
-            // 
-            this.TuesdayLabel.AutoSize = true;
-            this.TuesdayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TuesdayLabel.Location = new System.Drawing.Point(722, 211);
-            this.TuesdayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.TuesdayLabel.Name = "TuesdayLabel";
-            this.TuesdayLabel.Size = new System.Drawing.Size(51, 25);
-            this.TuesdayLabel.TabIndex = 31;
-            this.TuesdayLabel.Text = "Tues";
-            // 
-            // MondayLabel
-            // 
-            this.MondayLabel.AutoSize = true;
-            this.MondayLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MondayLabel.Location = new System.Drawing.Point(722, 172);
-            this.MondayLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.MondayLabel.Name = "MondayLabel";
-            this.MondayLabel.Size = new System.Drawing.Size(51, 25);
-            this.MondayLabel.TabIndex = 32;
-            this.MondayLabel.Text = "Mon";
-            // 
             // UploadImageButton
             // 
             this.UploadImageButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.UploadImageButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UploadImageButton.Location = new System.Drawing.Point(189, 268);
+            this.UploadImageButton.Location = new System.Drawing.Point(159, 268);
             this.UploadImageButton.Margin = new System.Windows.Forms.Padding(2);
             this.UploadImageButton.Name = "UploadImageButton";
             this.UploadImageButton.Size = new System.Drawing.Size(89, 22);
@@ -344,7 +234,7 @@
             // 
             this.Biometricdatalabel.AutoSize = true;
             this.Biometricdatalabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Biometricdatalabel.Location = new System.Drawing.Point(429, 82);
+            this.Biometricdatalabel.Location = new System.Drawing.Point(438, 89);
             this.Biometricdatalabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Biometricdatalabel.Name = "Biometricdatalabel";
             this.Biometricdatalabel.Size = new System.Drawing.Size(175, 30);
@@ -354,7 +244,7 @@
             // PasswordcheckBox
             // 
             this.PasswordcheckBox.AutoSize = true;
-            this.PasswordcheckBox.Location = new System.Drawing.Point(355, 394);
+            this.PasswordcheckBox.Location = new System.Drawing.Point(325, 394);
             this.PasswordcheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordcheckBox.Name = "PasswordcheckBox";
             this.PasswordcheckBox.Size = new System.Drawing.Size(22, 21);
@@ -362,147 +252,12 @@
             this.PasswordcheckBox.UseVisualStyleBackColor = true;
             this.PasswordcheckBox.CheckedChanged += new System.EventHandler(this.PasswordcheckBox_CheckedChanged);
             // 
-            // SunnumericUpDown
-            // 
-            this.SunnumericUpDown.AllowDrop = true;
-            this.SunnumericUpDown.DecimalPlaces = 1;
-            this.SunnumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.SunnumericUpDown.Location = new System.Drawing.Point(762, 125);
-            this.SunnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.SunnumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.SunnumericUpDown.Name = "SunnumericUpDown";
-            this.SunnumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.SunnumericUpDown.TabIndex = 54;
-            // 
-            // MonnumericUpDown
-            // 
-            this.MonnumericUpDown.AllowDrop = true;
-            this.MonnumericUpDown.DecimalPlaces = 1;
-            this.MonnumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.MonnumericUpDown.Location = new System.Drawing.Point(762, 164);
-            this.MonnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.MonnumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.MonnumericUpDown.Name = "MonnumericUpDown";
-            this.MonnumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.MonnumericUpDown.TabIndex = 55;
-            // 
-            // TuesnumericUpDown
-            // 
-            this.TuesnumericUpDown.AllowDrop = true;
-            this.TuesnumericUpDown.DecimalPlaces = 1;
-            this.TuesnumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.TuesnumericUpDown.Location = new System.Drawing.Point(762, 203);
-            this.TuesnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.TuesnumericUpDown.Name = "TuesnumericUpDown";
-            this.TuesnumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.TuesnumericUpDown.TabIndex = 56;
-            // 
-            // WednumericUpDown
-            // 
-            this.WednumericUpDown.AllowDrop = true;
-            this.WednumericUpDown.DecimalPlaces = 1;
-            this.WednumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.WednumericUpDown.Location = new System.Drawing.Point(762, 242);
-            this.WednumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.WednumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.WednumericUpDown.Name = "WednumericUpDown";
-            this.WednumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.WednumericUpDown.TabIndex = 57;
-            // 
-            // ThursnumericUpDown
-            // 
-            this.ThursnumericUpDown.AllowDrop = true;
-            this.ThursnumericUpDown.DecimalPlaces = 1;
-            this.ThursnumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.ThursnumericUpDown.Location = new System.Drawing.Point(762, 281);
-            this.ThursnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.ThursnumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.ThursnumericUpDown.Name = "ThursnumericUpDown";
-            this.ThursnumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.ThursnumericUpDown.TabIndex = 58;
-            // 
-            // FrinumericUpDown
-            // 
-            this.FrinumericUpDown.AllowDrop = true;
-            this.FrinumericUpDown.DecimalPlaces = 1;
-            this.FrinumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.FrinumericUpDown.Location = new System.Drawing.Point(762, 320);
-            this.FrinumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.FrinumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.FrinumericUpDown.Name = "FrinumericUpDown";
-            this.FrinumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.FrinumericUpDown.TabIndex = 59;
-            // 
-            // SatnumericUpDown
-            // 
-            this.SatnumericUpDown.AllowDrop = true;
-            this.SatnumericUpDown.DecimalPlaces = 1;
-            this.SatnumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.SatnumericUpDown.Location = new System.Drawing.Point(762, 359);
-            this.SatnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.SatnumericUpDown.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.SatnumericUpDown.Name = "SatnumericUpDown";
-            this.SatnumericUpDown.Size = new System.Drawing.Size(47, 31);
-            this.SatnumericUpDown.TabIndex = 60;
-            // 
             // Editbutton
             // 
             this.Editbutton.BackColor = System.Drawing.Color.DarkCyan;
             this.Editbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Editbutton.ForeColor = System.Drawing.Color.Transparent;
-            this.Editbutton.Location = new System.Drawing.Point(673, 479);
+            this.Editbutton.Location = new System.Drawing.Point(455, 479);
             this.Editbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Editbutton.Name = "Editbutton";
             this.Editbutton.Size = new System.Drawing.Size(123, 31);
@@ -513,7 +268,7 @@
             // AgenumericUpDown
             // 
             this.AgenumericUpDown.AllowDrop = true;
-            this.AgenumericUpDown.Location = new System.Drawing.Point(495, 121);
+            this.AgenumericUpDown.Location = new System.Drawing.Point(504, 128);
             this.AgenumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.AgenumericUpDown.Name = "AgenumericUpDown";
             this.AgenumericUpDown.Size = new System.Drawing.Size(74, 31);
@@ -528,7 +283,7 @@
             0,
             0,
             65536});
-            this.WeightnumericUpDown.Location = new System.Drawing.Point(495, 194);
+            this.WeightnumericUpDown.Location = new System.Drawing.Point(504, 201);
             this.WeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
             this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
@@ -537,7 +292,7 @@
             // HeightnumericUpDown
             // 
             this.HeightnumericUpDown.AllowDrop = true;
-            this.HeightnumericUpDown.Location = new System.Drawing.Point(495, 156);
+            this.HeightnumericUpDown.Location = new System.Drawing.Point(504, 163);
             this.HeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.HeightnumericUpDown.Maximum = new decimal(new int[] {
             3000,
@@ -556,7 +311,7 @@
             0,
             0,
             65536});
-            this.TargetWeightnumericUpDown.Location = new System.Drawing.Point(517, 313);
+            this.TargetWeightnumericUpDown.Location = new System.Drawing.Point(526, 330);
             this.TargetWeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.TargetWeightnumericUpDown.Maximum = new decimal(new int[] {
             500,
@@ -576,7 +331,7 @@
             0,
             0,
             65536});
-            this.DailyCalTarnumericUpDown.Location = new System.Drawing.Point(519, 355);
+            this.DailyCalTarnumericUpDown.Location = new System.Drawing.Point(528, 372);
             this.DailyCalTarnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.DailyCalTarnumericUpDown.Maximum = new decimal(new int[] {
             10000,
@@ -592,7 +347,7 @@
             this.ProfilePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProfilePictureBox.Image = global::BiteWiseApp.Properties.Resources.Profile_pic_ph2;
-            this.ProfilePictureBox.Location = new System.Drawing.Point(146, 79);
+            this.ProfilePictureBox.Location = new System.Drawing.Point(116, 79);
             this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilePictureBox.Name = "ProfilePictureBox";
             this.ProfilePictureBox.Size = new System.Drawing.Size(185, 185);
@@ -604,25 +359,12 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // DeleteProfilebutton
-            // 
-            this.DeleteProfilebutton.BackColor = System.Drawing.Color.DarkCyan;
-            this.DeleteProfilebutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteProfilebutton.ForeColor = System.Drawing.Color.Transparent;
-            this.DeleteProfilebutton.Location = new System.Drawing.Point(480, 479);
-            this.DeleteProfilebutton.Margin = new System.Windows.Forms.Padding(2);
-            this.DeleteProfilebutton.Name = "DeleteProfilebutton";
-            this.DeleteProfilebutton.Size = new System.Drawing.Size(174, 31);
-            this.DeleteProfilebutton.TabIndex = 68;
-            this.DeleteProfilebutton.Text = "Delete Profile";
-            this.DeleteProfilebutton.UseVisualStyleBackColor = false;
-            // 
             // UpdatePasswordbutton
             // 
             this.UpdatePasswordbutton.BackColor = System.Drawing.Color.DarkCyan;
             this.UpdatePasswordbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpdatePasswordbutton.ForeColor = System.Drawing.Color.Transparent;
-            this.UpdatePasswordbutton.Location = new System.Drawing.Point(289, 479);
+            this.UpdatePasswordbutton.Location = new System.Drawing.Point(238, 479);
             this.UpdatePasswordbutton.Margin = new System.Windows.Forms.Padding(2);
             this.UpdatePasswordbutton.Name = "UpdatePasswordbutton";
             this.UpdatePasswordbutton.Size = new System.Drawing.Size(174, 31);
@@ -630,13 +372,24 @@
             this.UpdatePasswordbutton.Text = "Update Password";
             this.UpdatePasswordbutton.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(757, 89);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 30);
+            this.label1.TabIndex = 70;
+            this.label1.Text = "Settings ";
+            // 
             // UserProfileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 542);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.UpdatePasswordbutton);
-            this.Controls.Add(this.DeleteProfilebutton);
             this.Controls.Add(this.ProfilePictureBox);
             this.Controls.Add(this.DailyCalTarnumericUpDown);
             this.Controls.Add(this.TargetWeightnumericUpDown);
@@ -644,31 +397,16 @@
             this.Controls.Add(this.WeightnumericUpDown);
             this.Controls.Add(this.AgenumericUpDown);
             this.Controls.Add(this.Editbutton);
-            this.Controls.Add(this.SatnumericUpDown);
-            this.Controls.Add(this.FrinumericUpDown);
-            this.Controls.Add(this.ThursnumericUpDown);
-            this.Controls.Add(this.WednumericUpDown);
-            this.Controls.Add(this.TuesnumericUpDown);
-            this.Controls.Add(this.MonnumericUpDown);
-            this.Controls.Add(this.SunnumericUpDown);
             this.Controls.Add(this.PasswordcheckBox);
             this.Controls.Add(this.Biometricdatalabel);
             this.Controls.Add(this.UploadImageButton);
-            this.Controls.Add(this.WklyWgtgoalslabel);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.nametextBox);
-            this.Controls.Add(this.Sundaylabel);
-            this.Controls.Add(this.SaturdayLabel);
             this.Controls.Add(this.DCaloricTgetLabel);
-            this.Controls.Add(this.FridayLabel);
             this.Controls.Add(this.TargetWgtlabel);
-            this.Controls.Add(this.ThursdayLabel);
             this.Controls.Add(this.Goallabel);
-            this.Controls.Add(this.WednesdayLabel);
-            this.Controls.Add(this.TuesdayLabel);
             this.Controls.Add(this.Heightlabel);
             this.Controls.Add(this.Weightlabel);
-            this.Controls.Add(this.MondayLabel);
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.UserProfilelabel);
             this.Controls.Add(this.SaveChangesButton);
@@ -681,13 +419,6 @@
             this.Name = "UserProfileForm";
             this.Text = "User Profile";
             this.Load += new System.EventHandler(this.UserProfileForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.SunnumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MonnumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TuesnumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WednumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ThursnumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FrinumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SatnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WeightnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HeightnumericUpDown)).EndInit();
@@ -714,24 +445,9 @@
         private System.Windows.Forms.Label Goallabel;
         private System.Windows.Forms.Label TargetWgtlabel;
         private System.Windows.Forms.Label DCaloricTgetLabel;
-        private System.Windows.Forms.Label WklyWgtgoalslabel;
-        private System.Windows.Forms.Label Sundaylabel;
-        private System.Windows.Forms.Label SaturdayLabel;
-        private System.Windows.Forms.Label FridayLabel;
-        private System.Windows.Forms.Label ThursdayLabel;
-        private System.Windows.Forms.Label WednesdayLabel;
-        private System.Windows.Forms.Label TuesdayLabel;
-        private System.Windows.Forms.Label MondayLabel;
         private System.Windows.Forms.Button UploadImageButton;
         private System.Windows.Forms.Label Biometricdatalabel;
         private System.Windows.Forms.CheckBox PasswordcheckBox;
-        private System.Windows.Forms.NumericUpDown SunnumericUpDown;
-        private System.Windows.Forms.NumericUpDown MonnumericUpDown;
-        private System.Windows.Forms.NumericUpDown TuesnumericUpDown;
-        private System.Windows.Forms.NumericUpDown WednumericUpDown;
-        private System.Windows.Forms.NumericUpDown ThursnumericUpDown;
-        private System.Windows.Forms.NumericUpDown FrinumericUpDown;
-        private System.Windows.Forms.NumericUpDown SatnumericUpDown;
         private System.Windows.Forms.Button Editbutton;
         private System.Windows.Forms.NumericUpDown AgenumericUpDown;
         private System.Windows.Forms.NumericUpDown WeightnumericUpDown;
@@ -740,8 +456,8 @@
         private System.Windows.Forms.NumericUpDown DailyCalTarnumericUpDown;
         private System.Windows.Forms.PictureBox ProfilePictureBox;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button DeleteProfilebutton;
         private System.Windows.Forms.Button UpdatePasswordbutton;
+        private System.Windows.Forms.Label label1;
     }
 }
 
