@@ -72,7 +72,7 @@
             this.nametextBox.Name = "nametextBox";
             this.nametextBox.Size = new System.Drawing.Size(174, 31);
             this.nametextBox.TabIndex = 6;
-            this.nametextBox.TextChanged += new System.EventHandler(this.nametextBox_TextChanged);
+            
             // 
             // NameLabel
             // 

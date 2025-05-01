@@ -16,6 +16,8 @@ using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Forms.VisualStyles;
 using System.Xml.Linq;
 using System.IO;
+using BiteWiseApp.Classes;
+
 
 namespace BiteWiseApp
 {
@@ -106,29 +108,25 @@ namespace BiteWiseApp
 
         private void UserProfileForm_Load(object sender, EventArgs e)
         {
+            var currentUser = BiteWiseApp.Classes.Session.LoggedInUser;
 
-            int currentUserId = Session.LoggedInUserId; 
-
-            var currentUser = biteWiseDBEntities.Users.FirstOrDefault(u => u.user_id == currentUserId);
 
             if (currentUser != null)
             {
                 nametextBox.Text = currentUser.name;
                 EmailtextBox.Text = currentUser.email;
                 PasswordtextBox.Text = currentUser.password;
-                AgenumericUpDown.Value = (decimal) currentUser.age;
-                HeightnumericUpDown.Value = (decimal) currentUser.height;
-                WeightnumericUpDown.Value = (decimal) currentUser.weight;
+                AgenumericUpDown.Value = (decimal)currentUser.age;
+                HeightnumericUpDown.Value = (decimal)currentUser.height;
+                WeightnumericUpDown.Value = (decimal)currentUser.weight;
             }
             else
             {
                 MessageBox.Show("User not found.");
             }
         }
-
-        private void nametextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
-    }
+}
+
+ 
+    
