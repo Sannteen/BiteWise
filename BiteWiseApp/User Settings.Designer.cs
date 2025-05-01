@@ -67,6 +67,7 @@
             this.DeleteProfilebutton.TabIndex = 2;
             this.DeleteProfilebutton.Text = "Delete Profile";
             this.DeleteProfilebutton.UseVisualStyleBackColor = true;
+            this.DeleteProfilebutton.Click += new System.EventHandler(this.DeleteProfilebutton_Click);
             // 
             // pictureBox1
             // 
