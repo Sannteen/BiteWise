@@ -55,6 +55,8 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.UpdatePasswordbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Helpbutton = new System.Windows.Forms.Button();
+            this.DeleteProfilebutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WeightnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HeightnumericUpDown)).BeginInit();
@@ -128,10 +130,10 @@
             this.SaveChangesButton.BackColor = System.Drawing.Color.DarkCyan;
             this.SaveChangesButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveChangesButton.ForeColor = System.Drawing.Color.Transparent;
-            this.SaveChangesButton.Location = new System.Drawing.Point(616, 479);
+            this.SaveChangesButton.Location = new System.Drawing.Point(674, 479);
             this.SaveChangesButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaveChangesButton.Name = "SaveChangesButton";
-            this.SaveChangesButton.Size = new System.Drawing.Size(114, 31);
+            this.SaveChangesButton.Size = new System.Drawing.Size(154, 31);
             this.SaveChangesButton.TabIndex = 12;
             this.SaveChangesButton.Text = "Save Changes";
             this.SaveChangesButton.UseVisualStyleBackColor = false;
@@ -257,7 +259,7 @@
             this.Editbutton.BackColor = System.Drawing.Color.DarkCyan;
             this.Editbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Editbutton.ForeColor = System.Drawing.Color.Transparent;
-            this.Editbutton.Location = new System.Drawing.Point(455, 479);
+            this.Editbutton.Location = new System.Drawing.Point(504, 479);
             this.Editbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Editbutton.Name = "Editbutton";
             this.Editbutton.Size = new System.Drawing.Size(123, 31);
@@ -361,10 +363,10 @@
             // 
             // UpdatePasswordbutton
             // 
-            this.UpdatePasswordbutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.UpdatePasswordbutton.BackColor = System.Drawing.Color.Transparent;
             this.UpdatePasswordbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpdatePasswordbutton.ForeColor = System.Drawing.Color.Transparent;
-            this.UpdatePasswordbutton.Location = new System.Drawing.Point(238, 479);
+            this.UpdatePasswordbutton.ForeColor = System.Drawing.Color.Black;
+            this.UpdatePasswordbutton.Location = new System.Drawing.Point(714, 199);
             this.UpdatePasswordbutton.Margin = new System.Windows.Forms.Padding(2);
             this.UpdatePasswordbutton.Name = "UpdatePasswordbutton";
             this.UpdatePasswordbutton.Size = new System.Drawing.Size(174, 31);
@@ -376,18 +378,46 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(757, 89);
+            this.label1.Location = new System.Drawing.Point(720, 89);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 30);
             this.label1.TabIndex = 70;
             this.label1.Text = "Settings ";
             // 
+            // Helpbutton
+            // 
+            this.Helpbutton.BackColor = System.Drawing.Color.Transparent;
+            this.Helpbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Helpbutton.ForeColor = System.Drawing.Color.Black;
+            this.Helpbutton.Location = new System.Drawing.Point(714, 146);
+            this.Helpbutton.Margin = new System.Windows.Forms.Padding(2);
+            this.Helpbutton.Name = "Helpbutton";
+            this.Helpbutton.Size = new System.Drawing.Size(114, 31);
+            this.Helpbutton.TabIndex = 71;
+            this.Helpbutton.Text = "Help";
+            this.Helpbutton.UseVisualStyleBackColor = false;
+            // 
+            // DeleteProfilebutton
+            // 
+            this.DeleteProfilebutton.BackColor = System.Drawing.Color.Transparent;
+            this.DeleteProfilebutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteProfilebutton.ForeColor = System.Drawing.Color.Black;
+            this.DeleteProfilebutton.Location = new System.Drawing.Point(714, 259);
+            this.DeleteProfilebutton.Margin = new System.Windows.Forms.Padding(2);
+            this.DeleteProfilebutton.Name = "DeleteProfilebutton";
+            this.DeleteProfilebutton.Size = new System.Drawing.Size(174, 31);
+            this.DeleteProfilebutton.TabIndex = 72;
+            this.DeleteProfilebutton.Text = "Delete Profile ";
+            this.DeleteProfilebutton.UseVisualStyleBackColor = false;
+            // 
             // UserProfileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 542);
+            this.Controls.Add(this.DeleteProfilebutton);
+            this.Controls.Add(this.Helpbutton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UpdatePasswordbutton);
             this.Controls.Add(this.ProfilePictureBox);
@@ -458,6 +488,8 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button UpdatePasswordbutton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Helpbutton;
+        private System.Windows.Forms.Button DeleteProfilebutton;
     }
 }
 
