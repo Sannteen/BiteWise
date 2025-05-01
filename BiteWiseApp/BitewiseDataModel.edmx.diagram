@@ -27,6 +27,11 @@
         <AssociationConnector Association="BiteWiseDBModel.FK__UserMeasu__user___3C69FB99" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__UserPrefe__user___534D60F1" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__WorkoutLo__user___47DBAE45" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.FoodLog" Width="1.5" PointX="3" PointY="23" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User_info_Details" Width="1.5" PointX="7.375" PointY="6.75" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User_Work_log" Width="1.5" PointX="8.375" PointY="3.75" />
+        <AssociationConnector Association="BiteWiseDBModel.FK_FoodLog_Users" />
+        <AssociationConnector Association="BiteWiseDBModel.FK_User_Picture_Users" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
