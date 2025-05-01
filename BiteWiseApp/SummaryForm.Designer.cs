@@ -47,11 +47,11 @@
             this.WorkoutLogDataGridView = new System.Windows.Forms.DataGridView();
             this.TotalCalBurned = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.TotalCalConsumedcircularProgressBar = new CircularProgressBar.CircularProgressBar();
+            this.TotalCalConsumedLabel = new System.Windows.Forms.Label();
             this.NetCaloriesLabel = new System.Windows.Forms.Label();
             this.NetCaloriesProgressBar = new CircularProgressBar.CircularProgressBar();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TotalCalConsumedLabel = new System.Windows.Forms.Label();
-            this.TotalCalConsumedcircularProgressBar = new CircularProgressBar.CircularProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.FoodLogDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WorkoutLogDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TotalCalBurned)).BeginInit();
@@ -68,7 +68,7 @@
             this.DailySumarylabel.Location = new System.Drawing.Point(345, 15);
             this.DailySumarylabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DailySumarylabel.Name = "DailySumarylabel";
-            this.DailySumarylabel.Size = new System.Drawing.Size(286, 38);
+            this.DailySumarylabel.Size = new System.Drawing.Size(424, 56);
             this.DailySumarylabel.TabIndex = 14;
             this.DailySumarylabel.Text = "Daily Summary ";
             // 
@@ -76,11 +76,12 @@
             // 
             this.DatePickfordailysumry.AllowDrop = true;
             this.DatePickfordailysumry.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DatePickfordailysumry.Location = new System.Drawing.Point(127, 73);
+            this.DatePickfordailysumry.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.DatePickfordailysumry.Location = new System.Drawing.Point(127, 86);
             this.DatePickfordailysumry.Margin = new System.Windows.Forms.Padding(2);
             this.DatePickfordailysumry.MaxDate = new System.DateTime(9998, 1, 12, 0, 0, 0, 0);
             this.DatePickfordailysumry.Name = "DatePickfordailysumry";
-            this.DatePickfordailysumry.Size = new System.Drawing.Size(259, 23);
+            this.DatePickfordailysumry.Size = new System.Drawing.Size(318, 31);
             this.DatePickfordailysumry.TabIndex = 15;
             this.DatePickfordailysumry.Value = new System.DateTime(2025, 3, 20, 0, 0, 0, 0);
             // 
@@ -91,7 +92,7 @@
             this.DateLabel.Location = new System.Drawing.Point(59, 86);
             this.DateLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DateLabel.Name = "DateLabel";
-            this.DateLabel.Size = new System.Drawing.Size(42, 20);
+            this.DateLabel.Size = new System.Drawing.Size(64, 31);
             this.DateLabel.TabIndex = 16;
             this.DateLabel.Text = "Date";
             // 
@@ -102,7 +103,7 @@
             this.foodloglabel.Location = new System.Drawing.Point(40, 15);
             this.foodloglabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.foodloglabel.Name = "foodloglabel";
-            this.foodloglabel.Size = new System.Drawing.Size(79, 20);
+            this.foodloglabel.Size = new System.Drawing.Size(113, 30);
             this.foodloglabel.TabIndex = 18;
             this.foodloglabel.Text = "Food Log";
             // 
@@ -113,7 +114,7 @@
             this.WoutoutLogLabel.Location = new System.Drawing.Point(302, 15);
             this.WoutoutLogLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WoutoutLogLabel.Name = "WoutoutLogLabel";
-            this.WoutoutLogLabel.Size = new System.Drawing.Size(108, 20);
+            this.WoutoutLogLabel.Size = new System.Drawing.Size(156, 30);
             this.WoutoutLogLabel.TabIndex = 21;
             this.WoutoutLogLabel.Text = "Workout Log";
             // 
@@ -132,6 +133,7 @@
             this.FoodLogDataGridView.RowTemplate.Height = 28;
             this.FoodLogDataGridView.Size = new System.Drawing.Size(245, 156);
             this.FoodLogDataGridView.TabIndex = 26;
+
             // 
             // WorkoutLogDataGridView
             // 
@@ -156,7 +158,7 @@
             this.TotalCalBurned.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.TotalCalBurned.Legends.Add(legend1);
-            this.TotalCalBurned.Location = new System.Drawing.Point(127, 395);
+            this.TotalCalBurned.Location = new System.Drawing.Point(112, 406);
             this.TotalCalBurned.Margin = new System.Windows.Forms.Padding(2);
             this.TotalCalBurned.Name = "TotalCalBurned";
             series1.ChartArea = "ChartArea1";
@@ -195,6 +197,50 @@
             this.panel2.Size = new System.Drawing.Size(297, 487);
             this.panel2.TabIndex = 32;
             // 
+            // TotalCalConsumedcircularProgressBar
+            // 
+            this.TotalCalConsumedcircularProgressBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.TotalCalConsumedcircularProgressBar.AnimationSpeed = 500;
+            this.TotalCalConsumedcircularProgressBar.BackColor = System.Drawing.Color.Transparent;
+            this.TotalCalConsumedcircularProgressBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalCalConsumedcircularProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TotalCalConsumedcircularProgressBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.TotalCalConsumedcircularProgressBar.InnerMargin = 2;
+            this.TotalCalConsumedcircularProgressBar.InnerWidth = -1;
+            this.TotalCalConsumedcircularProgressBar.Location = new System.Drawing.Point(57, 47);
+            this.TotalCalConsumedcircularProgressBar.MarqueeAnimationSpeed = 2000;
+            this.TotalCalConsumedcircularProgressBar.Name = "TotalCalConsumedcircularProgressBar";
+            this.TotalCalConsumedcircularProgressBar.OuterColor = System.Drawing.Color.Gray;
+            this.TotalCalConsumedcircularProgressBar.OuterMargin = -25;
+            this.TotalCalConsumedcircularProgressBar.OuterWidth = 26;
+            this.TotalCalConsumedcircularProgressBar.ProgressColor = System.Drawing.Color.Turquoise;
+            this.TotalCalConsumedcircularProgressBar.ProgressWidth = 25;
+            this.TotalCalConsumedcircularProgressBar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalCalConsumedcircularProgressBar.Size = new System.Drawing.Size(189, 184);
+            this.TotalCalConsumedcircularProgressBar.StartAngle = 270;
+            this.TotalCalConsumedcircularProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.TotalCalConsumedcircularProgressBar.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TotalCalConsumedcircularProgressBar.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.TotalCalConsumedcircularProgressBar.SubscriptText = "";
+            this.TotalCalConsumedcircularProgressBar.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.TotalCalConsumedcircularProgressBar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.TotalCalConsumedcircularProgressBar.SuperscriptText = "%";
+            this.TotalCalConsumedcircularProgressBar.TabIndex = 35;
+            this.TotalCalConsumedcircularProgressBar.Text = "0";
+            this.TotalCalConsumedcircularProgressBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.TotalCalConsumedcircularProgressBar.Value = 68;
+            // 
+            // TotalCalConsumedLabel
+            // 
+            this.TotalCalConsumedLabel.AutoSize = true;
+            this.TotalCalConsumedLabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalCalConsumedLabel.Location = new System.Drawing.Point(2, 14);
+            this.TotalCalConsumedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TotalCalConsumedLabel.Name = "TotalCalConsumedLabel";
+            this.TotalCalConsumedLabel.Size = new System.Drawing.Size(282, 30);
+            this.TotalCalConsumedLabel.TabIndex = 34;
+            this.TotalCalConsumedLabel.Text = "Total Calories Consumed";
+            // 
             // NetCaloriesLabel
             // 
             this.NetCaloriesLabel.AutoSize = true;
@@ -202,7 +248,7 @@
             this.NetCaloriesLabel.Location = new System.Drawing.Point(12, 253);
             this.NetCaloriesLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NetCaloriesLabel.Name = "NetCaloriesLabel";
-            this.NetCaloriesLabel.Size = new System.Drawing.Size(98, 20);
+            this.NetCaloriesLabel.Size = new System.Drawing.Size(145, 30);
             this.NetCaloriesLabel.TabIndex = 33;
             this.NetCaloriesLabel.Text = "Net Calories";
             // 
@@ -237,6 +283,7 @@
             this.NetCaloriesProgressBar.TabIndex = 0;
             this.NetCaloriesProgressBar.Text = "0";
             this.NetCaloriesProgressBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.NetCaloriesProgressBar.Value = 68;
             // 
             // panel3
             // 
@@ -250,52 +297,9 @@
             this.panel3.Size = new System.Drawing.Size(645, 245);
             this.panel3.TabIndex = 33;
             // 
-            // TotalCalConsumedLabel
-            // 
-            this.TotalCalConsumedLabel.AutoSize = true;
-            this.TotalCalConsumedLabel.Font = new System.Drawing.Font("Segoe UI Black", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalCalConsumedLabel.Location = new System.Drawing.Point(2, 14);
-            this.TotalCalConsumedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.TotalCalConsumedLabel.Name = "TotalCalConsumedLabel";
-            this.TotalCalConsumedLabel.Size = new System.Drawing.Size(282, 30);
-            this.TotalCalConsumedLabel.TabIndex = 34;
-            this.TotalCalConsumedLabel.Text = "Total Calories Consumed";
-            // 
-            // TotalCalConsumedcircularProgressBar
-            // 
-            this.TotalCalConsumedcircularProgressBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.TotalCalConsumedcircularProgressBar.AnimationSpeed = 500;
-            this.TotalCalConsumedcircularProgressBar.BackColor = System.Drawing.Color.Transparent;
-            this.TotalCalConsumedcircularProgressBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalCalConsumedcircularProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TotalCalConsumedcircularProgressBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.TotalCalConsumedcircularProgressBar.InnerMargin = 2;
-            this.TotalCalConsumedcircularProgressBar.InnerWidth = -1;
-            this.TotalCalConsumedcircularProgressBar.Location = new System.Drawing.Point(57, 47);
-            this.TotalCalConsumedcircularProgressBar.MarqueeAnimationSpeed = 2000;
-            this.TotalCalConsumedcircularProgressBar.Name = "TotalCalConsumedcircularProgressBar";
-            this.TotalCalConsumedcircularProgressBar.OuterColor = System.Drawing.Color.Gray;
-            this.TotalCalConsumedcircularProgressBar.OuterMargin = -25;
-            this.TotalCalConsumedcircularProgressBar.OuterWidth = 26;
-            this.TotalCalConsumedcircularProgressBar.ProgressColor = System.Drawing.Color.Turquoise;
-            this.TotalCalConsumedcircularProgressBar.ProgressWidth = 25;
-            this.TotalCalConsumedcircularProgressBar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalCalConsumedcircularProgressBar.Size = new System.Drawing.Size(189, 184);
-            this.TotalCalConsumedcircularProgressBar.StartAngle = 270;
-            this.TotalCalConsumedcircularProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.TotalCalConsumedcircularProgressBar.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.TotalCalConsumedcircularProgressBar.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
-            this.TotalCalConsumedcircularProgressBar.SubscriptText = "";
-            this.TotalCalConsumedcircularProgressBar.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.TotalCalConsumedcircularProgressBar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.TotalCalConsumedcircularProgressBar.SuperscriptText = "%";
-            this.TotalCalConsumedcircularProgressBar.TabIndex = 35;
-            this.TotalCalConsumedcircularProgressBar.Text = "0";
-            this.TotalCalConsumedcircularProgressBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
-            // 
             // SummaryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 663);
             this.Controls.Add(this.TotalCalBurned);

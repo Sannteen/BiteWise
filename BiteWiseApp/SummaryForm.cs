@@ -48,7 +48,5 @@ namespace BiteWiseApp
 
             WorkoutLogDataGridView.DataSource = workoutSummary;
         }
-
-        
     }
 }
