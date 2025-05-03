@@ -101,17 +101,11 @@
     <Compile Include="Classes\Recipe.cs" />
     <Compile Include="Classes\UserLogin.cs" />
     <Compile Include="Classes\User_Rgestration.cs" />
-    <Compile Include="DailySummary.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Exercis.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ExerciseAndFoodLog.cs">
       <SubType>Form</SubType>
@@ -119,71 +113,17 @@
     <Compile Include="ExerciseAndFoodLog.Designer.cs">
       <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExerciseSearch_Category_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ExerciseSearch_Name_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ExerciseSearch_UserID_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Food.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Recipes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recipes.Designer.cs">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </Compile>
     <Compile Include="User Settings.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="User Settings.Designer.cs">
       <DependentUpon>User Settings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Goal.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="JamaicanRecipe.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Meal.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProgressTrackingForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProgressTrackingForm.Designer.cs">
-      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="SummaryForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SummaryForm.Designer.cs">
       <DependentUpon>SummaryForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="UserDetails_Result.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="UserMeasurement.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="UserPreference.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserProfile.cs">
       <SubType>Form</SubType>
@@ -222,26 +162,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>User_ExerciseLog_View.xsd</DependentUpon>
     </Compile>
-    <Compile Include="User_Picture.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="WorkoutLog.cs">
-      <DependentUpon>BitewiseDataModel.tt</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExerciseAndFoodLog.resx">
       <DependentUpon>ExerciseAndFoodLog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recipes.resx">
-      <DependentUpon>Recipes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="User Settings.resx">
       <DependentUpon>User Settings.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProgressTrackingForm.resx">
-      <DependentUpon>ProgressTrackingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SummaryForm.resx">
       <DependentUpon>SummaryForm.cs</DependentUpon>

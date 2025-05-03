@@ -72,6 +72,12 @@ namespace BiteWiseApp
 
         private void goalsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
+        }
+
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
 
@@ -112,14 +118,6 @@ namespace BiteWiseApp
             LoadFormInPanel(new ExerciseAndFoodLog());
         }
 
-        private void progressTrackingToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoadFormInPanel(new ProgressTrackingForm());
-        }
-
-        private void dailySummaryToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LoadFormInPanel(new SummaryForm());
-        }
+        
     }
 }

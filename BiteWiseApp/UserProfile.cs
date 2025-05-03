@@ -16,6 +16,8 @@ using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Forms.VisualStyles;
 using System.Xml.Linq;
 using System.IO;
+using BiteWiseApp.Classes;
+
 
 namespace BiteWiseApp
 {
@@ -31,7 +33,7 @@ namespace BiteWiseApp
 
         private void SaveChangesButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Changes save successfully","User Profile",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Changes save successfully");
         }
 
         private void PasswordtextBox_TextChanged(object sender, EventArgs e)
@@ -106,104 +108,25 @@ namespace BiteWiseApp
 
         private void UserProfileForm_Load(object sender, EventArgs e)
         {
+            var currentUser = BiteWiseApp.Classes.Session.LoggedInUser;
 
-            int currentUserId = Session.LoggedInUserId; 
-
-            var currentUser = biteWiseDBEntities.Users.FirstOrDefault(u => u.user_id == currentUserId);
 
             if (currentUser != null)
             {
                 nametextBox.Text = currentUser.name;
                 EmailtextBox.Text = currentUser.email;
                 PasswordtextBox.Text = currentUser.password;
-                AgenumericUpDown.Value = (decimal) currentUser.age;
-                HeightnumericUpDown.Value = (decimal) currentUser.height;
-                WeightnumericUpDown.Value = (decimal) currentUser.weight;
+                AgenumericUpDown.Value = (decimal)currentUser.age;
+                HeightnumericUpDown.Value = (decimal)currentUser.height;
+                WeightnumericUpDown.Value = (decimal)currentUser.weight;
             }
             else
             {
                 MessageBox.Show("User not found.");
             }
         }
-
-        private void nametextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Editbutton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ProfilePictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AgenumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void HeightnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WeightnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TargetWeightnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DailyCalTarnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SunnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MonnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TuesnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WednumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ThursnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrinumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SatnumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void EmailtextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
-    }
+}
+
+ 
+    

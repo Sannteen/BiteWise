@@ -17,6 +17,7 @@ namespace BiteWiseApp
         public SummaryForm()
         {
             InitializeComponent();
+            _CurrentUserId = user_id;
             biteWiseDBEntities = new BiteWiseDBEntities1();
         }
 
@@ -48,7 +49,5 @@ namespace BiteWiseApp
 
             WorkoutLogDataGridView.DataSource = workoutSummary;
         }
-
-        
     }
 }

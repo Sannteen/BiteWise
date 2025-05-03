@@ -166,3 +166,46 @@ C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj
 C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date
 C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
 C:\Users\Sannteen\source\repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\BiteWiseApp.exe.config
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\BiteWiseApp.exe
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\CircularProgressBar.dll
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\EntityFramework.dll
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\WinFormAnimation.dll
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\CircularProgressBar.xml
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\EntityFramework.xml
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.AssemblyReference.cache
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.Dashboard.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseAndFoodLog.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.Recipes.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.UserSettings.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.ProgressTrackingForm.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.SummaryForm.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.UserProfileForm.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.Goals.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.Login.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.MainMenu.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.Properties.Resources.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.SignUp.resources
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
+C:\Users\ratti\OneDrive\Desktop\bitewise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.AssemblyReference.cache
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Dashboard.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.ExerciseAndFoodLog.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.UserSettings.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SummaryForm.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.UserProfileForm.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Goals.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Login.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.MainMenu.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Properties.Resources.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SignUp.resources
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
+C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb

@@ -19,7 +19,6 @@
     <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="category" Type="varchar" MaxLength="100" />
     <Property Name="calories_burned_per_min" Type="decimal" Precision="5" Scale="2" Nullable="false" />
-    <Property Name="user_id" Type="int" />
   </EntityType>
   <EntityType Name="Food">
     <Key>
@@ -36,6 +35,16 @@
     <Property Name="category" Type="varchar" MaxLength="100" />
     <Property Name="is_local" Type="smallint" />
     <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="FoodLog">
+    <Key>
+      <PropertyRef Name="Record_Id" />
+    </Key>
+    <Property Name="Record_Id" Type="int" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+    <Property Name="Food_name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Cals_Consumed" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
   </EntityType>
   <EntityType Name="Goals">
     <Key>
@@ -54,7 +63,7 @@
       <PropertyRef Name="recipe_id" />
     </Key>
     <Property Name="recipe_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="recipename" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="description" Type="text" />
     <Property Name="calories_per_serving" Type="decimal" Precision="5" Scale="2" />
     <Property Name="ingredients" Type="text" />
@@ -86,7 +95,7 @@
       <PropertyRef Name="user_Id" />
     </Key>
     <Property Name="user_Id" Type="int" Nullable="false" />
-    <Property Name="image" Type="binary" MaxLength="50" />
+    <Property Name="image" Type="varbinary(max)" />
   </EntityType>
   <EntityType Name="UserMeasurements">
     <Key>
@@ -137,10 +146,42 @@
       <PropertyRef Name="log_id" />
     </Key>
     <Property Name="log_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="user_id" Type="int" />
+    <Property Name="user_id" Type="int" Nullable="false" />
     <Property Name="exercise_id" Type="int" />
     <Property Name="duration" Type="decimal" Precision="5" Scale="2" />
     <Property Name="calories_burned" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BiteWiseDB.dbo.User_info_Details' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="User_info_Details">
+    <Key>
+      <PropertyRef Name="User ID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="User ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Height" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="Weight" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="User Goal" Type="varchar" MaxLength="100" />
+    <Property Name="Profile Picture" Type="binary" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="User_Work_log">
+    <Key>
+      <PropertyRef Name="User Name" />
+      <PropertyRef Name="Exercise Name" />
+    </Key>
+    <Property Name="User Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Exercise Name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="category" Type="varchar" MaxLength="100" />
+    <Property Name="Total Calories Burnt" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="duration" Type="decimal" Precision="5" Scale="2" />
     <Property Name="date" Type="date" />
   </EntityType>
   <Association Name="FK__DailySumm__user___4BAC3F29">
@@ -241,32 +282,6 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__WorkoutLo__user___47DBAE45">
-    <End Role="Users" Type="Self.Users" Multiplicity="0..1">
-      <OnDelete Action="Cascade" />
-    </End>
-    <End Role="WorkoutLogs" Type="Self.WorkoutLogs" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Users">
-        <PropertyRef Name="user_id" />
-      </Principal>
-      <Dependent Role="WorkoutLogs">
-        <PropertyRef Name="user_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Exercises_Users">
-    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
-    <End Role="Exercises" Type="Self.Exercises" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Users">
-        <PropertyRef Name="user_id" />
-      </Principal>
-      <Dependent Role="Exercises">
-        <PropertyRef Name="user_id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="FK_Food_Users">
     <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
     <End Role="Food" Type="Self.Food" Multiplicity="*" />
@@ -275,6 +290,46 @@
         <PropertyRef Name="user_id" />
       </Principal>
       <Dependent Role="Food">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FoodLog_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="FoodLog" Type="Self.FoodLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="FoodLog">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Picture_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="User_Picture" Type="Self.User_Picture" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="User_Picture">
+        <PropertyRef Name="user_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkoutLogs_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="WorkoutLogs" Type="Self.WorkoutLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="WorkoutLogs">
         <PropertyRef Name="user_id" />
       </Dependent>
     </ReferentialConstraint>
@@ -354,6 +409,7 @@
     <EntitySet Name="DailySummary" EntityType="Self.DailySummary" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Exercises" EntityType="Self.Exercises" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Food" EntityType="Self.Food" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FoodLog" EntityType="Self.FoodLog" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Goals" EntityType="Self.Goals" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="JamaicanRecipes" EntityType="Self.JamaicanRecipes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Meals" EntityType="Self.Meals" Schema="dbo" store:Type="Tables" />
@@ -363,6 +419,29 @@
     <EntitySet Name="UserPreferences" EntityType="Self.UserPreferences" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="WorkoutLogs" EntityType="Self.WorkoutLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User_info_Details" EntityType="Self.User_info_Details" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [User_info_Details].[User ID] AS [User ID], 
+    [User_info_Details].[Name] AS [Name], 
+    [User_info_Details].[Email] AS [Email], 
+    [User_info_Details].[Gender] AS [Gender], 
+    [User_info_Details].[Age] AS [Age], 
+    [User_info_Details].[Height] AS [Height], 
+    [User_info_Details].[Weight] AS [Weight], 
+    [User_info_Details].[User Goal] AS [User Goal], 
+    [User_info_Details].[Profile Picture] AS [Profile Picture]
+    FROM [dbo].[User_info_Details] AS [User_info_Details]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="User_Work_log" EntityType="Self.User_Work_log" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [User_Work_log].[User Name] AS [User Name], 
+    [User_Work_log].[Exercise Name] AS [Exercise Name], 
+    [User_Work_log].[category] AS [category], 
+    [User_Work_log].[Total Calories Burnt] AS [Total Calories Burnt], 
+    [User_Work_log].[duration] AS [duration], 
+    [User_Work_log].[date] AS [date]
+    FROM [dbo].[User_Work_log] AS [User_Work_log]</DefiningQuery>
+    </EntitySet>
     <AssociationSet Name="FK__DailySumm__user___4BAC3F29" Association="Self.FK__DailySumm__user___4BAC3F29">
       <End Role="Users" EntitySet="Users" />
       <End Role="DailySummary" EntitySet="DailySummary" />
@@ -391,17 +470,21 @@
       <End Role="Exercises" EntitySet="Exercises" />
       <End Role="WorkoutLogs" EntitySet="WorkoutLogs" />
     </AssociationSet>
-    <AssociationSet Name="FK__WorkoutLo__user___47DBAE45" Association="Self.FK__WorkoutLo__user___47DBAE45">
-      <End Role="Users" EntitySet="Users" />
-      <End Role="WorkoutLogs" EntitySet="WorkoutLogs" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Exercises_Users" Association="Self.FK_Exercises_Users">
-      <End Role="Users" EntitySet="Users" />
-      <End Role="Exercises" EntitySet="Exercises" />
-    </AssociationSet>
     <AssociationSet Name="FK_Food_Users" Association="Self.FK_Food_Users">
       <End Role="Users" EntitySet="Users" />
       <End Role="Food" EntitySet="Food" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FoodLog_Users" Association="Self.FK_FoodLog_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FoodLog" EntitySet="FoodLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Picture_Users" Association="Self.FK_User_Picture_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="User_Picture" EntitySet="User_Picture" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkoutLogs_Users" Association="Self.FK_WorkoutLogs_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="WorkoutLogs" EntitySet="WorkoutLogs" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
