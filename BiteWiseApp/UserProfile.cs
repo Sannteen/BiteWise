@@ -1,34 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
-using System.Data.Entity;
-using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Collections.Specialized.BitVector32;
-using System.Windows.Forms.DataVisualization.Charting;
-using System.Windows.Forms.VisualStyles;
-using System.Xml.Linq;
 using System.IO;
-using BiteWiseApp.Classes;
-
+using System.Linq;
+using System.Windows.Forms;
 
 namespace BiteWiseApp
 {
-    public partial class UserProfileForm: Form
+    public partial class UserProfileForm : Form
 
     {
-        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
+        private readonly int _currentUserId;
+        private readonly BiteWiseDBEntities2 biteWiseDBEntities;
         public UserProfileForm()
         {
             InitializeComponent();
-            biteWiseDBEntities = new BiteWiseDBEntities1();
+            _currentUserId = user_id;
+            biteWiseDBEntities = new BiteWiseDBEntities2();
+
         }
 
         private void SaveChangesButton_Click(object sender, EventArgs e)
@@ -73,7 +61,7 @@ namespace BiteWiseApp
                 {
                     int userId = Session.LoggedInUserId;
 
-                    using (var db = new BiteWiseDBEntities1())
+                    using (var db = new BiteWiseDBEntities2())
                     {
                         var existing = db.User_Picture.FirstOrDefault(x => x.user_Id == userId);
 
@@ -128,5 +116,5 @@ namespace BiteWiseApp
     }
 }
 
- 
-    
+
+

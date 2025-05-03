@@ -3,52 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\new bitewise\\bitewiseapp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\new bitewise\\bitewiseapp\\bitewisedatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedatamodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\new bitewise\\bitewiseapp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\classes\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:classes\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\classes\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:classes\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\ratti\\onedrive\\desktop\\new bitewise\\bitewiseapp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\classes\\user_rgestration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -74,11 +58,24 @@
               "Title": "BitewiseDataModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\BitewiseDataModel.edmx",
               "RelativeDocumentMoniker": "BitewiseDataModel.edmx",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\BitewiseDataModel.edmx [Diagram1]*",
-              "RelativeToolTip": "BitewiseDataModel.edmx [Diagram1]*",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\BitewiseDataModel.edmx [Diagram1]",
+              "RelativeToolTip": "BitewiseDataModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-01T20:41:27.939Z",
+              "WhenOpened": "2025-05-02T16:43:30.259Z",
               "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User Settings.cs",
+              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\User Settings.cs",
+              "RelativeDocumentMoniker": "User Settings.cs",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\User Settings.cs",
+              "RelativeToolTip": "User Settings.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAhwC8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:34:24.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -98,31 +95,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserProfile.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
               "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs [Design]",
               "RelativeToolTip": "UserProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T23:32:00.222Z"
+              "WhenOpened": "2025-04-28T23:32:00.222Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SummaryForm.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeDocumentMoniker": "SummaryForm.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeToolTip": "SummaryForm.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBoAAAAgAAAAAAAAAA==",
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfile.cs",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs",
+              "RelativeToolTip": "UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:52:06.648Z",
+              "WhenOpened": "2025-04-29T01:16:22.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T23:43:33.106Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "User Settings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\User Settings.cs",
+              "RelativeDocumentMoniker": "User Settings.cs",
+              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\User Settings.cs [Design]",
+              "RelativeToolTip": "User Settings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:19:11.107Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SummaryForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\SummaryForm.cs",
               "RelativeDocumentMoniker": "SummaryForm.cs",
@@ -134,54 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Classes\\UserLogin.cs",
-              "RelativeDocumentMoniker": "Classes\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Classes\\UserLogin.cs",
-              "RelativeToolTip": "Classes\\UserLogin.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAawAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:15:08.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs",
-              "RelativeDocumentMoniker": "UserProfile.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\UserProfile.cs",
-              "RelativeToolTip": "UserProfile.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:16:22.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\bitewise\\BiteWiseApp\\Login.cs [Design]",
-              "RelativeToolTip": "..\\..\\bitewise\\BiteWiseApp\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:12:38.718Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Classes\\Session.cs",
-              "RelativeDocumentMoniker": "Classes\\Session.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Classes\\Session.cs",
-              "RelativeToolTip": "Classes\\Session.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:54:01.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "MainMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
@@ -192,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "User_Rgestration.cs",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Classes\\User_Rgestration.cs",
               "RelativeDocumentMoniker": "Classes\\User_Rgestration.cs",
@@ -204,42 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T01:57:43.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "Login.Designer.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Login.Designer.cs",
-              "RelativeToolTip": "Login.Designer.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAqwHAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T02:23:19.768Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T23:43:33.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "ExerciseAndFoodLog.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\new BiteWise\\BiteWiseApp\\ExerciseAndFoodLog.cs",
               "RelativeDocumentMoniker": "ExerciseAndFoodLog.cs",

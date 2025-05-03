@@ -63,7 +63,7 @@ namespace BiteWiseApp
                 if (accountStatus == "0")
                 {
                     // Retrieve user info to set the logged-in user session
-                    using (var db = new BiteWiseDBEntities1())
+                    using (var db = new BiteWiseDBEntities2())
                     {
                         var user = db.Users.FirstOrDefault(u => u.email == email && u.password == password);
                         if (user != null)

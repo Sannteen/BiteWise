@@ -207,5 +207,3 @@ C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.P
 C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SignUp.resources
 C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
 C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
-C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
-C:\Users\ratti\OneDrive\Desktop\new BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
