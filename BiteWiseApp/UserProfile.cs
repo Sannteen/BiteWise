@@ -24,11 +24,11 @@ namespace BiteWiseApp
     public partial class UserProfileForm: Form
 
     {
-        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
+        private readonly BiteWiseDBEntities2 biteWiseDBEntities;
         public UserProfileForm()
         {
             InitializeComponent();
-            biteWiseDBEntities = new BiteWiseDBEntities1();
+            biteWiseDBEntities = new BiteWiseDBEntities2();
         }
 
         private void SaveChangesButton_Click(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace BiteWiseApp
                 {
                     int userId = Session.LoggedInUserId;
 
-                    using (var db = new BiteWiseDBEntities1())
+                    using (var db = new BiteWiseDBEntities2())
                     {
                         var existing = db.User_Picture.FirstOrDefault(x => x.user_Id == userId);
 

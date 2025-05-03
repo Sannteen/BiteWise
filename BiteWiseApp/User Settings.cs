@@ -13,13 +13,13 @@ namespace BiteWiseApp
     public partial class UserSettings: Form
     {
         private readonly int _currentUserId;
-        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
+        private readonly BiteWiseDBEntities2 biteWiseDBEntities;
         
         public UserSettings()
         {
             InitializeComponent();
             _currentUserId = user_id;
-            biteWiseDBEntities = new BiteWiseDBEntities1();
+            biteWiseDBEntities = new BiteWiseDBEntities2();
         }
 
         private void Form1_Load(object sender, EventArgs e)

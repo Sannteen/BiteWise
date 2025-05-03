@@ -99,6 +99,7 @@
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(173, 31);
             this.EmailtextBox.TabIndex = 9;
+           // this.EmailtextBox.TextChanged += new System.EventHandler(this.EmailtextBox_TextChanged);
             // 
             // Passwordlabel
             // 
@@ -249,6 +250,151 @@
             this.PasswordcheckBox.UseVisualStyleBackColor = true;
             this.PasswordcheckBox.CheckedChanged += new System.EventHandler(this.PasswordcheckBox_CheckedChanged);
             // 
+//<<<<<<< HEAD
+            // SunnumericUpDown
+            //// 
+            //this.SunnumericUpDown.AllowDrop = true;
+            //this.SunnumericUpDown.DecimalPlaces = 1;
+            //this.SunnumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.SunnumericUpDown.Location = new System.Drawing.Point(762, 125);
+            //this.SunnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.SunnumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.SunnumericUpDown.Name = "SunnumericUpDown";
+            //this.SunnumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.SunnumericUpDown.TabIndex = 54;
+            //this.SunnumericUpDown.ValueChanged += new System.EventHandler(this.SunnumericUpDown_ValueChanged);
+            //// 
+            //// MonnumericUpDown
+            //// 
+            //this.MonnumericUpDown.AllowDrop = true;
+            //this.MonnumericUpDown.DecimalPlaces = 1;
+            //this.MonnumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.MonnumericUpDown.Location = new System.Drawing.Point(762, 164);
+            //this.MonnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.MonnumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.MonnumericUpDown.Name = "MonnumericUpDown";
+            //this.MonnumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.MonnumericUpDown.TabIndex = 55;
+            //this.MonnumericUpDown.ValueChanged += new System.EventHandler(this.MonnumericUpDown_ValueChanged);
+            //// 
+            //// TuesnumericUpDown
+            //// 
+            //this.TuesnumericUpDown.AllowDrop = true;
+            //this.TuesnumericUpDown.DecimalPlaces = 1;
+            //this.TuesnumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.TuesnumericUpDown.Location = new System.Drawing.Point(762, 203);
+            //this.TuesnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.TuesnumericUpDown.Name = "TuesnumericUpDown";
+            //this.TuesnumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.TuesnumericUpDown.TabIndex = 56;
+            //this.TuesnumericUpDown.ValueChanged += new System.EventHandler(this.TuesnumericUpDown_ValueChanged);
+            //// 
+            //// WednumericUpDown
+            //// 
+            //this.WednumericUpDown.AllowDrop = true;
+            //this.WednumericUpDown.DecimalPlaces = 1;
+            //this.WednumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.WednumericUpDown.Location = new System.Drawing.Point(762, 242);
+            //this.WednumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.WednumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.WednumericUpDown.Name = "WednumericUpDown";
+            //this.WednumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.WednumericUpDown.TabIndex = 57;
+            //this.WednumericUpDown.ValueChanged += new System.EventHandler(this.WednumericUpDown_ValueChanged);
+            //// 
+            //// ThursnumericUpDown
+            //// 
+            //this.ThursnumericUpDown.AllowDrop = true;
+            //this.ThursnumericUpDown.DecimalPlaces = 1;
+            //this.ThursnumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.ThursnumericUpDown.Location = new System.Drawing.Point(762, 281);
+            //this.ThursnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.ThursnumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.ThursnumericUpDown.Name = "ThursnumericUpDown";
+            //this.ThursnumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.ThursnumericUpDown.TabIndex = 58;
+            //this.ThursnumericUpDown.ValueChanged += new System.EventHandler(this.ThursnumericUpDown_ValueChanged);
+            //// 
+            //// FrinumericUpDown
+            //// 
+            //this.FrinumericUpDown.AllowDrop = true;
+            //this.FrinumericUpDown.DecimalPlaces = 1;
+            //this.FrinumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.FrinumericUpDown.Location = new System.Drawing.Point(762, 320);
+            //this.FrinumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.FrinumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.FrinumericUpDown.Name = "FrinumericUpDown";
+            //this.FrinumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.FrinumericUpDown.TabIndex = 59;
+            //this.FrinumericUpDown.ValueChanged += new System.EventHandler(this.FrinumericUpDown_ValueChanged);
+            //// 
+            //// SatnumericUpDown
+            //// 
+            //this.SatnumericUpDown.AllowDrop = true;
+            //this.SatnumericUpDown.DecimalPlaces = 1;
+            //this.SatnumericUpDown.Increment = new decimal(new int[] {
+            //1,
+            //0,
+            //0,
+            //65536});
+            //this.SatnumericUpDown.Location = new System.Drawing.Point(762, 359);
+            //this.SatnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            //this.SatnumericUpDown.Maximum = new decimal(new int[] {
+            //500,
+            //0,
+            //0,
+            //0});
+            //this.SatnumericUpDown.Name = "SatnumericUpDown";
+            //this.SatnumericUpDown.Size = new System.Drawing.Size(47, 23);
+            //this.SatnumericUpDown.TabIndex = 60;
+            //this.SatnumericUpDown.ValueChanged += new System.EventHandler(this.SatnumericUpDown_ValueChanged);
+            //// 
+//=======
+//>>>>>>> 0e0d1b6057d5f425923d45c788cb81eeb765bf3d
             // Editbutton
             // 
             this.Editbutton.BackColor = System.Drawing.Color.DarkCyan;
@@ -261,6 +407,7 @@
             this.Editbutton.TabIndex = 61;
             this.Editbutton.Text = "Edit Profile";
             this.Editbutton.UseVisualStyleBackColor = false;
+          //  this.Editbutton.Click += new System.EventHandler(this.Editbutton_Click);
             // 
             // AgenumericUpDown
             // 
@@ -270,6 +417,7 @@
             this.AgenumericUpDown.Name = "AgenumericUpDown";
             this.AgenumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.AgenumericUpDown.TabIndex = 62;
+           // this.AgenumericUpDown.ValueChanged += new System.EventHandler(this.AgenumericUpDown_ValueChanged);
             // 
             // WeightnumericUpDown
             // 
@@ -285,6 +433,7 @@
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
             this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.WeightnumericUpDown.TabIndex = 63;
+          //  this.WeightnumericUpDown.ValueChanged += new System.EventHandler(this.WeightnumericUpDown_ValueChanged);
             // 
             // HeightnumericUpDown
             // 
@@ -299,6 +448,7 @@
             this.HeightnumericUpDown.Name = "HeightnumericUpDown";
             this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.HeightnumericUpDown.TabIndex = 64;
+           // this.HeightnumericUpDown.ValueChanged += new System.EventHandler(this.HeightnumericUpDown_ValueChanged);
             // 
             // TargetWeightnumericUpDown
             // 
@@ -318,6 +468,7 @@
             this.TargetWeightnumericUpDown.Name = "TargetWeightnumericUpDown";
             this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 31);
             this.TargetWeightnumericUpDown.TabIndex = 65;
+           //this.TargetWeightnumericUpDown.ValueChanged += new System.EventHandler(this.TargetWeightnumericUpDown_ValueChanged);
             // 
             // DailyCalTarnumericUpDown
             // 
@@ -338,6 +489,7 @@
             this.DailyCalTarnumericUpDown.Name = "DailyCalTarnumericUpDown";
             this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 31);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
+            //this.DailyCalTarnumericUpDown.ValueChanged += new System.EventHandler(this.DailyCalTarnumericUpDown_ValueChanged);
             // 
             // ProfilePictureBox
             // 
@@ -351,6 +503,7 @@
             this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.ProfilePictureBox.TabIndex = 67;
             this.ProfilePictureBox.TabStop = false;
+           // this.ProfilePictureBox.Click += new System.EventHandler(this.ProfilePictureBox_Click);
             // 
             // openFileDialog1
             // 
