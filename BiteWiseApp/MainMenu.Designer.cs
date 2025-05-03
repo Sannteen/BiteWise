@@ -43,6 +43,8 @@
             this.TimerLbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
+            this.progressTrackingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dailySummaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,6 +95,9 @@
             // 
             // goalsToolStripMenuItem
             // 
+            this.goalsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.progressTrackingToolStripMenuItem,
+            this.dailySummaryToolStripMenuItem});
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
             this.goalsToolStripMenuItem.Size = new System.Drawing.Size(64, 22);
             this.goalsToolStripMenuItem.Text = "Progress";
@@ -161,6 +166,20 @@
             this.panelMain.Size = new System.Drawing.Size(1133, 546);
             this.panelMain.TabIndex = 5;
             // 
+            // progressTrackingToolStripMenuItem
+            // 
+            this.progressTrackingToolStripMenuItem.Name = "progressTrackingToolStripMenuItem";
+            this.progressTrackingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.progressTrackingToolStripMenuItem.Text = "Progress Tracking";
+            this.progressTrackingToolStripMenuItem.Click += new System.EventHandler(this.progressTrackingToolStripMenuItem_Click);
+            // 
+            // dailySummaryToolStripMenuItem
+            // 
+            this.dailySummaryToolStripMenuItem.Name = "dailySummaryToolStripMenuItem";
+            this.dailySummaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dailySummaryToolStripMenuItem.Text = "Daily Summary";
+            this.dailySummaryToolStripMenuItem.Click += new System.EventHandler(this.dailySummaryToolStripMenuItem_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -200,5 +219,7 @@
         private System.Windows.Forms.ToolStripMenuItem logFoodToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logWorkoutToolStripMenuItem;
         public System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.ToolStripMenuItem progressTrackingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dailySummaryToolStripMenuItem;
     }
 }

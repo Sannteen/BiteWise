@@ -31,7 +31,7 @@ namespace BiteWiseApp
 
         private void SaveChangesButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Changes save successfully");
+            MessageBox.Show("Changes save successfully","User Profile",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void PasswordtextBox_TextChanged(object sender, EventArgs e)
@@ -127,6 +127,81 @@ namespace BiteWiseApp
         }
 
         private void nametextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Editbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProfilePictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AgenumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HeightnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WeightnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TargetWeightnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DailyCalTarnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SunnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MonnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TuesnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WednumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ThursnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrinumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SatnumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmailtextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

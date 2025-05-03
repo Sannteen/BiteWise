@@ -122,6 +122,7 @@
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(173, 23);
             this.EmailtextBox.TabIndex = 9;
+            this.EmailtextBox.TextChanged += new System.EventHandler(this.EmailtextBox_TextChanged);
             // 
             // Passwordlabel
             // 
@@ -378,6 +379,7 @@
             this.SunnumericUpDown.Name = "SunnumericUpDown";
             this.SunnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.SunnumericUpDown.TabIndex = 54;
+            this.SunnumericUpDown.ValueChanged += new System.EventHandler(this.SunnumericUpDown_ValueChanged);
             // 
             // MonnumericUpDown
             // 
@@ -398,6 +400,7 @@
             this.MonnumericUpDown.Name = "MonnumericUpDown";
             this.MonnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.MonnumericUpDown.TabIndex = 55;
+            this.MonnumericUpDown.ValueChanged += new System.EventHandler(this.MonnumericUpDown_ValueChanged);
             // 
             // TuesnumericUpDown
             // 
@@ -413,6 +416,7 @@
             this.TuesnumericUpDown.Name = "TuesnumericUpDown";
             this.TuesnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.TuesnumericUpDown.TabIndex = 56;
+            this.TuesnumericUpDown.ValueChanged += new System.EventHandler(this.TuesnumericUpDown_ValueChanged);
             // 
             // WednumericUpDown
             // 
@@ -433,6 +437,7 @@
             this.WednumericUpDown.Name = "WednumericUpDown";
             this.WednumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.WednumericUpDown.TabIndex = 57;
+            this.WednumericUpDown.ValueChanged += new System.EventHandler(this.WednumericUpDown_ValueChanged);
             // 
             // ThursnumericUpDown
             // 
@@ -453,6 +458,7 @@
             this.ThursnumericUpDown.Name = "ThursnumericUpDown";
             this.ThursnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.ThursnumericUpDown.TabIndex = 58;
+            this.ThursnumericUpDown.ValueChanged += new System.EventHandler(this.ThursnumericUpDown_ValueChanged);
             // 
             // FrinumericUpDown
             // 
@@ -473,6 +479,7 @@
             this.FrinumericUpDown.Name = "FrinumericUpDown";
             this.FrinumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.FrinumericUpDown.TabIndex = 59;
+            this.FrinumericUpDown.ValueChanged += new System.EventHandler(this.FrinumericUpDown_ValueChanged);
             // 
             // SatnumericUpDown
             // 
@@ -493,6 +500,7 @@
             this.SatnumericUpDown.Name = "SatnumericUpDown";
             this.SatnumericUpDown.Size = new System.Drawing.Size(47, 23);
             this.SatnumericUpDown.TabIndex = 60;
+            this.SatnumericUpDown.ValueChanged += new System.EventHandler(this.SatnumericUpDown_ValueChanged);
             // 
             // Editbutton
             // 
@@ -505,6 +513,7 @@
             this.Editbutton.TabIndex = 61;
             this.Editbutton.Text = "Edit";
             this.Editbutton.UseVisualStyleBackColor = false;
+            this.Editbutton.Click += new System.EventHandler(this.Editbutton_Click);
             // 
             // AgenumericUpDown
             // 
@@ -514,6 +523,7 @@
             this.AgenumericUpDown.Name = "AgenumericUpDown";
             this.AgenumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.AgenumericUpDown.TabIndex = 62;
+            this.AgenumericUpDown.ValueChanged += new System.EventHandler(this.AgenumericUpDown_ValueChanged);
             // 
             // WeightnumericUpDown
             // 
@@ -529,6 +539,7 @@
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
             this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.WeightnumericUpDown.TabIndex = 63;
+            this.WeightnumericUpDown.ValueChanged += new System.EventHandler(this.WeightnumericUpDown_ValueChanged);
             // 
             // HeightnumericUpDown
             // 
@@ -543,6 +554,7 @@
             this.HeightnumericUpDown.Name = "HeightnumericUpDown";
             this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.HeightnumericUpDown.TabIndex = 64;
+            this.HeightnumericUpDown.ValueChanged += new System.EventHandler(this.HeightnumericUpDown_ValueChanged);
             // 
             // TargetWeightnumericUpDown
             // 
@@ -562,6 +574,7 @@
             this.TargetWeightnumericUpDown.Name = "TargetWeightnumericUpDown";
             this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.TargetWeightnumericUpDown.TabIndex = 65;
+            this.TargetWeightnumericUpDown.ValueChanged += new System.EventHandler(this.TargetWeightnumericUpDown_ValueChanged);
             // 
             // DailyCalTarnumericUpDown
             // 
@@ -582,6 +595,7 @@
             this.DailyCalTarnumericUpDown.Name = "DailyCalTarnumericUpDown";
             this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
+            this.DailyCalTarnumericUpDown.ValueChanged += new System.EventHandler(this.DailyCalTarnumericUpDown_ValueChanged);
             // 
             // ProfilePictureBox
             // 
@@ -595,6 +609,7 @@
             this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.ProfilePictureBox.TabIndex = 67;
             this.ProfilePictureBox.TabStop = false;
+            this.ProfilePictureBox.Click += new System.EventHandler(this.ProfilePictureBox_Click);
             // 
             // openFileDialog1
             // 
