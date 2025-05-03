@@ -32,7 +32,7 @@ namespace BiteWiseApp
         {
             int userId = Session.LoggedInUserId;
 
-            using (var db = new BiteWiseDBEntities1())
+            using (var db = new BiteWiseDBEntities2())
             {
                 // Fetch basic user info
                 var user = db.Users.FirstOrDefault(u => u.user_id == userId);

@@ -72,5 +72,12 @@ namespace BiteWiseApp
                 }
             }
         }
+
+        private void UpdatePasswordbutton_Click(object sender, EventArgs e)
+        {
+            var profileForm = new UserProfileForm(_currentUserId);
+            profileForm.Show();
+            this.Hide();
+        }
     }
 }

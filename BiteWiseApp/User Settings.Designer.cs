@@ -57,6 +57,7 @@
             this.UpdatePasswordbutton.TabIndex = 1;
             this.UpdatePasswordbutton.Text = "Update Password ";
             this.UpdatePasswordbutton.UseVisualStyleBackColor = true;
+            this.UpdatePasswordbutton.Click += new System.EventHandler(this.UpdatePasswordbutton_Click);
             // 
             // DeleteProfilebutton
             // 

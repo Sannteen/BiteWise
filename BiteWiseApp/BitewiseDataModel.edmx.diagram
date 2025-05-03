@@ -4,34 +4,33 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="202eb128f4f6435da2f0dde51de01000" Name="Diagram1">
-        <EntityTypeShape EntityType="BiteWiseDBModel.DailySummary" Width="1.625" PointX="3" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.Exercis" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.Food" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.Goal" Width="1.75" PointX="3" PointY="12.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.JamaicanRecipe" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.Meal" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.User_Picture" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.UserMeasurement" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.UserPreference" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.User" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.WorkoutLog" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+      <Diagram DiagramId="83885dfe145748908889f451e65ff7b1" Name="Diagram1">
+        <EntityTypeShape EntityType="BiteWiseDBModel.DailySummary" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.Exercis" Width="1.5" PointX="3.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.Food" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.FoodLog" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.Goal" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.JamaicanRecipe" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.Meal" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User_Picture" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.UserMeasurement" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.UserPreference" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.WorkoutLog" Width="1.5" PointX="6" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User_info_Details" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BiteWiseDBModel.User_Work_log" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="BiteWiseDBModel.FK__DailySumm__user___4BAC3F29" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__WorkoutLo__exerc__48CFD27E" ManuallyRouted="false" />
-        <AssociationConnector Association="BiteWiseDBModel.FK_Exercises_Users" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__Meals__food_id__4316F928" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK_Food_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BiteWiseDBModel.FK_FoodLog_Users" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__Goals__user_id__4E88ABD4" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__Meals__user_id__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="BiteWiseDBModel.FK_User_Picture_Users" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__UserMeasu__user___3C69FB99" ManuallyRouted="false" />
         <AssociationConnector Association="BiteWiseDBModel.FK__UserPrefe__user___534D60F1" ManuallyRouted="false" />
-        <AssociationConnector Association="BiteWiseDBModel.FK__WorkoutLo__user___47DBAE45" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.FoodLog" Width="1.5" PointX="3" PointY="23" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.User_info_Details" Width="1.625" PointX="7.5" PointY="5.25" />
-        <EntityTypeShape EntityType="BiteWiseDBModel.User_Work_log" Width="1.5" PointX="9.5" PointY="3.5" />
-        <AssociationConnector Association="BiteWiseDBModel.FK_FoodLog_Users" />
-        <AssociationConnector Association="BiteWiseDBModel.FK_User_Picture_Users" />
+        <AssociationConnector Association="BiteWiseDBModel.FK_WorkoutLogs_Users" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
