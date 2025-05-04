@@ -110,12 +110,12 @@ namespace BiteWiseApp
 
         private void logFoodToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ExerciseAndFoodLog());
+            LoadFormInPanel(new SummaryForm());
         }
 
         private void logWorkoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ExerciseAndFoodLog());
+            LoadFormInPanel(new SummaryForm());
         }
 
         

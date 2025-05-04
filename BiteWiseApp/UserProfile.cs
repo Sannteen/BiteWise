@@ -124,8 +124,15 @@ namespace BiteWiseApp
                 }
             }
 
-            biteWiseDBEntities.SaveChanges();
-            MessageBox.Show("Changes saved successfully.");
+            try {
+                biteWiseDBEntities.SaveChanges();
+                MessageBox.Show("Changes saved successfully.", "User Profile",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+            catch (Exception exp){
+
+                MessageBox.Show(exp.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            } 
+
         }
 
         private void UploadImageButton_Click(object sender, EventArgs e)

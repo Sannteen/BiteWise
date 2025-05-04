@@ -96,10 +96,10 @@
             this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProfilePictureBox.ErrorImage = null;
             this.ProfilePictureBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("ProfilePictureBox.InitialImage")));
-            this.ProfilePictureBox.Location = new System.Drawing.Point(81, 60);
+            this.ProfilePictureBox.Location = new System.Drawing.Point(92, 37);
             this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilePictureBox.Name = "ProfilePictureBox";
-            this.ProfilePictureBox.Size = new System.Drawing.Size(201, 173);
+            this.ProfilePictureBox.Size = new System.Drawing.Size(201, 201);
             this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ProfilePictureBox.TabIndex = 79;
             this.ProfilePictureBox.TabStop = false;
