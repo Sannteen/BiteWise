@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BiteWiseDBModelStoreContainer" CdmEntityContainer="BiteWiseDBEntities">
+    <EntitySetMapping Name="DailySummaries">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.DailySummary">
+        <MappingFragment StoreEntitySet="DailySummary">
+          <ScalarProperty Name="summary_id" ColumnName="summary_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="total_calories_consumed" ColumnName="total_calories_consumed" />
+          <ScalarProperty Name="total_calories_burned" ColumnName="total_calories_burned" />
+          <ScalarProperty Name="net_calories" ColumnName="net_calories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exercises">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.Exercis">
+        <MappingFragment StoreEntitySet="Exercises">
+          <ScalarProperty Name="exercise_id" ColumnName="exercise_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="calories_burned_per_min" ColumnName="calories_burned_per_min" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Foods">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.Food">
+        <MappingFragment StoreEntitySet="Food">
+          <ScalarProperty Name="food_id" ColumnName="food_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="calories" ColumnName="calories" />
+          <ScalarProperty Name="protein" ColumnName="protein" />
+          <ScalarProperty Name="carbs" ColumnName="carbs" />
+          <ScalarProperty Name="fats" ColumnName="fats" />
+          <ScalarProperty Name="fiber" ColumnName="fiber" />
+          <ScalarProperty Name="serving_size" ColumnName="serving_size" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="is_local" ColumnName="is_local" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FoodLogs">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.FoodLog">
+        <MappingFragment StoreEntitySet="FoodLog">
+          <ScalarProperty Name="Record_Id" ColumnName="Record_Id" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Food_name" ColumnName="Food_name" />
+          <ScalarProperty Name="Cals_Consumed" ColumnName="Cals_Consumed" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goals">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.Goal">
+        <MappingFragment StoreEntitySet="Goals">
+          <ScalarProperty Name="goal_id" ColumnName="goal_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="target_weight" ColumnName="target_weight" />
+          <ScalarProperty Name="daily_caloric_target" ColumnName="daily_caloric_target" />
+          <ScalarProperty Name="weekly_weight_change_goal" ColumnName="weekly_weight_change_goal" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JamaicanRecipes">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.JamaicanRecipe">
+        <MappingFragment StoreEntitySet="JamaicanRecipes">
+          <ScalarProperty Name="recipe_id" ColumnName="recipe_id" />
+          <ScalarProperty Name="recipename" ColumnName="recipename" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="calories_per_serving" ColumnName="calories_per_serving" />
+          <ScalarProperty Name="ingredients" ColumnName="ingredients" />
+          <ScalarProperty Name="instructions" ColumnName="instructions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meals">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.Meal">
+        <MappingFragment StoreEntitySet="Meals">
+          <ScalarProperty Name="meal_id" ColumnName="meal_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="food_id" ColumnName="food_id" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="meal_type" ColumnName="meal_type" />
+          <ScalarProperty Name="consumed_at" ColumnName="consumed_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Picture">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.User_Picture">
+        <MappingFragment StoreEntitySet="User_Picture">
+          <ScalarProperty Name="user_Id" ColumnName="user_Id" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMeasurements">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.UserMeasurement">
+        <MappingFragment StoreEntitySet="UserMeasurements">
+          <ScalarProperty Name="measurement_id" ColumnName="measurement_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="waist_size" ColumnName="waist_size" />
+          <ScalarProperty Name="hip_size" ColumnName="hip_size" />
+          <ScalarProperty Name="chest_size" ColumnName="chest_size" />
+          <ScalarProperty Name="arm_size" ColumnName="arm_size" />
+          <ScalarProperty Name="leg_size" ColumnName="leg_size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserPreferences">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.UserPreference">
+        <MappingFragment StoreEntitySet="UserPreferences">
+          <ScalarProperty Name="preference_id" ColumnName="preference_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="diet_type" ColumnName="diet_type" />
+          <ScalarProperty Name="preferred_foods" ColumnName="preferred_foods" />
+          <ScalarProperty Name="allergies" ColumnName="allergies" />
+          <ScalarProperty Name="disliked_foods" ColumnName="disliked_foods" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="activity_level" ColumnName="activity_level" />
+          <ScalarProperty Name="goal" ColumnName="goal" />
+          <ScalarProperty Name="lockStatus" ColumnName="lockStatus" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="Login_Attempts" ColumnName="Login_Attempts" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkoutLogs">
+      <EntityTypeMapping TypeName="BiteWiseDBModel.WorkoutLog">
+        <MappingFragment StoreEntitySet="WorkoutLogs">
+          <ScalarProperty Name="log_id" ColumnName="log_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="exercise_id" ColumnName="exercise_id" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="calories_burned" ColumnName="calories_burned" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -51,7 +51,7 @@ namespace BiteWiseApp
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
        {
-            LoadFormInPanel(new ProgressTrackingForm());
+          //  LoadFormInPanel(new ProgressTrackingForm());
         }
 
         private void summaryToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace BiteWiseApp
 
         private void getRecipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new Recipes());
+           // LoadFormInPanel(new Recipes());
         }
 
         private void MainMenu_Load(object sender, EventArgs e)

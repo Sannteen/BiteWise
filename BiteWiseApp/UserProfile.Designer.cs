@@ -250,7 +250,7 @@
             this.PasswordcheckBox.UseVisualStyleBackColor = true;
             this.PasswordcheckBox.CheckedChanged += new System.EventHandler(this.PasswordcheckBox_CheckedChanged);
             // 
-//<<<<<<< HEAD
+
             // SunnumericUpDown
             //// 
             //this.SunnumericUpDown.AllowDrop = true;
@@ -393,8 +393,7 @@
             //this.SatnumericUpDown.TabIndex = 60;
             //this.SatnumericUpDown.ValueChanged += new System.EventHandler(this.SatnumericUpDown_ValueChanged);
             //// 
-//=======
-//>>>>>>> 0e0d1b6057d5f425923d45c788cb81eeb765bf3d
+
             // Editbutton
             // 
             this.Editbutton.BackColor = System.Drawing.Color.DarkCyan;

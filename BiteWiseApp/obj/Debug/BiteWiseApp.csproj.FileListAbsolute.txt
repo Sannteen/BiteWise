@@ -194,3 +194,16 @@ C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.Proper
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.SignUp.resources
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.GenerateResource.cache
 C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.csproj.CoreCompileInputs.cache
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.exe
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe.config
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.exe
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\BiteWiseApp.pdb
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\CircularProgressBar.dll
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.dll
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\WinFormAnimation.dll
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\CircularProgressBar.xml
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.xml
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sannteen\Source\Repos\BiteWise\BiteWiseApp\obj\Debug\BiteWise.817BDDBE.Up2Date

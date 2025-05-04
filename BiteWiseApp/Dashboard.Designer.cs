@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.tbNetCalsdb = new System.Windows.Forms.TextBox();
@@ -77,7 +77,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
-            //this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
@@ -110,7 +110,6 @@
             this.tbNetCalsdb.Name = "tbNetCalsdb";
             this.tbNetCalsdb.Size = new System.Drawing.Size(118, 23);
             this.tbNetCalsdb.TabIndex = 78;
-           // this.tbNetCalsdb.TextChanged += new System.EventHandler(this.tbNetCalsdb_TextChanged);
             // 
             // tbTotalCalsBurneddb
             // 
@@ -119,7 +118,6 @@
             this.tbTotalCalsBurneddb.Name = "tbTotalCalsBurneddb";
             this.tbTotalCalsBurneddb.Size = new System.Drawing.Size(68, 23);
             this.tbTotalCalsBurneddb.TabIndex = 77;
-            //this.tbTotalCalsBurneddb.TextChanged += new System.EventHandler(this.tbTotalCalsBurneddb_TextChanged);
             // 
             // tbTotalCalsConsumeddb
             // 
@@ -128,7 +126,6 @@
             this.tbTotalCalsConsumeddb.Name = "tbTotalCalsConsumeddb";
             this.tbTotalCalsConsumeddb.Size = new System.Drawing.Size(43, 23);
             this.tbTotalCalsConsumeddb.TabIndex = 76;
-           // this.tbTotalCalsConsumeddb.TextChanged += new System.EventHandler(this.tbTotalCalsConsumeddb_TextChanged);
             // 
             // tbCurrentWeightdb
             // 
@@ -137,7 +134,6 @@
             this.tbCurrentWeightdb.Name = "tbCurrentWeightdb";
             this.tbCurrentWeightdb.Size = new System.Drawing.Size(118, 23);
             this.tbCurrentWeightdb.TabIndex = 75;
-           // this.tbCurrentWeightdb.TextChanged += new System.EventHandler(this.tbCurrentWeightdb_TextChanged);
             // 
             // cbUserdb
             // 
@@ -147,7 +143,6 @@
             this.cbUserdb.Name = "cbUserdb";
             this.cbUserdb.Size = new System.Drawing.Size(190, 23);
             this.cbUserdb.TabIndex = 74;
-           // this.cbUserdb.SelectedIndexChanged += new System.EventHandler(this.cbUserdb_SelectedIndexChanged);
             // 
             // labeluser
             // 
@@ -218,20 +213,20 @@
             // 
             // chWeightProgressdb
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chWeightProgressdb.ChartAreas.Add(chartArea5);
-            legend5.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
-            legend5.Name = "Weekly Progress";
-            legend5.Title = "Weight Progress";
-            legend5.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chWeightProgressdb.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.chWeightProgressdb.ChartAreas.Add(chartArea1);
+            legend1.LegendStyle = System.Windows.Forms.DataVisualization.Charting.LegendStyle.Row;
+            legend1.Name = "Weekly Progress";
+            legend1.Title = "Weight Progress";
+            legend1.TitleFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chWeightProgressdb.Legends.Add(legend1);
             this.chWeightProgressdb.Location = new System.Drawing.Point(28, 149);
             this.chWeightProgressdb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chWeightProgressdb.Name = "chWeightProgressdb";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Weekly Progress";
-            series5.Name = "Days";
-            this.chWeightProgressdb.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Weekly Progress";
+            series1.Name = "Days";
+            this.chWeightProgressdb.Series.Add(series1);
             this.chWeightProgressdb.Size = new System.Drawing.Size(428, 275);
             this.chWeightProgressdb.TabIndex = 74;
             this.chWeightProgressdb.Text = "Weight Progress";
@@ -284,7 +279,6 @@
             this.dashboardLB.Size = new System.Drawing.Size(572, 42);
             this.dashboardLB.TabIndex = 69;
             this.dashboardLB.Text = "Welcome to BitWise Dashboard";
-           // this.dashboardLB.Click += new System.EventHandler(this.RegistrationLB_Click);
             // 
             // Dashboard
             // 

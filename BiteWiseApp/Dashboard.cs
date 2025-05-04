@@ -32,7 +32,7 @@ namespace BiteWiseApp
         {
             int userId = Session.LoggedInUserId;
 
-            using (var db = new BiteWiseDBEntities2())
+            using (var db = new BiteWiseDBEntities())
             {
                 // Fetch basic user info
                 var user = db.Users.FirstOrDefault(u => u.user_id == userId);
@@ -93,6 +93,11 @@ namespace BiteWiseApp
         {
             UserProfileForm profileForm = new UserProfileForm();
             ((MainMenu)this.ParentForm).LoadFormInPanel(profileForm);
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

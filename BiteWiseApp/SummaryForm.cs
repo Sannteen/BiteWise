@@ -7,18 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BiteWiseApp.Classes;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace BiteWiseApp
 {
     public partial class SummaryForm: Form
     {
-        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
+        private readonly int _currentUserId;
+        private readonly BiteWiseDBEntities biteWiseDBEntities;
         public SummaryForm()
         {
             InitializeComponent();
-            _CurrentUserId = user_id;
-            biteWiseDBEntities = new BiteWiseDBEntities1();
+            _currentUserId = Session.LoggedInUserId;
+            biteWiseDBEntities = new BiteWiseDBEntities();
         }
 
         private void SummaryForm_Load(object sender, EventArgs e)
@@ -48,6 +50,26 @@ namespace BiteWiseApp
                      .ToList();
 
             WorkoutLogDataGridView.DataSource = workoutSummary;
+        }
+
+        private void DailySumarylabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TotalCalConsumedLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NetCaloriesLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExeDateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -54,7 +54,7 @@ namespace BiteWiseApp
             try
             {
                 // TODO: This line of code loads data into the 'biteWiseDBDataSet1.User_Work_log' table. You can move, or remove it, as needed.
-                this.user_Work_logTableAdapter1.Fill(this.biteWiseDBDataSet1.User_Work_log);
+              // this.user_Work_logTableAdapter1.Fill(this.biteWiseDBDataSet1.User_Work_log);
             }
 
             catch (Exception ex) 
@@ -78,6 +78,9 @@ namespace BiteWiseApp
 
         }
 
-        
+        private void userWorklogBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
