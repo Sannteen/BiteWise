@@ -16,6 +16,7 @@ using System.IO;
 
 namespace BiteWiseApp
 {
+   
     public partial class Dashboard : Form
     {
         public Dashboard()
@@ -37,7 +38,7 @@ namespace BiteWiseApp
                 // Fetch basic user info
                 var user = db.Users.FirstOrDefault(u => u.user_id == userId);
                 // Fetch image from User_Picture table
-                var userImage = db.User_Picture.FirstOrDefault(p => p.user_Id == userId);
+                var userImage = db.User_Picture.FirstOrDefault(p => p.user_id == userId);
                 // Fetch today's summary from DailySummary
                 var today = DateTime.Today;
                 var dailySummary = db.DailySummaries
@@ -91,7 +92,8 @@ namespace BiteWiseApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UserProfileForm profileForm = new UserProfileForm();
+            int userId = Session.LoggedInUserId;
+            UserProfileForm profileForm = new UserProfileForm(userId);
             ((MainMenu)this.ParentForm).LoadFormInPanel(profileForm);
         }
 

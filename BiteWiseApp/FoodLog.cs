@@ -15,7 +15,7 @@ namespace BiteWiseApp
     public partial class FoodLog
     {
         public int Record_Id { get; set; }
-        public int User_Id { get; set; }
+        public int user_id { get; set; }
         public string Food_name { get; set; }
         public string Cals_Consumed { get; set; }
         public System.DateTime Date { get; set; }

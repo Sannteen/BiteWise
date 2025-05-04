@@ -45,7 +45,7 @@
       <PropertyRef Name="Record_Id" />
     </Key>
     <Property Name="Record_Id" Type="Int32" Nullable="false" />
-    <Property Name="User_Id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
     <Property Name="Food_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="Cals_Consumed" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
     <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
@@ -100,9 +100,9 @@
   </EntityType>
   <EntityType Name="User_Picture">
     <Key>
-      <PropertyRef Name="user_Id" />
+      <PropertyRef Name="user_id" />
     </Key>
-    <Property Name="user_Id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
     <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
     <NavigationProperty Name="User" Relationship="Self.FK_User_Picture_Users" FromRole="User_Picture" ToRole="Users" />
   </EntityType>
@@ -176,11 +176,11 @@
   </EntityType>
   <EntityType Name="User_info_Details">
     <Key>
-      <PropertyRef Name="User_ID" />
+      <PropertyRef Name="user_id" />
       <PropertyRef Name="Name" />
       <PropertyRef Name="Email" />
     </Key>
-    <Property Name="User_ID" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
     <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -266,7 +266,7 @@
         <PropertyRef Name="user_id" />
       </Principal>
       <Dependent Role="FoodLog">
-        <PropertyRef Name="User_Id" />
+        <PropertyRef Name="user_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -308,7 +308,7 @@
         <PropertyRef Name="user_id" />
       </Principal>
       <Dependent Role="User_Picture">
-        <PropertyRef Name="user_Id" />
+        <PropertyRef Name="user_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
