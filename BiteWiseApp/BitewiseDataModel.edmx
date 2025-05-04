@@ -542,7 +542,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
             <PropertyRef Name="Record_Id" />
           </Key>
           <Property Name="Record_Id" Type="Int32" Nullable="false" />
-          <Property Name="User_Id" Type="Int32" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
           <Property Name="Food_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Cals_Consumed" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
@@ -597,9 +597,9 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
         </EntityType>
         <EntityType Name="User_Picture">
           <Key>
-            <PropertyRef Name="user_Id" />
+            <PropertyRef Name="user_id" />
           </Key>
-          <Property Name="user_Id" Type="Int32" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
           <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
           <NavigationProperty Name="User" Relationship="Self.FK_User_Picture_Users" FromRole="User_Picture" ToRole="Users" />
         </EntityType>
@@ -673,11 +673,11 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
         </EntityType>
         <EntityType Name="User_info_Details">
           <Key>
-            <PropertyRef Name="User_ID" />
+            <PropertyRef Name="user_id" />
             <PropertyRef Name="Name" />
             <PropertyRef Name="Email" />
           </Key>
-          <Property Name="User_ID" Type="Int32" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
           <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -763,7 +763,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
               <PropertyRef Name="user_id" />
             </Principal>
             <Dependent Role="FoodLog">
-              <PropertyRef Name="User_Id" />
+              <PropertyRef Name="user_id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -805,7 +805,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
               <PropertyRef Name="user_id" />
             </Principal>
             <Dependent Role="User_Picture">
-              <PropertyRef Name="user_Id" />
+              <PropertyRef Name="user_id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -1068,7 +1068,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
             <EntityTypeMapping TypeName="BiteWiseDBModel.FoodLog">
               <MappingFragment StoreEntitySet="FoodLog">
                 <ScalarProperty Name="Record_Id" ColumnName="Record_Id" />
-                <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+                <ScalarProperty Name="user_id" ColumnName="User_Id" />
                 <ScalarProperty Name="Food_name" ColumnName="Food_name" />
                 <ScalarProperty Name="Cals_Consumed" ColumnName="Cals_Consumed" />
                 <ScalarProperty Name="Date" ColumnName="Date" />
@@ -1126,7 +1126,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
           <EntitySetMapping Name="User_Picture">
             <EntityTypeMapping TypeName="BiteWiseDBModel.User_Picture">
               <MappingFragment StoreEntitySet="User_Picture">
-                <ScalarProperty Name="user_Id" ColumnName="user_Id" />
+                <ScalarProperty Name="user_id" ColumnName="user_Id" />
                 <ScalarProperty Name="image" ColumnName="image" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -1193,7 +1193,7 @@ warning 6002: The table/view 'BiteWiseDB.dbo.User_Work_log' does not have a prim
           <EntitySetMapping Name="User_info_Details">
             <EntityTypeMapping TypeName="BiteWiseDBModel.User_info_Details">
               <MappingFragment StoreEntitySet="User_info_Details">
-                <ScalarProperty Name="User_ID" ColumnName="User ID" />
+                <ScalarProperty Name="user_id" ColumnName="User ID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Gender" ColumnName="Gender" />

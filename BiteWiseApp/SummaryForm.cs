@@ -8,17 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using BiteWiseApp.Classes;
 
 namespace BiteWiseApp
 {
     public partial class SummaryForm: Form
     {
-        private readonly BiteWiseDBEntities1 biteWiseDBEntities;
+        private readonly BiteWiseDBEntities2 biteWiseDBEntities;
+        private int _CurrentUserId;
+
         public SummaryForm()
         {
             InitializeComponent();
-            _CurrentUserId = user_id;
-            biteWiseDBEntities = new BiteWiseDBEntities1();
+            _CurrentUserId = Session.LoggedInUserId;
+            biteWiseDBEntities = new BiteWiseDBEntities2();
         }
 
         private void SummaryForm_Load(object sender, EventArgs e)

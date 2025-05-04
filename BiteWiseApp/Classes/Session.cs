@@ -14,6 +14,8 @@ namespace BiteWiseApp.Classes
 
         public static User LoggedInUser { get; set; }
         public static string LoggedInUserEmail { get; set; }
+
+        public static int user_id { get; set; }
         // You can add more if you need later (e.g., user name, role, etc.)
     }
 }

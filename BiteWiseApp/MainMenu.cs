@@ -8,15 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BiteWiseApp.Properties;
+using BiteWiseApp.Classes;
 
 
 namespace BiteWiseApp
 {
     public partial class MainMenu : Form
     {
+        private readonly BiteWiseDBEntities2 biteWiseDBEntities;
+        private int _CurrentUserId;
         public MainMenu()
         {
             InitializeComponent();
+            _CurrentUserId = Session.LoggedInUserId;
+            biteWiseDBEntities = new BiteWiseDBEntities2();
             timer1.Start();
            
         }
@@ -51,7 +56,7 @@ namespace BiteWiseApp
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
        {
-            LoadFormInPanel(new ProgressTrackingForm());
+           // LoadFormInPanel(new ProgressTrackingForm());
         }
 
         private void summaryToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,7 +66,7 @@ namespace BiteWiseApp
 
         private void getRecipesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new Recipes());
+           // LoadFormInPanel(new Recipes());
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -100,7 +105,8 @@ namespace BiteWiseApp
 
         private void userProfileToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            LoadFormInPanel(new UserProfileForm());
+            int userId = Session.LoggedInUserId;
+            LoadFormInPanel(new UserProfileForm(userId));
         }
 
         private void userSettingsToolStripMenuItem_Click(object sender, EventArgs e)

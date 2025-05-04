@@ -14,7 +14,7 @@ namespace BiteWiseApp
     
     public partial class User_Picture
     {
-        public int user_Id { get; set; }
+        public int user_id { get; set; }
         public byte[] image { get; set; }
     
         public virtual User User { get; set; }

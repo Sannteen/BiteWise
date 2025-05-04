@@ -14,7 +14,7 @@ namespace BiteWiseApp
     
     public partial class User_info_Details
     {
-        public int User_ID { get; set; }
+        public int user_id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Gender { get; set; }

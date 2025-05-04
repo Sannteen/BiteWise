@@ -173,14 +173,12 @@
             this.progressTrackingToolStripMenuItem.Name = "progressTrackingToolStripMenuItem";
             this.progressTrackingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.progressTrackingToolStripMenuItem.Text = "Progress Tracking";
-            this.progressTrackingToolStripMenuItem.Click += new System.EventHandler(this.progressTrackingToolStripMenuItem_Click);
             // 
             // dailySummaryToolStripMenuItem
             // 
             this.dailySummaryToolStripMenuItem.Name = "dailySummaryToolStripMenuItem";
             this.dailySummaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dailySummaryToolStripMenuItem.Text = "Daily Summary";
-            this.dailySummaryToolStripMenuItem.Click += new System.EventHandler(this.dailySummaryToolStripMenuItem_Click);
             // 
             // MainMenu
             // 
