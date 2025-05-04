@@ -100,6 +100,7 @@
             this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilePictureBox.Name = "ProfilePictureBox";
             this.ProfilePictureBox.Size = new System.Drawing.Size(201, 173);
+            this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ProfilePictureBox.TabIndex = 79;
             this.ProfilePictureBox.TabStop = false;
             // 

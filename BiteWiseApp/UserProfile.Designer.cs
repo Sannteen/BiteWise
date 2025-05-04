@@ -66,7 +66,7 @@
             this.nametextBox.Location = new System.Drawing.Point(203, 318);
             this.nametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(174, 31);
+            this.nametextBox.Size = new System.Drawing.Size(174, 23);
             this.nametextBox.TabIndex = 6;
             // 
             // NameLabel
@@ -77,7 +77,7 @@
             this.NameLabel.Location = new System.Drawing.Point(140, 326);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(62, 25);
+            this.NameLabel.Size = new System.Drawing.Size(40, 15);
             this.NameLabel.TabIndex = 7;
             this.NameLabel.Text = "Name";
             // 
@@ -88,7 +88,7 @@
             this.Emaillabel.Location = new System.Drawing.Point(140, 363);
             this.Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Emaillabel.Name = "Emaillabel";
-            this.Emaillabel.Size = new System.Drawing.Size(58, 25);
+            this.Emaillabel.Size = new System.Drawing.Size(36, 15);
             this.Emaillabel.TabIndex = 8;
             this.Emaillabel.Text = "Email";
             // 
@@ -97,9 +97,8 @@
             this.EmailtextBox.Location = new System.Drawing.Point(203, 355);
             this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
-            this.EmailtextBox.Size = new System.Drawing.Size(173, 31);
+            this.EmailtextBox.Size = new System.Drawing.Size(173, 23);
             this.EmailtextBox.TabIndex = 9;
-           // this.EmailtextBox.TextChanged += new System.EventHandler(this.EmailtextBox_TextChanged);
             // 
             // Passwordlabel
             // 
@@ -108,7 +107,7 @@
             this.Passwordlabel.Location = new System.Drawing.Point(140, 400);
             this.Passwordlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Passwordlabel.Name = "Passwordlabel";
-            this.Passwordlabel.Size = new System.Drawing.Size(92, 25);
+            this.Passwordlabel.Size = new System.Drawing.Size(59, 15);
             this.Passwordlabel.TabIndex = 10;
             this.Passwordlabel.Text = "Password";
             // 
@@ -117,7 +116,7 @@
             this.PasswordtextBox.Location = new System.Drawing.Point(203, 392);
             this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
-            this.PasswordtextBox.Size = new System.Drawing.Size(176, 31);
+            this.PasswordtextBox.Size = new System.Drawing.Size(176, 23);
             this.PasswordtextBox.TabIndex = 11;
             this.PasswordtextBox.TextChanged += new System.EventHandler(this.PasswordtextBox_TextChanged);
             // 
@@ -144,7 +143,7 @@
             this.UserProfilelabel.Location = new System.Drawing.Point(354, 7);
             this.UserProfilelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserProfilelabel.Name = "UserProfilelabel";
-            this.UserProfilelabel.Size = new System.Drawing.Size(314, 56);
+            this.UserProfilelabel.Size = new System.Drawing.Size(213, 38);
             this.UserProfilelabel.TabIndex = 13;
             this.UserProfilelabel.Text = "User Profile";
             // 
@@ -155,7 +154,7 @@
             this.AgeLabel.Location = new System.Drawing.Point(547, 138);
             this.AgeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(46, 25);
+            this.AgeLabel.Size = new System.Drawing.Size(29, 15);
             this.AgeLabel.TabIndex = 14;
             this.AgeLabel.Text = "Age";
             // 
@@ -166,7 +165,7 @@
             this.Weightlabel.Location = new System.Drawing.Point(547, 213);
             this.Weightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Weightlabel.Name = "Weightlabel";
-            this.Weightlabel.Size = new System.Drawing.Size(114, 25);
+            this.Weightlabel.Size = new System.Drawing.Size(73, 15);
             this.Weightlabel.TabIndex = 15;
             this.Weightlabel.Text = "Weight (kg)";
             // 
@@ -177,7 +176,7 @@
             this.Heightlabel.Location = new System.Drawing.Point(547, 175);
             this.Heightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Heightlabel.Name = "Heightlabel";
-            this.Heightlabel.Size = new System.Drawing.Size(114, 25);
+            this.Heightlabel.Size = new System.Drawing.Size(73, 15);
             this.Heightlabel.TabIndex = 16;
             this.Heightlabel.Text = "Height (cm)";
             // 
@@ -189,7 +188,7 @@
             this.Goallabel.Location = new System.Drawing.Point(620, 303);
             this.Goallabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Goallabel.Name = "Goallabel";
-            this.Goallabel.Size = new System.Drawing.Size(73, 30);
+            this.Goallabel.Size = new System.Drawing.Size(50, 20);
             this.Goallabel.TabIndex = 20;
             this.Goallabel.Text = "Goals";
             // 
@@ -200,7 +199,7 @@
             this.TargetWgtlabel.Location = new System.Drawing.Point(547, 349);
             this.TargetWgtlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TargetWgtlabel.Name = "TargetWgtlabel";
-            this.TargetWgtlabel.Size = new System.Drawing.Size(154, 25);
+            this.TargetWgtlabel.Size = new System.Drawing.Size(101, 15);
             this.TargetWgtlabel.TabIndex = 21;
             this.TargetWgtlabel.Text = "Targeted Weight";
             // 
@@ -211,7 +210,7 @@
             this.DCaloricTgetLabel.Location = new System.Drawing.Point(547, 391);
             this.DCaloricTgetLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DCaloricTgetLabel.Name = "DCaloricTgetLabel";
-            this.DCaloricTgetLabel.Size = new System.Drawing.Size(177, 25);
+            this.DCaloricTgetLabel.Size = new System.Drawing.Size(113, 15);
             this.DCaloricTgetLabel.TabIndex = 23;
             this.DCaloricTgetLabel.Text = "Daily Caloric Target";
             // 
@@ -235,7 +234,7 @@
             this.Biometricdatalabel.Location = new System.Drawing.Point(574, 100);
             this.Biometricdatalabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Biometricdatalabel.Name = "Biometricdatalabel";
-            this.Biometricdatalabel.Size = new System.Drawing.Size(175, 30);
+            this.Biometricdatalabel.Size = new System.Drawing.Size(118, 20);
             this.Biometricdatalabel.TabIndex = 50;
             this.Biometricdatalabel.Text = "Biometric Data";
             // 
@@ -245,155 +244,11 @@
             this.PasswordcheckBox.Location = new System.Drawing.Point(385, 401);
             this.PasswordcheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordcheckBox.Name = "PasswordcheckBox";
-            this.PasswordcheckBox.Size = new System.Drawing.Size(22, 21);
+            this.PasswordcheckBox.Size = new System.Drawing.Size(15, 14);
             this.PasswordcheckBox.TabIndex = 53;
             this.PasswordcheckBox.UseVisualStyleBackColor = true;
             this.PasswordcheckBox.CheckedChanged += new System.EventHandler(this.PasswordcheckBox_CheckedChanged);
             // 
-
-            // SunnumericUpDown
-            //// 
-            //this.SunnumericUpDown.AllowDrop = true;
-            //this.SunnumericUpDown.DecimalPlaces = 1;
-            //this.SunnumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.SunnumericUpDown.Location = new System.Drawing.Point(762, 125);
-            //this.SunnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.SunnumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.SunnumericUpDown.Name = "SunnumericUpDown";
-            //this.SunnumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.SunnumericUpDown.TabIndex = 54;
-            //this.SunnumericUpDown.ValueChanged += new System.EventHandler(this.SunnumericUpDown_ValueChanged);
-            //// 
-            //// MonnumericUpDown
-            //// 
-            //this.MonnumericUpDown.AllowDrop = true;
-            //this.MonnumericUpDown.DecimalPlaces = 1;
-            //this.MonnumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.MonnumericUpDown.Location = new System.Drawing.Point(762, 164);
-            //this.MonnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.MonnumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.MonnumericUpDown.Name = "MonnumericUpDown";
-            //this.MonnumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.MonnumericUpDown.TabIndex = 55;
-            //this.MonnumericUpDown.ValueChanged += new System.EventHandler(this.MonnumericUpDown_ValueChanged);
-            //// 
-            //// TuesnumericUpDown
-            //// 
-            //this.TuesnumericUpDown.AllowDrop = true;
-            //this.TuesnumericUpDown.DecimalPlaces = 1;
-            //this.TuesnumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.TuesnumericUpDown.Location = new System.Drawing.Point(762, 203);
-            //this.TuesnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.TuesnumericUpDown.Name = "TuesnumericUpDown";
-            //this.TuesnumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.TuesnumericUpDown.TabIndex = 56;
-            //this.TuesnumericUpDown.ValueChanged += new System.EventHandler(this.TuesnumericUpDown_ValueChanged);
-            //// 
-            //// WednumericUpDown
-            //// 
-            //this.WednumericUpDown.AllowDrop = true;
-            //this.WednumericUpDown.DecimalPlaces = 1;
-            //this.WednumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.WednumericUpDown.Location = new System.Drawing.Point(762, 242);
-            //this.WednumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.WednumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.WednumericUpDown.Name = "WednumericUpDown";
-            //this.WednumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.WednumericUpDown.TabIndex = 57;
-            //this.WednumericUpDown.ValueChanged += new System.EventHandler(this.WednumericUpDown_ValueChanged);
-            //// 
-            //// ThursnumericUpDown
-            //// 
-            //this.ThursnumericUpDown.AllowDrop = true;
-            //this.ThursnumericUpDown.DecimalPlaces = 1;
-            //this.ThursnumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.ThursnumericUpDown.Location = new System.Drawing.Point(762, 281);
-            //this.ThursnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.ThursnumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.ThursnumericUpDown.Name = "ThursnumericUpDown";
-            //this.ThursnumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.ThursnumericUpDown.TabIndex = 58;
-            //this.ThursnumericUpDown.ValueChanged += new System.EventHandler(this.ThursnumericUpDown_ValueChanged);
-            //// 
-            //// FrinumericUpDown
-            //// 
-            //this.FrinumericUpDown.AllowDrop = true;
-            //this.FrinumericUpDown.DecimalPlaces = 1;
-            //this.FrinumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.FrinumericUpDown.Location = new System.Drawing.Point(762, 320);
-            //this.FrinumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.FrinumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.FrinumericUpDown.Name = "FrinumericUpDown";
-            //this.FrinumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.FrinumericUpDown.TabIndex = 59;
-            //this.FrinumericUpDown.ValueChanged += new System.EventHandler(this.FrinumericUpDown_ValueChanged);
-            //// 
-            //// SatnumericUpDown
-            //// 
-            //this.SatnumericUpDown.AllowDrop = true;
-            //this.SatnumericUpDown.DecimalPlaces = 1;
-            //this.SatnumericUpDown.Increment = new decimal(new int[] {
-            //1,
-            //0,
-            //0,
-            //65536});
-            //this.SatnumericUpDown.Location = new System.Drawing.Point(762, 359);
-            //this.SatnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            //this.SatnumericUpDown.Maximum = new decimal(new int[] {
-            //500,
-            //0,
-            //0,
-            //0});
-            //this.SatnumericUpDown.Name = "SatnumericUpDown";
-            //this.SatnumericUpDown.Size = new System.Drawing.Size(47, 23);
-            //this.SatnumericUpDown.TabIndex = 60;
-            //this.SatnumericUpDown.ValueChanged += new System.EventHandler(this.SatnumericUpDown_ValueChanged);
-            //// 
-
             // Editbutton
             // 
             this.Editbutton.BackColor = System.Drawing.Color.DarkCyan;
@@ -406,7 +261,6 @@
             this.Editbutton.TabIndex = 61;
             this.Editbutton.Text = "Edit Profile";
             this.Editbutton.UseVisualStyleBackColor = false;
-          //  this.Editbutton.Click += new System.EventHandler(this.Editbutton_Click);
             // 
             // AgenumericUpDown
             // 
@@ -414,9 +268,8 @@
             this.AgenumericUpDown.Location = new System.Drawing.Point(640, 139);
             this.AgenumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.AgenumericUpDown.Name = "AgenumericUpDown";
-            this.AgenumericUpDown.Size = new System.Drawing.Size(74, 31);
+            this.AgenumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.AgenumericUpDown.TabIndex = 62;
-           // this.AgenumericUpDown.ValueChanged += new System.EventHandler(this.AgenumericUpDown_ValueChanged);
             // 
             // WeightnumericUpDown
             // 
@@ -429,10 +282,14 @@
             65536});
             this.WeightnumericUpDown.Location = new System.Drawing.Point(640, 212);
             this.WeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
+            this.WeightnumericUpDown.Maximum = new decimal(new int[] {
+            99999,
+            0,
+            0,
+            0});
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
-            this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
+            this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.WeightnumericUpDown.TabIndex = 63;
-          //  this.WeightnumericUpDown.ValueChanged += new System.EventHandler(this.WeightnumericUpDown_ValueChanged);
             // 
             // HeightnumericUpDown
             // 
@@ -445,9 +302,8 @@
             0,
             0});
             this.HeightnumericUpDown.Name = "HeightnumericUpDown";
-            this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
+            this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
             this.HeightnumericUpDown.TabIndex = 64;
-           // this.HeightnumericUpDown.ValueChanged += new System.EventHandler(this.HeightnumericUpDown_ValueChanged);
             // 
             // TargetWeightnumericUpDown
             // 
@@ -465,9 +321,8 @@
             0,
             0});
             this.TargetWeightnumericUpDown.Name = "TargetWeightnumericUpDown";
-            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 31);
+            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.TargetWeightnumericUpDown.TabIndex = 65;
-           //this.TargetWeightnumericUpDown.ValueChanged += new System.EventHandler(this.TargetWeightnumericUpDown_ValueChanged);
             // 
             // DailyCalTarnumericUpDown
             // 
@@ -481,28 +336,27 @@
             this.DailyCalTarnumericUpDown.Location = new System.Drawing.Point(664, 383);
             this.DailyCalTarnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.DailyCalTarnumericUpDown.Maximum = new decimal(new int[] {
-            10000,
+            9999999,
             0,
             0,
             0});
             this.DailyCalTarnumericUpDown.Name = "DailyCalTarnumericUpDown";
-            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 31);
+            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 23);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
-            //this.DailyCalTarnumericUpDown.ValueChanged += new System.EventHandler(this.DailyCalTarnumericUpDown_ValueChanged);
             // 
             // ProfilePictureBox
             // 
-            this.ProfilePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ProfilePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProfilePictureBox.Enabled = false;
             this.ProfilePictureBox.Image = global::BiteWiseApp.Properties.Resources.Profile_pic_ph2;
             this.ProfilePictureBox.Location = new System.Drawing.Point(176, 86);
             this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ProfilePictureBox.Name = "ProfilePictureBox";
             this.ProfilePictureBox.Size = new System.Drawing.Size(185, 185);
-            this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ProfilePictureBox.TabIndex = 67;
             this.ProfilePictureBox.TabStop = false;
-           // this.ProfilePictureBox.Click += new System.EventHandler(this.ProfilePictureBox_Click);
             // 
             // openFileDialog1
             // 
@@ -510,7 +364,7 @@
             // 
             // UserProfileForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 542);
             this.Controls.Add(this.ProfilePictureBox);

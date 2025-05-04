@@ -38,7 +38,7 @@ namespace BiteWiseApp
                 // Fetch basic user info
                 var user = db.Users.FirstOrDefault(u => u.user_id == userId);
                 // Fetch image from User_Picture table
-                var userImage = db.User_Picture.FirstOrDefault(p => p.user_id == userId);
+                var userImage = db.User_Picture.FirstOrDefault(p => p.user_Id == userId);
                 // Fetch today's summary from DailySummary
                 var today = DateTime.Today;
                 var dailySummary = db.DailySummaries
@@ -93,7 +93,7 @@ namespace BiteWiseApp
         private void button1_Click(object sender, EventArgs e)
         {
             int userId = Session.LoggedInUserId;
-            UserProfileForm profileForm = new UserProfileForm(userId);
+            UserProfileForm profileForm = new UserProfileForm();
             ((MainMenu)this.ParentForm).LoadFormInPanel(profileForm);
         }
 
