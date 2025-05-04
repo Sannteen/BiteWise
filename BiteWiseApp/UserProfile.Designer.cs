@@ -66,7 +66,7 @@
             this.nametextBox.Location = new System.Drawing.Point(203, 318);
             this.nametextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nametextBox.Name = "nametextBox";
-            this.nametextBox.Size = new System.Drawing.Size(174, 23);
+            this.nametextBox.Size = new System.Drawing.Size(174, 31);
             this.nametextBox.TabIndex = 6;
             // 
             // NameLabel
@@ -77,7 +77,7 @@
             this.NameLabel.Location = new System.Drawing.Point(140, 326);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(40, 15);
+            this.NameLabel.Size = new System.Drawing.Size(62, 25);
             this.NameLabel.TabIndex = 7;
             this.NameLabel.Text = "Name";
             // 
@@ -88,7 +88,7 @@
             this.Emaillabel.Location = new System.Drawing.Point(140, 363);
             this.Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Emaillabel.Name = "Emaillabel";
-            this.Emaillabel.Size = new System.Drawing.Size(36, 15);
+            this.Emaillabel.Size = new System.Drawing.Size(58, 25);
             this.Emaillabel.TabIndex = 8;
             this.Emaillabel.Text = "Email";
             // 
@@ -97,7 +97,7 @@
             this.EmailtextBox.Location = new System.Drawing.Point(203, 355);
             this.EmailtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailtextBox.Name = "EmailtextBox";
-            this.EmailtextBox.Size = new System.Drawing.Size(173, 23);
+            this.EmailtextBox.Size = new System.Drawing.Size(173, 31);
             this.EmailtextBox.TabIndex = 9;
             // 
             // Passwordlabel
@@ -107,7 +107,7 @@
             this.Passwordlabel.Location = new System.Drawing.Point(140, 400);
             this.Passwordlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Passwordlabel.Name = "Passwordlabel";
-            this.Passwordlabel.Size = new System.Drawing.Size(59, 15);
+            this.Passwordlabel.Size = new System.Drawing.Size(92, 25);
             this.Passwordlabel.TabIndex = 10;
             this.Passwordlabel.Text = "Password";
             // 
@@ -116,7 +116,7 @@
             this.PasswordtextBox.Location = new System.Drawing.Point(203, 392);
             this.PasswordtextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordtextBox.Name = "PasswordtextBox";
-            this.PasswordtextBox.Size = new System.Drawing.Size(176, 23);
+            this.PasswordtextBox.Size = new System.Drawing.Size(176, 31);
             this.PasswordtextBox.TabIndex = 11;
             this.PasswordtextBox.TextChanged += new System.EventHandler(this.PasswordtextBox_TextChanged);
             // 
@@ -143,7 +143,7 @@
             this.UserProfilelabel.Location = new System.Drawing.Point(354, 7);
             this.UserProfilelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UserProfilelabel.Name = "UserProfilelabel";
-            this.UserProfilelabel.Size = new System.Drawing.Size(213, 38);
+            this.UserProfilelabel.Size = new System.Drawing.Size(314, 56);
             this.UserProfilelabel.TabIndex = 13;
             this.UserProfilelabel.Text = "User Profile";
             // 
@@ -154,7 +154,7 @@
             this.AgeLabel.Location = new System.Drawing.Point(547, 138);
             this.AgeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(29, 15);
+            this.AgeLabel.Size = new System.Drawing.Size(46, 25);
             this.AgeLabel.TabIndex = 14;
             this.AgeLabel.Text = "Age";
             // 
@@ -165,7 +165,7 @@
             this.Weightlabel.Location = new System.Drawing.Point(547, 213);
             this.Weightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Weightlabel.Name = "Weightlabel";
-            this.Weightlabel.Size = new System.Drawing.Size(73, 15);
+            this.Weightlabel.Size = new System.Drawing.Size(114, 25);
             this.Weightlabel.TabIndex = 15;
             this.Weightlabel.Text = "Weight (kg)";
             // 
@@ -176,7 +176,7 @@
             this.Heightlabel.Location = new System.Drawing.Point(547, 175);
             this.Heightlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Heightlabel.Name = "Heightlabel";
-            this.Heightlabel.Size = new System.Drawing.Size(73, 15);
+            this.Heightlabel.Size = new System.Drawing.Size(114, 25);
             this.Heightlabel.TabIndex = 16;
             this.Heightlabel.Text = "Height (cm)";
             // 
@@ -188,7 +188,7 @@
             this.Goallabel.Location = new System.Drawing.Point(620, 303);
             this.Goallabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Goallabel.Name = "Goallabel";
-            this.Goallabel.Size = new System.Drawing.Size(50, 20);
+            this.Goallabel.Size = new System.Drawing.Size(73, 30);
             this.Goallabel.TabIndex = 20;
             this.Goallabel.Text = "Goals";
             // 
@@ -199,7 +199,7 @@
             this.TargetWgtlabel.Location = new System.Drawing.Point(547, 349);
             this.TargetWgtlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TargetWgtlabel.Name = "TargetWgtlabel";
-            this.TargetWgtlabel.Size = new System.Drawing.Size(101, 15);
+            this.TargetWgtlabel.Size = new System.Drawing.Size(154, 25);
             this.TargetWgtlabel.TabIndex = 21;
             this.TargetWgtlabel.Text = "Targeted Weight";
             // 
@@ -210,7 +210,7 @@
             this.DCaloricTgetLabel.Location = new System.Drawing.Point(547, 391);
             this.DCaloricTgetLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DCaloricTgetLabel.Name = "DCaloricTgetLabel";
-            this.DCaloricTgetLabel.Size = new System.Drawing.Size(113, 15);
+            this.DCaloricTgetLabel.Size = new System.Drawing.Size(177, 25);
             this.DCaloricTgetLabel.TabIndex = 23;
             this.DCaloricTgetLabel.Text = "Daily Caloric Target";
             // 
@@ -234,7 +234,7 @@
             this.Biometricdatalabel.Location = new System.Drawing.Point(574, 100);
             this.Biometricdatalabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Biometricdatalabel.Name = "Biometricdatalabel";
-            this.Biometricdatalabel.Size = new System.Drawing.Size(118, 20);
+            this.Biometricdatalabel.Size = new System.Drawing.Size(175, 30);
             this.Biometricdatalabel.TabIndex = 50;
             this.Biometricdatalabel.Text = "Biometric Data";
             // 
@@ -244,7 +244,7 @@
             this.PasswordcheckBox.Location = new System.Drawing.Point(385, 401);
             this.PasswordcheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordcheckBox.Name = "PasswordcheckBox";
-            this.PasswordcheckBox.Size = new System.Drawing.Size(15, 14);
+            this.PasswordcheckBox.Size = new System.Drawing.Size(22, 21);
             this.PasswordcheckBox.TabIndex = 53;
             this.PasswordcheckBox.UseVisualStyleBackColor = true;
             this.PasswordcheckBox.CheckedChanged += new System.EventHandler(this.PasswordcheckBox_CheckedChanged);
@@ -268,7 +268,7 @@
             this.AgenumericUpDown.Location = new System.Drawing.Point(640, 139);
             this.AgenumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.AgenumericUpDown.Name = "AgenumericUpDown";
-            this.AgenumericUpDown.Size = new System.Drawing.Size(74, 23);
+            this.AgenumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.AgenumericUpDown.TabIndex = 62;
             // 
             // WeightnumericUpDown
@@ -288,12 +288,18 @@
             0,
             0});
             this.WeightnumericUpDown.Name = "WeightnumericUpDown";
-            this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
+            this.WeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.WeightnumericUpDown.TabIndex = 63;
             // 
             // HeightnumericUpDown
             // 
             this.HeightnumericUpDown.AllowDrop = true;
+            this.HeightnumericUpDown.DecimalPlaces = 1;
+            this.HeightnumericUpDown.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.HeightnumericUpDown.Location = new System.Drawing.Point(640, 174);
             this.HeightnumericUpDown.Margin = new System.Windows.Forms.Padding(2);
             this.HeightnumericUpDown.Maximum = new decimal(new int[] {
@@ -302,7 +308,7 @@
             0,
             0});
             this.HeightnumericUpDown.Name = "HeightnumericUpDown";
-            this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 23);
+            this.HeightnumericUpDown.Size = new System.Drawing.Size(74, 31);
             this.HeightnumericUpDown.TabIndex = 64;
             // 
             // TargetWeightnumericUpDown
@@ -321,7 +327,7 @@
             0,
             0});
             this.TargetWeightnumericUpDown.Name = "TargetWeightnumericUpDown";
-            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 23);
+            this.TargetWeightnumericUpDown.Size = new System.Drawing.Size(68, 31);
             this.TargetWeightnumericUpDown.TabIndex = 65;
             // 
             // DailyCalTarnumericUpDown
@@ -341,7 +347,7 @@
             0,
             0});
             this.DailyCalTarnumericUpDown.Name = "DailyCalTarnumericUpDown";
-            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 23);
+            this.DailyCalTarnumericUpDown.Size = new System.Drawing.Size(68, 31);
             this.DailyCalTarnumericUpDown.TabIndex = 66;
             // 
             // ProfilePictureBox
@@ -364,7 +370,7 @@
             // 
             // UserProfileForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 542);
             this.Controls.Add(this.ProfilePictureBox);
