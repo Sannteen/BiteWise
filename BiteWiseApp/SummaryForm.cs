@@ -71,5 +71,10 @@ namespace BiteWiseApp
         {
 
         }
+
+        private void DailySumarylabel_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

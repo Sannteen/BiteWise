@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.tbNetCalsdb = new System.Windows.Forms.TextBox();
             this.tbTotalCalsBurneddb = new System.Windows.Forms.TextBox();
             this.tbTotalCalsConsumeddb = new System.Windows.Forms.TextBox();
@@ -50,22 +50,35 @@
             this.btnViewProgressbd = new System.Windows.Forms.Button();
             this.btnLogWorkoutdb = new System.Windows.Forms.Button();
             this.dashboardLB = new System.Windows.Forms.Label();
+            this.ProfilePictureBox = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chWeightProgressdb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.splitContainer1);
+            this.panel1.Controls.Add(this.dashboardLB);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(927, 623);
+            this.panel1.TabIndex = 72;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(60, 102);
+            this.splitContainer1.Location = new System.Drawing.Point(23, 96);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.splitContainer1.Panel1.Controls.Add(this.ProfilePictureBox);
             this.splitContainer1.Panel1.Controls.Add(this.tbNetCalsdb);
             this.splitContainer1.Panel1.Controls.Add(this.tbTotalCalsBurneddb);
@@ -89,20 +102,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.btnLogWorkoutdb);
             this.splitContainer1.Size = new System.Drawing.Size(857, 474);
             this.splitContainer1.SplitterDistance = 385;
-            this.splitContainer1.TabIndex = 71;
-            // 
-            // ProfilePictureBox
-            // 
-            this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ProfilePictureBox.ErrorImage = null;
-            this.ProfilePictureBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("ProfilePictureBox.InitialImage")));
-            this.ProfilePictureBox.Location = new System.Drawing.Point(92, 37);
-            this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
-            this.ProfilePictureBox.Name = "ProfilePictureBox";
-            this.ProfilePictureBox.Size = new System.Drawing.Size(201, 201);
-            this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ProfilePictureBox.TabIndex = 79;
-            this.ProfilePictureBox.TabStop = false;
+            this.splitContainer1.TabIndex = 75;
             // 
             // tbNetCalsdb
             // 
@@ -210,7 +210,6 @@
             this.ProfileBT.TabIndex = 75;
             this.ProfileBT.Text = "View Profile";
             this.ProfileBT.UseVisualStyleBackColor = true;
-            this.ProfileBT.Click += new System.EventHandler(this.button1_Click);
             // 
             // chWeightProgressdb
             // 
@@ -243,7 +242,6 @@
             this.btnLogFooddb.TabIndex = 73;
             this.btnLogFooddb.Text = "Log Food";
             this.btnLogFooddb.UseVisualStyleBackColor = true;
-            this.btnLogFooddb.Click += new System.EventHandler(this.btnLogFooddb_Click);
             // 
             // btnViewProgressbd
             // 
@@ -266,7 +264,6 @@
             this.btnLogWorkoutdb.TabIndex = 71;
             this.btnLogWorkoutdb.Text = "Log Workout";
             this.btnLogWorkoutdb.UseVisualStyleBackColor = true;
-            this.btnLogWorkoutdb.Click += new System.EventHandler(this.btnLogWorkoutdb_Click);
             // 
             // dashboardLB
             // 
@@ -274,41 +271,55 @@
             this.dashboardLB.AutoSize = true;
             this.dashboardLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardLB.ForeColor = System.Drawing.Color.DarkCyan;
-            this.dashboardLB.Location = new System.Drawing.Point(281, 34);
+            this.dashboardLB.Location = new System.Drawing.Point(199, 28);
             this.dashboardLB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dashboardLB.Name = "dashboardLB";
             this.dashboardLB.Size = new System.Drawing.Size(572, 42);
-            this.dashboardLB.TabIndex = 69;
+            this.dashboardLB.TabIndex = 74;
             this.dashboardLB.Text = "Welcome to BitWise Dashboard";
+            // 
+            // ProfilePictureBox
+            // 
+            this.ProfilePictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProfilePictureBox.ErrorImage = null;
+            this.ProfilePictureBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("ProfilePictureBox.InitialImage")));
+            this.ProfilePictureBox.Location = new System.Drawing.Point(92, 37);
+            this.ProfilePictureBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ProfilePictureBox.Name = "ProfilePictureBox";
+            this.ProfilePictureBox.Size = new System.Drawing.Size(201, 201);
+            this.ProfilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ProfilePictureBox.TabIndex = 79;
+            this.ProfilePictureBox.TabStop = false;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 706);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.dashboardLB);
+            this.ClientSize = new System.Drawing.Size(927, 623);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chWeightProgressdb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ProfilePictureBox)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Label dashboardLB;
         private System.Windows.Forms.PictureBox ProfilePictureBox;
         private System.Windows.Forms.TextBox tbNetCalsdb;
         private System.Windows.Forms.TextBox tbTotalCalsBurneddb;
@@ -325,5 +336,6 @@
         private System.Windows.Forms.Button btnLogFooddb;
         private System.Windows.Forms.Button btnViewProgressbd;
         private System.Windows.Forms.Button btnLogWorkoutdb;
+        private System.Windows.Forms.Label dashboardLB;
     }
 }

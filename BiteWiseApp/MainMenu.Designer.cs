@@ -77,6 +77,7 @@
             this.logEntriesToolStripMenuItem.Name = "logEntriesToolStripMenuItem";
             this.logEntriesToolStripMenuItem.Size = new System.Drawing.Size(77, 22);
             this.logEntriesToolStripMenuItem.Text = "Log Entries";
+            this.logEntriesToolStripMenuItem.Click += new System.EventHandler(this.logEntriesToolStripMenuItem_Click);
             // 
             // logFoodToolStripMenuItem
             // 
@@ -99,13 +100,13 @@
             this.goalsToolStripMenuItem.Name = "goalsToolStripMenuItem";
             this.goalsToolStripMenuItem.Size = new System.Drawing.Size(64, 22);
             this.goalsToolStripMenuItem.Text = "Progress";
-            this.goalsToolStripMenuItem.Click += new System.EventHandler(this.goalsToolStripMenuItem_Click);
             // 
             // dailySummaryToolStripMenuItem
             // 
             this.dailySummaryToolStripMenuItem.Name = "dailySummaryToolStripMenuItem";
             this.dailySummaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dailySummaryToolStripMenuItem.Text = "Daily Summary";
+            this.dailySummaryToolStripMenuItem.Click += new System.EventHandler(this.dailySummaryToolStripMenuItem_Click);
             // 
             // userPreferencesToolStripMenuItem
             // 
@@ -115,19 +116,18 @@
             this.userPreferencesToolStripMenuItem.Name = "userPreferencesToolStripMenuItem";
             this.userPreferencesToolStripMenuItem.Size = new System.Drawing.Size(53, 22);
             this.userPreferencesToolStripMenuItem.Text = "Profile";
-            this.userPreferencesToolStripMenuItem.Click += new System.EventHandler(this.userPreferencesToolStripMenuItem_Click);
             // 
             // userProfileToolStripMenuItem
             // 
             this.userProfileToolStripMenuItem.Name = "userProfileToolStripMenuItem";
-            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.userProfileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.userProfileToolStripMenuItem.Text = "User Profile";
             this.userProfileToolStripMenuItem.Click += new System.EventHandler(this.userProfileToolStripMenuItem_Click_1);
             // 
             // userSettingsToolStripMenuItem
             // 
             this.userSettingsToolStripMenuItem.Name = "userSettingsToolStripMenuItem";
-            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.userSettingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.userSettingsToolStripMenuItem.Text = "User Settings";
             this.userSettingsToolStripMenuItem.Click += new System.EventHandler(this.userSettingsToolStripMenuItem_Click);
             // 
@@ -156,7 +156,6 @@
             this.TimerLbl.Size = new System.Drawing.Size(11, 16);
             this.TimerLbl.TabIndex = 3;
             this.TimerLbl.Text = "*";
-            this.TimerLbl.Click += new System.EventHandler(this.TimerLbl_Click);
             // 
             // timer1
             // 

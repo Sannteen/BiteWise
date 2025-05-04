@@ -1,38 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\bitewisedb.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:summaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\exerciseandfoodlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:exerciseandfoodlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:user settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\bitewisedb.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\bitewisedb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\bitewisedb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\bitewisedb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\bitewisedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:bitewisedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\userprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:userprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|c:\\users\\sannteen\\source\\repos\\bitewise\\bitewiseapp\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB01FF5-AB76-4E44-A743-57EAF0059789}|BiteWiseApp.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,31 +82,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\MainMenu.cs [Design]",
+              "RelativeToolTip": "MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T16:13:29.263Z",
+              "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:25:50.328Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SummaryForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs",
+              "RelativeDocumentMoniker": "SummaryForm.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs",
+              "RelativeToolTip": "SummaryForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAnwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:45:47.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExerciseAndFoodLog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\ExerciseAndFoodLog.cs",
+              "RelativeDocumentMoniker": "ExerciseAndFoodLog.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\ExerciseAndFoodLog.cs [Design]",
+              "RelativeToolTip": "ExerciseAndFoodLog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:33:08.869Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserProfile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\UserProfile.cs [Design]",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\UserProfile.cs [Design]",
               "RelativeToolTip": "UserProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T01:16:55.39Z",
@@ -74,36 +147,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\UserProfile.cs",
-              "RelativeDocumentMoniker": "UserProfile.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\UserProfile.cs",
-              "RelativeToolTip": "UserProfile.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAQwH4AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SummaryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs",
+              "RelativeDocumentMoniker": "SummaryForm.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs [Design]",
+              "RelativeToolTip": "SummaryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T00:45:20.854Z",
+              "WhenOpened": "2025-05-03T04:45:28.206Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAnwGIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T16:13:35.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BitewiseDB.tt",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\BitewiseDB.tt",
-              "RelativeDocumentMoniker": "BitewiseDB.tt",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\BitewiseDB.tt",
-              "RelativeToolTip": "BitewiseDB.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-04T02:02:06.251Z"
+              "DocumentIndex": 7,
+              "Title": "User Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\User Settings.cs",
+              "RelativeDocumentMoniker": "User Settings.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\User Settings.cs",
+              "RelativeToolTip": "User Settings.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAWwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T00:44:48.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "User Settings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\User Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\User Settings.cs",
               "RelativeDocumentMoniker": "User Settings.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\User Settings.cs [Design]",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\User Settings.cs [Design]",
               "RelativeToolTip": "User Settings.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T00:48:47.57Z",
@@ -111,52 +197,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfile.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\UserProfile.cs",
+              "RelativeToolTip": "UserProfile.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAcwH8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T00:45:20.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BitewiseDB.edmx.diagram",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.edmx.diagram",
+              "RelativeDocumentMoniker": "BitewiseDB.edmx.diagram",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.edmx.diagram",
+              "RelativeToolTip": "BitewiseDB.edmx.diagram",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-04T02:02:02.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BitewiseDB.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.Designer.cs",
+              "RelativeDocumentMoniker": "BitewiseDB.Designer.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.Designer.cs",
+              "RelativeToolTip": "BitewiseDB.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:02:00.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BitewiseDB.tt",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.tt",
+              "RelativeDocumentMoniker": "BitewiseDB.tt",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.tt",
+              "RelativeToolTip": "BitewiseDB.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-04T02:02:06.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Goal.cs",
+              "RelativeDocumentMoniker": "Goal.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Goal.cs",
+              "RelativeToolTip": "Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:38:29.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BitewiseDB.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.Context.tt",
+              "RelativeDocumentMoniker": "BitewiseDB.Context.tt",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.Context.tt",
+              "RelativeToolTip": "BitewiseDB.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-04T02:01:58.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BitewiseDB.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.edmx",
+              "RelativeDocumentMoniker": "BitewiseDB.edmx",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\BitewiseDB.edmx [Diagram1]",
+              "RelativeToolTip": "BitewiseDB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-04T00:48:55.085Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserProfile.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\Source\\Repos\\BiteWise\\BiteWiseApp\\UserProfile.Designer.cs",
+              "RelativeDocumentMoniker": "UserProfile.Designer.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\Source\\Repos\\BiteWise\\BiteWiseApp\\UserProfile.Designer.cs",
+              "RelativeToolTip": "UserProfile.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:46:40.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\Dashboard.cs",
               "RelativeToolTip": "Dashboard.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAMwCgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T00:43:32.983Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User Settings.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\User Settings.cs",
-              "RelativeDocumentMoniker": "User Settings.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\User Settings.cs",
-              "RelativeToolTip": "User Settings.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAewDAAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T00:44:48.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SummaryForm.cs",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeDocumentMoniker": "SummaryForm.cs",
-              "ToolTip": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeToolTip": "SummaryForm.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T04:45:47.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SummaryForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ratti\\OneDrive\\Desktop\\BW\\BiteWiseApp\\SummaryForm.cs",
-              "RelativeDocumentMoniker": "SummaryForm.cs",
-              "ToolTip": "C:\\Users\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Sannteen\\source\\repos\\BiteWise\\BiteWiseApp\\SummaryForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T04:45:28.206Z"
             }
           ]
         }
